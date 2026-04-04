@@ -50,4 +50,13 @@ final class AppViewModel: ObservableObject {
             }
         }
     }
+
+    func updateStar(for cardID: UUID, to isStarred: Bool) {
+        for deckIndex in decks.indices {
+            if let cardIndex = decks[deckIndex].cards.firstIndex(where: { $0.id == cardID }) {
+                decks[deckIndex].cards[cardIndex].isStarred = isStarred
+                return
+            }
+        }
+    }
 }

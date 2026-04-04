@@ -22,7 +22,7 @@ struct ReviewListView: View {
         }
         .navigationTitle("复习")
         .navigationDestination(for: UUID.self) { cardID in
-            WordReviewDetailView(cardID: cardID)
+            WordReviewDetailView(initialCardID: cardID)
         }
     }
 }
