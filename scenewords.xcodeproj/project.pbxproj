@@ -400,6 +400,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = scenewords;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_SCENEWORDS_API_BASE_URL = "https://scenewords-api.youngxkk.workers.dev";
+				INFOPLIST_KEY_SCENEWORDS_API_TOKEN = f14c83cd4cb607cebac84b22bf8133013e1b9ec3d15dda248616574cc40794cb;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -446,6 +448,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = scenewords;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_SCENEWORDS_API_BASE_URL = "https://scenewords-api.youngxkk.workers.dev";
+				INFOPLIST_KEY_SCENEWORDS_API_TOKEN = f14c83cd4cb607cebac84b22bf8133013e1b9ec3d15dda248616574cc40794cb;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

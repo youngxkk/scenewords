@@ -9,7 +9,7 @@ struct ReviewListView: View {
                 ContentUnavailableView(
                     "暂无待复习单词",
                     systemImage: "checkmark.seal",
-                    description: Text("已掌握的词会自动从待复习列表移除。")
+                    description: Text("当前没有到期词卡，稍后会按复习计划自动出现。")
                 )
             } else {
                 List(appViewModel.reviewCards) { card in

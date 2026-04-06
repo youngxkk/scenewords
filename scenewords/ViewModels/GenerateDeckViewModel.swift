@@ -7,9 +7,10 @@ final class GenerateDeckViewModel: ObservableObject {
     @Published var season: Int = 1
     @Published var episode: Int = 1
     @Published var errorMessage: String?
+    @Published var isGenerating: Bool = false
 
     var canGenerate: Bool {
-        validationError == nil
+        validationError == nil && !isGenerating
     }
 
     var validationError: String? {
@@ -22,11 +23,14 @@ final class GenerateDeckViewModel: ObservableObject {
         return nil
     }
 
-    func generate(using appViewModel: AppViewModel) -> Bool {
+    func generate(using appViewModel: AppViewModel) async -> Bool {
         if let validationError {
             errorMessage = validationError
             return false
         }
+
+        isGenerating = true
+        defer { isGenerating = false }
 
         let request = DeckGenerationRequest(
             showName: showName.swTrimmed,
@@ -34,7 +38,17 @@ final class GenerateDeckViewModel: ObservableObject {
             episode: episode
         )
 
-        appViewModel.generateDeck(request: request)
-        return true
+        do {
+            try await appViewModel.generateDeck(request: request)
+            return true
+        } catch {
+            if let localizedError = error as? LocalizedError,
+               let description = localizedError.errorDescription {
+                errorMessage = description
+            } else {
+                errorMessage = "生成失败，请稍后重试。"
+            }
+            return false
+        }
     }
 }

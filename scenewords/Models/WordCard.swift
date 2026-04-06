@@ -177,10 +177,28 @@ struct WordCard: Identifiable, Codable, Hashable {
     var sourceEpisodeText: String {
         "\(sourceShowName) S\(season.twoDigits)E\(episode.twoDigits)"
     }
+
+    var progressKey: String {
+        [
+            sourceShowName.swProgressNormalized,
+            "s\(season)e\(episode)",
+            word.swProgressNormalized,
+            exampleSentence.swProgressNormalized
+        ]
+        .joined(separator: "|")
+    }
 }
 
 private extension Int {
     var twoDigits: String {
         String(format: "%02d", self)
+    }
+}
+
+private extension String {
+    var swProgressNormalized: String {
+        swTrimmed
+            .lowercased()
+            .replacingOccurrences(of: "\\s+", with: " ", options: .regularExpression)
     }
 }

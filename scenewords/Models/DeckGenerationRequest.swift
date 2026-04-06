@@ -1,6 +1,6 @@
 import Foundation
 
-struct DeckGenerationRequest {
+struct DeckGenerationRequest: Codable {
     var showName: String
     var season: Int
     var episode: Int

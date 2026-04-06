@@ -31,7 +31,7 @@ struct DeckDetailView: View {
                 ContentUnavailableView("卡组不存在", systemImage: "exclamationmark.triangle")
             }
         }
-        .navigationTitle(deck?.episodeCode ?? "卡组详情")
+        .navigationTitle(deck.map { "\($0.showName) \($0.episodeCode)" } ?? "卡组详情")
         .navigationBarTitleDisplayMode(.inline)
     }
 }

@@ -83,10 +83,19 @@ extension Font {
     }
 }
 
+enum InfoTab: String, Identifiable, CaseIterable {
+    case scene = "场景说明"
+    case tip = "使用提示"
+    case alternatives = "近义表达"
+    var id: String { rawValue }
+}
+
 struct WordStudyCardView: View {
     let card: WordCard
     let onStatusChange: (WordStatus) -> Void
     let onStarChange: (Bool) -> Void
+
+    @State private var selectedTab: InfoTab = .scene
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -124,7 +133,7 @@ struct WordStudyCardView: View {
                     HStack(alignment: .firstTextBaseline, spacing: 12) {
                         if let pos = card.pos, !pos.isEmpty {
                             Text(pos)
-                                .font(.body.weight(.semibold))
+                                .font(.body.weight(.light))
                                 .foregroundStyle(.primary)
                         }
 
@@ -154,53 +163,118 @@ struct WordStudyCardView: View {
                 SceneTripletSection(
                     previous: card.previousSentence,
                     current: card.exampleSentence,
-                    currentTranslation: card.exampleSentenceTranslation
+                    currentTranslation: card.exampleSentenceTranslation,
+                    next: card.nextSentence
                 )
-                CardSection(title: "场景说明", value: card.sceneContext)
-
-                if !card.alternatives.isEmpty {
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("近义表达")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                        ViewThatFits(in: .horizontal) {
-                            HStack(spacing: 12) {
-                                ForEach(card.alternatives, id: \.self) { item in
-                                    Text(item)
-                                        .font(.body)
-                                        .foregroundStyle(.primary)
+                
+                Group {
+                    if selectedTab == .scene {
+                        CardSection(title: "场景说明", value: card.sceneContext)
+                    } else if selectedTab == .tip {
+                        CardSection(title: "使用提示", value: card.usageTip ?? "暂无使用提示")
+                    } else if selectedTab == .alternatives {
+                        VStack(alignment: .leading, spacing: 10) {
+                            Text("近义表达")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                            
+                            if card.alternatives.isEmpty {
+                                Text("暂无近义表达")
+                                    .font(.body)
+                                    .foregroundStyle(.tertiary)
+                            } else {
+                                ViewThatFits(in: .horizontal) {
+                                    HStack(spacing: 8) {
+                                        ForEach(card.alternatives, id: \.self) { item in
+                                            Text(item)
+                                                .font(.body)
+                                                .padding(.horizontal, 10)
+                                                .padding(.vertical, 4)
+                                                .background(Color.secondary.opacity(0.1), in: Capsule())
+                                        }
+                                    }
+                                    VStack(alignment: .leading, spacing: 8) {
+                                        ForEach(card.alternatives, id: \.self) { item in
+                                            Text(item)
+                                                .font(.body)
+                                                .padding(.horizontal, 10)
+                                                .padding(.vertical, 4)
+                                                .background(Color.secondary.opacity(0.1), in: Capsule())
+                                        }
+                                    }
                                 }
                             }
-                            .frame(maxWidth: .infinity, alignment: .leading)
-
-                            VStack(alignment: .leading, spacing: 12) {
-                                ForEach(card.alternatives, id: \.self) { item in
-                                    Text(item)
-                                        .font(.body)
-                                        .foregroundStyle(.primary)
-                                }
-                            }
-                            .frame(maxWidth: .infinity, alignment: .leading)
                         }
                     }
                 }
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .animation(.easeInOut(duration: 0.2), value: selectedTab)
             }
 
             Spacer(minLength: 0)
 
-            Picker("掌握状态", selection: Binding(
-                get: { card.status },
-                set: { newStatus in
-                    onStatusChange(newStatus)
+            HStack {
+                HStack(spacing: 4) {
+                    ForEach(InfoTab.allCases) { tab in
+                        Button {
+                            withAnimation(.easeInOut(duration: 0.2)) {
+                                selectedTab = tab
+                            }
+                        } label: {
+                            Text(tab.rawValue)
+                                .font(.system(size: 11, weight: .medium))
+                                .foregroundStyle(selectedTab == tab ? .primary : .secondary)
+                                .padding(.horizontal, 10)
+                                .padding(.vertical, 6)
+                                .background(
+                                    ZStack {
+                                        if selectedTab == tab {
+                                            RoundedRectangle(cornerRadius: 8, style: .continuous)
+                                                .fill(Color.secondary.opacity(0.12))
+                                        }
+                                    }
+                                )
+                                .contentShape(Rectangle())
+                        }
+                        .buttonStyle(.plain)
+                    }
                 }
-            )) {
-                ForEach(WordStatus.allCases) { status in
-                    Text(status.displayName).tag(status)
+                
+                Spacer()
+                Menu {
+                    Picker("掌握状态", selection: Binding(
+                        get: { card.status },
+                        set: { newStatus in
+                            onStatusChange(newStatus)
+                        }
+                    )) {
+                        ForEach(WordStatus.allCases) { status in
+                            Text(status.displayName.capitalized).tag(status)
+                        }
+                    }
+                } label: {
+                    HStack(spacing: 4) {
+                        Text(card.status.displayName.capitalized)
+                            .font(.footnote.weight(.medium))
+                            .fixedSize(horizontal: true, vertical: false)
+                        Image(systemName: "chevron.up.chevron.down")
+                            .font(.system(size: 9))
+                            .fixedSize(horizontal: true, vertical: false)
+                    }
+                    .foregroundStyle(.primary)
+                    .padding(.horizontal, 10)
+                    .padding(.vertical, 6)
+                    .background(Color.secondary.opacity(0.1), in: RoundedRectangle(cornerRadius: 100, style: .continuous))
+                    .transaction { transaction in
+                        transaction.animation = nil
+                    }
                 }
+                .tint(.primary)
             }
-            .pickerStyle(.segmented)
+            .padding(.horizontal, -4)
+            .padding(.bottom, -4)
         }
-        .padding(20)
+        .padding(16)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
         .background(
             RoundedRectangle(cornerRadius: 24, style: .continuous)
@@ -237,6 +311,7 @@ private struct SceneTripletSection: View {
     let previous: String?
     let current: String
     let currentTranslation: String?
+    let next: String?
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -248,17 +323,27 @@ private struct SceneTripletSection: View {
                 Text(previous)
                     .font(.body)
                     .foregroundStyle(.primary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
 
             Text(current)
                 .font(.body)
                 .foregroundStyle(.primary)
+                .fixedSize(horizontal: false, vertical: true)
 
             if let currentTranslation, !currentTranslation.isEmpty {
                 Text(currentTranslation)
                     .font(.system(size: 14))
                     .foregroundStyle(.tertiary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
+
+//            if let next, !next.isEmpty {
+//                Text(next)
+//                    .font(.body)
+//                    .foregroundStyle(.primary)
+//                    .fixedSize(horizontal: false, vertical: true)
+//            }
         }
     }
 }
@@ -276,6 +361,7 @@ private struct CardSection: View {
             Text(value)
                 .font(emphasis ? .title3.weight(.semibold) : .body)
                 .foregroundStyle(.primary)
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }

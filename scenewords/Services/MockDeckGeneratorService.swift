@@ -1,7 +1,7 @@
 import Foundation
 
 struct MockDeckGeneratorService: DeckGenerating {
-    func generateDeck(request: DeckGenerationRequest) -> WordDeck {
+    func generateDeck(request: DeckGenerationRequest) async throws -> WordDeck {
         if request.showName.swTrimmed.caseInsensitiveCompare("Friends") == .orderedSame,
            request.season == 1,
            request.episode == 1 {
