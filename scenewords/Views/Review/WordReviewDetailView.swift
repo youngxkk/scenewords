@@ -37,7 +37,7 @@ struct WordReviewDetailView: View {
             }
         }
         .navigationTitle(currentWord ?? "复习卡片")
-        .navigationBarTitleDisplayMode(.inline)
+        .swInlineTitleDisplayMode()
         .onAppear {
             if cards.contains(where: { $0.id == initialCardID }) {
                 selectedCardID = initialCardID

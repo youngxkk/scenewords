@@ -39,13 +39,15 @@ struct ProfileView: View {
                 }
             }
         }
-        .listStyle(.insetGrouped)
+        .swGroupedListStyle()
         .navigationTitle("我")
     }
 }
 
-#Preview {
-    NavigationStack {
-        ProfileView()
+struct ProfileView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            ProfileView()
+        }
     }
 }

@@ -27,7 +27,9 @@ struct SceneWordsRootView: View {
     }
 }
 
-#Preview {
-    SceneWordsRootView()
-        .environmentObject(AppViewModel.makeDefault())
+struct SceneWordsRootView_Previews: PreviewProvider {
+    static var previews: some View {
+        SceneWordsRootView()
+            .environmentObject(AppViewModel.makeDefault())
+    }
 }

@@ -20,6 +20,6 @@ struct StaticPageView: View {
         .padding(24)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .navigationTitle(title)
-        .navigationBarTitleDisplayMode(.inline)
+        .swInlineTitleDisplayMode()
     }
 }

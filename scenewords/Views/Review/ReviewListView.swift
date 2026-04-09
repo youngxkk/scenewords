@@ -17,7 +17,7 @@ struct ReviewListView: View {
                         ReviewRowView(card: card)
                     }
                 }
-                .listStyle(.insetGrouped)
+                .swGroupedListStyle()
             }
         }
         .navigationTitle("复习")
@@ -52,9 +52,11 @@ private struct ReviewRowView: View {
     }
 }
 
-#Preview {
-    NavigationStack {
-        ReviewListView()
-            .environmentObject(AppViewModel.makeDefault())
+struct ReviewListView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            ReviewListView()
+                .environmentObject(AppViewModel.makeDefault())
+        }
     }
 }

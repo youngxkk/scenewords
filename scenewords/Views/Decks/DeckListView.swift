@@ -1,5 +1,11 @@
 import SwiftUI
+#if canImport(UIKit)
 import UIKit
+private typealias PlatformImage = UIImage
+#elseif canImport(AppKit)
+import AppKit
+private typealias PlatformImage = NSImage
+#endif
 
 struct DeckListView: View {
     @State private var showGeneratePage = false
@@ -17,9 +23,18 @@ struct DeckListView: View {
                 Text("热门影视")
             }
         }
-        .listStyle(.insetGrouped)
+        .swGroupedListStyle()
         .navigationTitle("SceneWords")
         .toolbar {
+#if os(macOS)
+            ToolbarItem {
+                Button {
+                    showGeneratePage = true
+                } label: {
+                    Label("对话/生成", systemImage: "plus.bubble")
+                }
+            }
+#else
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
                     showGeneratePage = true
@@ -27,6 +42,7 @@ struct DeckListView: View {
                     Label("对话/生成", systemImage: "plus.bubble")
                 }
             }
+#endif
         }
         .navigationDestination(isPresented: $showGeneratePage) {
             GenerateDeckView()
@@ -106,37 +122,63 @@ private struct ShowCoverImage: View {
     }
 
     private var resolvedImage: Image? {
-        if let image = UIImage(named: show.coverImageBaseName) {
-            return Image(uiImage: image)
-        }
-
         let extensions = ["jpg", "jpeg", "png", "webp", "heic"]
         let names = [show.coverImageBaseName, show.id]
         let subdirectories = ["Resources/Covers", "Covers", "Resources/Shows/Covers", "Shows/Covers", "Resources/Shows", "Shows"]
+
+        if let image = loadImage(named: show.coverImageBaseName) {
+            return makeImage(from: image)
+        }
 
         for name in names {
             for ext in extensions {
                 for subdirectory in subdirectories {
                     if let url = Bundle.main.url(forResource: name, withExtension: ext, subdirectory: subdirectory),
-                       let image = UIImage(contentsOfFile: url.path) {
-                        return Image(uiImage: image)
+                       let image = loadImage(at: url.path) {
+                        return makeImage(from: image)
                     }
                 }
 
                 if let url = Bundle.main.url(forResource: name, withExtension: ext),
-                   let image = UIImage(contentsOfFile: url.path) {
-                    return Image(uiImage: image)
+                   let image = loadImage(at: url.path) {
+                    return makeImage(from: image)
                 }
             }
         }
 
         return nil
     }
+
+    private func makeImage(from image: PlatformImage) -> Image {
+#if canImport(UIKit)
+        Image(uiImage: image)
+#elseif canImport(AppKit)
+        Image(nsImage: image)
+#endif
+    }
+
+    private func loadImage(named name: String) -> PlatformImage? {
+#if canImport(UIKit)
+        PlatformImage(named: name)
+#elseif canImport(AppKit)
+        Bundle.main.image(forResource: name)
+#endif
+    }
+
+    private func loadImage(at path: String) -> PlatformImage? {
+#if canImport(UIKit)
+        PlatformImage(contentsOfFile: path)
+#elseif canImport(AppKit)
+        PlatformImage(contentsOfFile: path)
+#endif
+    }
 }
 
-#Preview {
-    NavigationStack {
-        DeckListView()
-            .environmentObject(AppViewModel.makeDefault())
+struct DeckListView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            DeckListView()
+                .environmentObject(AppViewModel.makeDefault())
+        }
     }
 }

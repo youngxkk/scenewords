@@ -148,14 +148,27 @@ private struct LocalSeasonDeckFile: Decodable {
         case showName
         case season
         case decks
+        case source
+    }
+
+    private enum SourceCodingKeys: String, CodingKey {
+        case showId
+        case showName
+        case seasonNumber
     }
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         schemaVersion = try container.decodeIfPresent(Int.self, forKey: .schemaVersion)
-        showId = try container.decodeIfPresent(String.self, forKey: .showId)
-        showName = try container.decodeIfPresent(String.self, forKey: .showName)
-        season = try container.decodeIfPresent(Int.self, forKey: .season)
+        if let sourceContainer = try? container.nestedContainer(keyedBy: SourceCodingKeys.self, forKey: .source) {
+            showId = try sourceContainer.decodeIfPresent(String.self, forKey: .showId)
+            showName = try sourceContainer.decodeIfPresent(String.self, forKey: .showName)
+            season = try sourceContainer.decodeIfPresent(Int.self, forKey: .seasonNumber)
+        } else {
+            showId = try container.decodeIfPresent(String.self, forKey: .showId)
+            showName = try container.decodeIfPresent(String.self, forKey: .showName)
+            season = try container.decodeIfPresent(Int.self, forKey: .season)
+        }
         decks = try container.decodeIfPresent([WordDeck].self, forKey: .decks) ?? []
     }
 }

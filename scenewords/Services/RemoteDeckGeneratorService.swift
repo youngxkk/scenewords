@@ -255,12 +255,70 @@ private struct DeckGenerationAPIResponse: Decodable {
 }
 
 private struct GeneratedDeck: Decodable {
+    var id: UUID?
     var showName: String?
     var season: Int?
     var episode: Int?
     var title: String
     var summary: String
     var cards: [GeneratedCard]
+
+    private enum CodingKeys: String, CodingKey {
+        case id
+        case deckId
+        case showName
+        case season
+        case episode
+        case title
+        case summary
+        case cards
+        case source
+        case deckMetadata
+    }
+
+    private enum SourceCodingKeys: String, CodingKey {
+        case showName
+        case seasonNumber
+        case episodeNumber
+    }
+
+    private enum DeckMetadataCodingKeys: String, CodingKey {
+        case title
+        case summary
+    }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+
+        if let sourceContainer = try? container.nestedContainer(keyedBy: SourceCodingKeys.self, forKey: .source) {
+            id = try container.decodeIfPresent(UUID.self, forKey: .id)
+                ?? container.decodeIfPresent(UUID.self, forKey: .deckId)
+            showName = try sourceContainer.decodeIfPresent(String.self, forKey: .showName)
+            season = try sourceContainer.decodeIfPresent(Int.self, forKey: .seasonNumber)
+            episode = try sourceContainer.decodeIfPresent(Int.self, forKey: .episodeNumber)
+
+            let metadataContainer = try container.nestedContainer(keyedBy: DeckMetadataCodingKeys.self, forKey: .deckMetadata)
+            title = try metadataContainer.decode(String.self, forKey: .title)
+            if let localizedSummary = try? metadataContainer.decode([String: String].self, forKey: .summary) {
+                summary = localizedSummary["zh-CN"]
+                    ?? localizedSummary["zh"]
+                    ?? localizedSummary["en"]
+                    ?? localizedSummary.values.first
+                    ?? ""
+            } else {
+                summary = try metadataContainer.decode(String.self, forKey: .summary)
+            }
+            cards = try container.decodeIfPresent([GeneratedCard].self, forKey: .cards) ?? []
+        } else {
+            id = try container.decodeIfPresent(UUID.self, forKey: .id)
+            showName = try container.decodeIfPresent(String.self, forKey: .showName)
+            season = try container.decodeIfPresent(Int.self, forKey: .season)
+            episode = try container.decodeIfPresent(Int.self, forKey: .episode)
+            title = try container.decode(String.self, forKey: .title)
+            summary = try container.decode(String.self, forKey: .summary)
+            cards = try container.decodeIfPresent([GeneratedCard].self, forKey: .cards) ?? []
+        }
+    }
 
     func toWordDeck(defaultShowName: String, season: Int, episode: Int) -> WordDeck {
         let trimmedShowName = showName?.swTrimmed ?? ""
@@ -273,6 +331,7 @@ private struct GeneratedDeck: Decodable {
         }
 
         return WordDeck(
+            id: id ?? UUID(),
             showName: resolvedShowName,
             season: resolvedSeason,
             episode: resolvedEpisode,
@@ -285,6 +344,7 @@ private struct GeneratedDeck: Decodable {
 }
 
 private struct GeneratedCard: Decodable {
+    var id: UUID?
     var word: String
     var phonetic: String?
     var pos: String?
@@ -298,11 +358,128 @@ private struct GeneratedCard: Decodable {
     var usageTip: String?
     var alternatives: [String]?
     var difficulty: WordDifficulty?
+    var volumeTier: WordVolumeTier?
+    var status: WordStatus?
+    var isStarred: Bool?
+    var sourceShowName: String?
+    var seasonNumber: Int?
+    var episodeNumber: Int?
+
+    private enum CodingKeys: String, CodingKey {
+        case id
+        case cardId
+        case word
+        case phonetic
+        case pos
+        case meaning
+        case phrase
+        case previousSentence
+        case exampleSentence
+        case exampleSentenceTranslation
+        case nextSentence
+        case sceneContext
+        case usageTip
+        case alternatives
+        case difficulty
+        case volumeTier
+        case status
+        case isStarred
+        case sourceShowName
+        case season
+        case episode
+        case term
+        case sourceContext
+        case localizedContent
+        case learningMetadata
+    }
+
+    private enum TermCodingKeys: String, CodingKey {
+        case text
+        case phonetic
+        case partOfSpeech
+    }
+
+    private enum SourceContextCodingKeys: String, CodingKey {
+        case previousLine
+        case targetLine
+        case nextLine
+    }
+
+    private enum LearningMetadataCodingKeys: String, CodingKey {
+        case difficultyLevel
+        case volumeTier
+        case status
+        case isStarred
+        case sourceShowName
+        case seasonNumber
+        case episodeNumber
+    }
+
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+
+        if let termContainer = try? container.nestedContainer(keyedBy: TermCodingKeys.self, forKey: .term) {
+            id = try container.decodeIfPresent(UUID.self, forKey: .id)
+                ?? container.decodeIfPresent(UUID.self, forKey: .cardId)
+            word = try termContainer.decode(String.self, forKey: .text)
+            phonetic = try termContainer.decodeIfPresent(String.self, forKey: .phonetic)
+            pos = try termContainer.decodeIfPresent(String.self, forKey: .partOfSpeech)
+
+            let sourceContextContainer = try container.nestedContainer(keyedBy: SourceContextCodingKeys.self, forKey: .sourceContext)
+            previousSentence = try sourceContextContainer.decodeIfPresent(String.self, forKey: .previousLine)
+            exampleSentence = try sourceContextContainer.decode(String.self, forKey: .targetLine)
+            nextSentence = try sourceContextContainer.decodeIfPresent(String.self, forKey: .nextLine)
+
+            let localizedMap = try container.decodeIfPresent([String: RemoteLocalizedCardContent].self, forKey: .localizedContent) ?? [:]
+            let localized = localizedMap["zh-CN"]
+                ?? localizedMap["zh"]
+                ?? localizedMap["en"]
+                ?? localizedMap.values.first
+
+            meaning = localized?.definitions.first ?? ""
+            phrase = localized?.corePhrase
+            exampleSentenceTranslation = localized?.exampleTranslation
+            sceneContext = localized?.sceneNotes ?? ""
+            usageTip = localized?.usageNotes
+            alternatives = try container.decodeIfPresent([String].self, forKey: .alternatives)
+
+            let learningMetadataContainer = try container.nestedContainer(keyedBy: LearningMetadataCodingKeys.self, forKey: .learningMetadata)
+            difficulty = try learningMetadataContainer.decodeIfPresent(WordDifficulty.self, forKey: .difficultyLevel)
+            volumeTier = try learningMetadataContainer.decodeIfPresent(WordVolumeTier.self, forKey: .volumeTier)
+            status = try learningMetadataContainer.decodeIfPresent(WordStatus.self, forKey: .status)
+            isStarred = try learningMetadataContainer.decodeIfPresent(Bool.self, forKey: .isStarred)
+            sourceShowName = try learningMetadataContainer.decodeIfPresent(String.self, forKey: .sourceShowName)
+            seasonNumber = try learningMetadataContainer.decodeIfPresent(Int.self, forKey: .seasonNumber)
+            episodeNumber = try learningMetadataContainer.decodeIfPresent(Int.self, forKey: .episodeNumber)
+        } else {
+            id = try container.decodeIfPresent(UUID.self, forKey: .id)
+            word = try container.decode(String.self, forKey: .word)
+            phonetic = try container.decodeIfPresent(String.self, forKey: .phonetic)
+            pos = try container.decodeIfPresent(String.self, forKey: .pos)
+            meaning = try container.decode(String.self, forKey: .meaning)
+            phrase = try container.decodeIfPresent(String.self, forKey: .phrase)
+            previousSentence = try container.decodeIfPresent(String.self, forKey: .previousSentence)
+            exampleSentence = try container.decode(String.self, forKey: .exampleSentence)
+            exampleSentenceTranslation = try container.decodeIfPresent(String.self, forKey: .exampleSentenceTranslation)
+            nextSentence = try container.decodeIfPresent(String.self, forKey: .nextSentence)
+            sceneContext = try container.decode(String.self, forKey: .sceneContext)
+            usageTip = try container.decodeIfPresent(String.self, forKey: .usageTip)
+            alternatives = try container.decodeIfPresent([String].self, forKey: .alternatives)
+            difficulty = try container.decodeIfPresent(WordDifficulty.self, forKey: .difficulty)
+            volumeTier = try container.decodeIfPresent(WordVolumeTier.self, forKey: .volumeTier)
+            status = try container.decodeIfPresent(WordStatus.self, forKey: .status)
+            isStarred = try container.decodeIfPresent(Bool.self, forKey: .isStarred)
+            sourceShowName = try container.decodeIfPresent(String.self, forKey: .sourceShowName)
+            seasonNumber = try container.decodeIfPresent(Int.self, forKey: .season)
+            episodeNumber = try container.decodeIfPresent(Int.self, forKey: .episode)
+        }
+    }
 
     func toWordCard(showName: String, season: Int, episode: Int) -> WordCard {
         let normalizedDifficulty = difficulty ?? .medium
 
         return WordCard(
+            id: id ?? UUID(),
             word: word,
             phonetic: phonetic,
             pos: pos,
@@ -316,9 +493,20 @@ private struct GeneratedCard: Decodable {
             usageTip: usageTip,
             alternatives: alternatives ?? [],
             difficulty: normalizedDifficulty,
-            sourceShowName: showName,
-            season: season,
-            episode: episode
+            volumeTier: volumeTier,
+            status: status ?? .new,
+            isStarred: isStarred ?? false,
+            sourceShowName: sourceShowName ?? showName,
+            season: seasonNumber ?? season,
+            episode: episodeNumber ?? episode
         )
     }
+}
+
+private struct RemoteLocalizedCardContent: Decodable {
+    var definitions: [String]
+    var corePhrase: String?
+    var exampleTranslation: String?
+    var sceneNotes: String
+    var usageNotes: String?
 }

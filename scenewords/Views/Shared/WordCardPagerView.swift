@@ -404,6 +404,8 @@ private struct WordCardPagerPreviewHost: View {
     }
 }
 
-#Preview("Word Card Pager") {
-    WordCardPagerPreviewHost()
+struct WordCardPagerView_Previews: PreviewProvider {
+    static var previews: some View {
+        WordCardPagerPreviewHost()
+    }
 }

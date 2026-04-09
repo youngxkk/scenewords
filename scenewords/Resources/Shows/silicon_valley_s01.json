@@ -1,1280 +1,2016 @@
 {
+  "schemaVersion": 2,
+  "source": {},
   "decks": [
     {
-      "showName": "Silicon Valley",
-      "season": 1,
-      "episode": 1,
+      "source": {
+        "showName": "Silicon Valley",
+        "seasonNumber": 1,
+        "episodeNumber": 1,
+        "episodeTitle": ""
+      },
+      "deckMetadata": {
+        "summary": {}
+      },
       "cards": [
         {
-          "id": "53a5b05d-a2b4-4002-bedd-b0309289f7a4",
-          "word": "prototype",
-          "phonetic": "/ˈproʊtətaɪp/",
-          "pos": "n.",
-          "meaning": "原型 (初级产品)",
-          "phrase": "a working prototype",
-          "previousSentence": "So, is this the finished product?",
-          "exampleSentence": "He built a prototype of the algorithm in his bedroom.",
-          "exampleSentenceTranslation": "他就在自己的卧室里开发了这个算法的原型。",
-          "nextSentence": "But the underlying architecture is solid.",
-          "sceneContext": "理查德在公司上班之余，自己偷偷鼓捣出的这款音乐压缩器的初始版本（prototype）。",
-          "usageTip": "初创公司从 0 到 1 的第一个实物。口语常说：It is just a prototype (这还只是个半成品)。",
+          "cardId": "53a5b05d-a2b4-4002-bedd-b0309289f7a4",
+          "term": {
+            "text": "prototype",
+            "language": "en",
+            "phonetic": "/ˈproʊtətaɪp/",
+            "partOfSpeech": "n.",
+            "lemma": "prototype"
+          },
+          "sourceContext": {
+            "previousLine": "So, is this the finished product?",
+            "targetLine": "He built a prototype of the algorithm in his bedroom.",
+            "nextLine": "But the underlying architecture is solid."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "原型 (初级产品)"
+              ],
+              "corePhrase": "a working prototype",
+              "exampleTranslation": "他就在自己的卧室里开发了这个算法的原型。",
+              "sceneNotes": "理查德在公司上班之余，自己偷偷鼓捣出的这款音乐压缩器的初始版本（prototype）。",
+              "usageNotes": "初创公司从 0 到 1 的第一个实物。口语常说：It is just a prototype (这还只是个半成品)。"
+            }
+          },
           "alternatives": [
             "model",
             "mockup",
             "version zero"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "d9fe72d3-905c-4193-a770-f840431cb32f",
-          "word": "algorithm",
-          "phonetic": "/ˈælɡərɪðəm/",
-          "pos": "n.",
-          "meaning": "算法",
-          "phrase": "a compression algorithm",
-          "previousSentence": "Is it some kind of brute-force search?",
-          "exampleSentence": "Silicon Valley icons fight over Richard's algorithm.",
-          "exampleSentenceTranslation": "硅谷的大佬们为了理查德的算法争个你死我活。",
-          "nextSentence": "It's using a completely original logic.",
-          "sceneContext": "全剧的基础：Pied Piper 的核心竞争力就是一种全新的压缩算法。",
-          "usageTip": "科技行业最核心的名词。发音注意最后的 th 发音。",
+          "cardId": "d9fe72d3-905c-4193-a770-f840431cb32f",
+          "term": {
+            "text": "algorithm",
+            "language": "en",
+            "phonetic": "/ˈælɡərɪðəm/",
+            "partOfSpeech": "n.",
+            "lemma": "algorithm"
+          },
+          "sourceContext": {
+            "previousLine": "Is it some kind of brute-force search?",
+            "targetLine": "Silicon Valley icons fight over Richard's algorithm.",
+            "nextLine": "It's using a completely original logic."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "算法"
+              ],
+              "corePhrase": "a compression algorithm",
+              "exampleTranslation": "硅谷的大佬们为了理查德的算法争个你死我活。",
+              "sceneNotes": "全剧的基础：Pied Piper 的核心竞争力就是一种全新的压缩算法。",
+              "usageNotes": "科技行业最核心的名词。发音注意最后的 th 发音。"
+            }
+          },
           "alternatives": [
             "procedure",
             "logic",
             "formula"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "df5b4cb1-95a0-4ba5-9cc9-f36973f2c06b",
-          "word": "compression",
-          "phonetic": "/kəmˈpreʃən/",
-          "pos": "n.",
-          "meaning": "压缩 (技术)",
-          "phrase": "lossless compression",
-          "previousSentence": "The video quality is amazing.",
-          "exampleSentence": "The compression ratio is unprecedented.",
-          "exampleSentenceTranslation": "这种压缩率在历史上是绝无仅有的。",
-          "nextSentence": "And we achieved it with a 5:1 ratio.",
-          "sceneContext": "全剧的技术核心：理查德发现了一种革命性的无损压缩技术（compression），引燃了整个行业的疯狂。",
-          "usageTip": "IT 术语。注意区分 lossy compression (有损压缩) 和 lossless (无损压缩)。",
+          "cardId": "df5b4cb1-95a0-4ba5-9cc9-f36973f2c06b",
+          "term": {
+            "text": "compression",
+            "language": "en",
+            "phonetic": "/kəmˈpreʃən/",
+            "partOfSpeech": "n.",
+            "lemma": "compression"
+          },
+          "sourceContext": {
+            "previousLine": "The video quality is amazing.",
+            "targetLine": "The compression ratio is unprecedented.",
+            "nextLine": "And we achieved it with a 5:1 ratio."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "压缩 (技术)"
+              ],
+              "corePhrase": "lossless compression",
+              "exampleTranslation": "这种压缩率在历史上是绝无仅有的。",
+              "sceneNotes": "全剧的技术核心：理查德发现了一种革命性的无损压缩技术（compression），引燃了整个行业的疯狂。",
+              "usageNotes": "IT 术语。注意区分 lossy compression (有损压缩) 和 lossless (无损压缩)。"
+            }
+          },
           "alternatives": [
             "compaction",
             "reduction",
             "shrinkage"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "78490fd8-e1ba-4bfa-aa22-ee96c05b4407",
-          "word": "valuation",
-          "phonetic": "/ˌvæljuˈeɪʃən/",
-          "pos": "n.",
-          "meaning": "估值",
-          "phrase": "post-money valuation",
-          "previousSentence": "What's the company worth right now?",
-          "exampleSentence": "Gavin Belson offered a ten million dollar valuation.",
-          "exampleSentenceTranslation": "Gavin Belson 给出了 1000 万美元的估值。",
-          "nextSentence": "That's high for a pre-revenue startup.",
-          "sceneContext": "当大公司想要收购理查德时，给他的梦想定了一个“身价”。",
-          "usageTip": "融资最核心词。注意 pre-money (投前) 和 post-money (投后) 估值。",
+          "cardId": "78490fd8-e1ba-4bfa-aa22-ee96c05b4407",
+          "term": {
+            "text": "valuation",
+            "language": "en",
+            "phonetic": "/ˌvæljuˈeɪʃən/",
+            "partOfSpeech": "n.",
+            "lemma": "valuation"
+          },
+          "sourceContext": {
+            "previousLine": "What's the company worth right now?",
+            "targetLine": "Gavin Belson offered a ten million dollar valuation.",
+            "nextLine": "That's high for a pre-revenue startup."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "估值"
+              ],
+              "corePhrase": "post-money valuation",
+              "exampleTranslation": "Gavin Belson 给出了 1000 万美元的估值。",
+              "sceneNotes": "当大公司想要收购理查德时，给他的梦想定了一个“身价”。",
+              "usageNotes": "融资最核心词。注意 pre-money (投前) 和 post-money (投后) 估值。"
+            }
+          },
           "alternatives": [
             "appraisal",
             "estimate",
             "worth"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "5a804e6c-0eaf-402c-9e8a-479cfe9bfb74",
-          "word": "incubator",
-          "phonetic": "/ˈɪŋkjəbeɪtər/",
-          "pos": "n.",
-          "meaning": "孵化器",
-          "phrase": "tech incubator",
-          "previousSentence": "Where are you living right now?",
-          "exampleSentence": "Erlich converted his house into a tech incubator.",
-          "exampleSentenceTranslation": "Erlich 把他的房子变成了科技初创公司孵化器。",
-          "nextSentence": "We work and sleep in the same garage.",
-          "sceneContext": "斯坦福周边非常流行的车库创业模式，这种提供资源换取股份的机构叫做孵化器。",
-          "usageTip": "Incubator 原意是早产儿保育箱，在商界指给没有任何资源但有想法的技术团队提供起步保护伞的机构。",
+          "cardId": "5a804e6c-0eaf-402c-9e8a-479cfe9bfb74",
+          "term": {
+            "text": "incubator",
+            "language": "en",
+            "phonetic": "/ˈɪŋkjəbeɪtər/",
+            "partOfSpeech": "n.",
+            "lemma": "incubator"
+          },
+          "sourceContext": {
+            "previousLine": "Where are you living right now?",
+            "targetLine": "Erlich converted his house into a tech incubator.",
+            "nextLine": "We work and sleep in the same garage."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "孵化器"
+              ],
+              "corePhrase": "tech incubator",
+              "exampleTranslation": "Erlich 把他的房子变成了科技初创公司孵化器。",
+              "sceneNotes": "斯坦福周边非常流行的车库创业模式，这种提供资源换取股份的机构叫做孵化器。",
+              "usageNotes": "Incubator 原意是早产儿保育箱，在商界指给没有任何资源但有想法的技术团队提供起步保护伞的机构。"
+            }
+          },
           "alternatives": [
             "accelerator",
             "hub",
             "startup house"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "e9fd31b3-e91e-4ede-912f-f452aee4006a",
-          "word": "equity",
-          "phonetic": "/ˈekwəti/",
-          "pos": "n.",
-          "meaning": "股权 / 资产净值",
-          "phrase": "sweat equity",
-          "previousSentence": "You can't pay me a salary?",
-          "exampleSentence": "I'm not doing this for cash, I want equity.",
-          "exampleSentenceTranslation": "我干这活不要现金，我要公司股份。",
-          "nextSentence": "The upside is much bigger if we exit.",
-          "sceneContext": "创业初期，理查德为了留住极客们，必须慷慨地给出公司的“干股”。",
-          "usageTip": "初创员工的最高追求。比起薪水，他们更看重股权带来的暴富可能。",
+          "cardId": "e9fd31b3-e91e-4ede-912f-f452aee4006a",
+          "term": {
+            "text": "equity",
+            "language": "en",
+            "phonetic": "/ˈekwəti/",
+            "partOfSpeech": "n.",
+            "lemma": "equity"
+          },
+          "sourceContext": {
+            "previousLine": "You can't pay me a salary?",
+            "targetLine": "I'm not doing this for cash, I want equity.",
+            "nextLine": "The upside is much bigger if we exit."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "股权 / 资产净值"
+              ],
+              "corePhrase": "sweat equity",
+              "exampleTranslation": "我干这活不要现金，我要公司股份。",
+              "sceneNotes": "创业初期，理查德为了留住极客们，必须慷慨地给出公司的“干股”。",
+              "usageNotes": "初创员工的最高追求。比起薪水，他们更看重股权带来的暴富可能。"
+            }
+          },
           "alternatives": [
             "shares",
             "ownership",
             "stock"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "6c622c39-b5c5-44dd-b14c-8b4c734fbdbe",
-          "word": "lossless",
-          "phonetic": "/ˈlɔːsləs/",
-          "pos": "adj.",
-          "meaning": "无损的",
-          "phrase": "lossless encoding",
-          "previousSentence": "Is it missing any data?",
-          "exampleSentence": "Richard's compression is lossless and fast.",
-          "exampleSentenceTranslation": "理查德的压缩算法既快又是无损的。",
-          "nextSentence": "Every single bit is perfectly preserved.",
-          "sceneContext": "在音视频压缩领域，能在减小文件大小的同时完全保留原始数据质量（lossless）是技术巅峰。",
-          "usageTip": "对技术细节要求极高的词。反义词是 lossy（有损的）。",
+          "cardId": "6c622c39-b5c5-44dd-b14c-8b4c734fbdbe",
+          "term": {
+            "text": "lossless",
+            "language": "en",
+            "phonetic": "/ˈlɔːsləs/",
+            "partOfSpeech": "adj.",
+            "lemma": "lossless"
+          },
+          "sourceContext": {
+            "previousLine": "Is it missing any data?",
+            "targetLine": "Richard's compression is lossless and fast.",
+            "nextLine": "Every single bit is perfectly preserved."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "无损的"
+              ],
+              "corePhrase": "lossless encoding",
+              "exampleTranslation": "理查德的压缩算法既快又是无损的。",
+              "sceneNotes": "在音视频压缩领域，能在减小文件大小的同时完全保留原始数据质量（lossless）是技术巅峰。",
+              "usageNotes": "对技术细节要求极高的词。反义词是 lossy（有损的）。"
+            }
+          },
           "alternatives": [
             "perfect",
             "uncompressed-quality",
             "intact"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         }
       ]
     },
     {
-      "showName": "Silicon Valley",
-      "season": 1,
-      "episode": 2,
+      "source": {
+        "showName": "Silicon Valley",
+        "seasonNumber": 1,
+        "episodeNumber": 2,
+        "episodeTitle": ""
+      },
+      "deckMetadata": {
+        "summary": {}
+      },
       "cards": [
         {
-          "id": "71a87248-618d-4b40-8b29-d73b27404c45",
-          "word": "acquisition",
-          "phonetic": "/ˌækwɪˈzɪʃən/",
-          "pos": "n.",
-          "meaning": "收购",
-          "phrase": "strategic acquisition",
-          "previousSentence": "They are a direct threat to our platform.",
-          "exampleSentence": "Hooli is looking for its next big acquisition.",
-          "exampleSentenceTranslation": "Hooli 正在寻找它的下一个重大收购目标。",
-          "nextSentence": "We will absorb their tech and keep the patents.",
-          "sceneContext": "作为硅谷巨头，Hooli 的战略就是通过不断的收购（Acquisition）来消灭竞争对手。",
-          "usageTip": "商业正式用语。形容词是 acquisitive。并购常合称为 M&A (Mergers and Acquisitions)。",
+          "cardId": "71a87248-618d-4b40-8b29-d73b27404c45",
+          "term": {
+            "text": "acquisition",
+            "language": "en",
+            "phonetic": "/ˌækwɪˈzɪʃən/",
+            "partOfSpeech": "n.",
+            "lemma": "acquisition"
+          },
+          "sourceContext": {
+            "previousLine": "They are a direct threat to our platform.",
+            "targetLine": "Hooli is looking for its next big acquisition.",
+            "nextLine": "We will absorb their tech and keep the patents."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "收购"
+              ],
+              "corePhrase": "strategic acquisition",
+              "exampleTranslation": "Hooli 正在寻找它的下一个重大收购目标。",
+              "sceneNotes": "作为硅谷巨头，Hooli 的战略就是通过不断的收购（Acquisition）来消灭竞争对手。",
+              "usageNotes": "商业正式用语。形容词是 acquisitive。并购常合称为 M&A (Mergers and Acquisitions)。"
+            }
+          },
           "alternatives": [
             "takeover",
             "merger",
             "buyout"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 2
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "f677c7b5-98b9-4e5e-ab16-6c97ab68a3b7",
-          "word": "negotiate",
-          "phonetic": "/nəˈɡoʊʃieɪt/",
-          "pos": "v.",
-          "meaning": "谈判",
-          "phrase": "negotiate the terms",
-          "previousSentence": "This offer is too low.",
-          "exampleSentence": "We need to negotiate a better deal with the VC.",
-          "exampleSentenceTranslation": "我们需要和风投谈个更好的价码。",
-          "nextSentence": "If we walk away, they have nothing.",
-          "sceneContext": "理查德第一次在律师面前，试图在千万支票和梦想之间进行艰难的博弈和谈判。",
-          "usageTip": "动词。重音在 go 处。名词是 negotiation，形容词是 negotiable (可商量的)。",
+          "cardId": "f677c7b5-98b9-4e5e-ab16-6c97ab68a3b7",
+          "term": {
+            "text": "negotiate",
+            "language": "en",
+            "phonetic": "/nəˈɡoʊʃieɪt/",
+            "partOfSpeech": "v.",
+            "lemma": "negotiate"
+          },
+          "sourceContext": {
+            "previousLine": "This offer is too low.",
+            "targetLine": "We need to negotiate a better deal with the VC.",
+            "nextLine": "If we walk away, they have nothing."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "谈判"
+              ],
+              "corePhrase": "negotiate the terms",
+              "exampleTranslation": "我们需要和风投谈个更好的价码。",
+              "sceneNotes": "理查德第一次在律师面前，试图在千万支票和梦想之间进行艰难的博弈和谈判。",
+              "usageNotes": "动词。重音在 go 处。名词是 negotiation，形容词是 negotiable (可商量的)。"
+            }
+          },
           "alternatives": [
             "bargain",
             "haggle",
             "discuss deal"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 2
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "7a062297-fdfd-4179-a551-042338671814",
-          "word": "term sheet",
-          "phonetic": "/tɜːrm ʃiːt/",
-          "pos": "phrase",
-          "meaning": "投资条款清单",
-          "phrase": "sign a term sheet",
-          "previousSentence": "Do we have a deal or not?",
-          "exampleSentence": "The term sheet includes a very high liquid preference.",
-          "exampleSentenceTranslation": "这份投资意向书包含了一个很高的优先清算权。",
-          "nextSentence": "Let the lawyers handle the final contract.",
-          "sceneContext": "Peter Gregory 随手甩出的那张纸，就是理查德命运的转折点。",
-          "usageTip": "创投界的核心敲门砖。拿到它（term sheet）意味着你拿到了免死金牌和巨额支票。",
+          "cardId": "7a062297-fdfd-4179-a551-042338671814",
+          "term": {
+            "text": "term sheet",
+            "language": "en",
+            "phonetic": "/tɜːrm ʃiːt/",
+            "partOfSpeech": "phrase",
+            "lemma": "term sheet"
+          },
+          "sourceContext": {
+            "previousLine": "Do we have a deal or not?",
+            "targetLine": "The term sheet includes a very high liquid preference.",
+            "nextLine": "Let the lawyers handle the final contract."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "投资条款清单"
+              ],
+              "corePhrase": "sign a term sheet",
+              "exampleTranslation": "这份投资意向书包含了一个很高的优先清算权。",
+              "sceneNotes": "Peter Gregory 随手甩出的那张纸，就是理查德命运的转折点。",
+              "usageNotes": "创投界的核心敲门砖。拿到它（term sheet）意味着你拿到了免死金牌和巨额支票。"
+            }
+          },
           "alternatives": [
             "LOI",
             "intent letter",
             "deal memo"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 2
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "2e5250e9-ed64-405b-b9ef-c43460679ee9",
-          "word": "burn rate",
-          "phonetic": "/bɜːrn reɪt/",
-          "pos": "phrase",
-          "meaning": "烧钱率",
-          "phrase": "monthly burn rate",
-          "previousSentence": "We are spending money too fast.",
-          "exampleSentence": "We need to keep our burn rate under control.",
-          "exampleSentenceTranslation": "我们必须控制住我们的烧钱速度。",
-          "nextSentence": "We need to cut server costs immediately.",
-          "sceneContext": "初创企业还没产品上市，只能靠一直烧投资人的资金活命。",
-          "usageTip": "极地道的主流创投词汇。如果不想死，就得压低 burn rate 或者拿更多钱。",
+          "cardId": "2e5250e9-ed64-405b-b9ef-c43460679ee9",
+          "term": {
+            "text": "burn rate",
+            "language": "en",
+            "phonetic": "/bɜːrn reɪt/",
+            "partOfSpeech": "phrase",
+            "lemma": "burn rate"
+          },
+          "sourceContext": {
+            "previousLine": "We are spending money too fast.",
+            "targetLine": "We need to keep our burn rate under control.",
+            "nextLine": "We need to cut server costs immediately."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "烧钱率"
+              ],
+              "corePhrase": "monthly burn rate",
+              "exampleTranslation": "我们必须控制住我们的烧钱速度。",
+              "sceneNotes": "初创企业还没产品上市，只能靠一直烧投资人的资金活命。",
+              "usageNotes": "极地道的主流创投词汇。如果不想死，就得压低 burn rate 或者拿更多钱。"
+            }
+          },
           "alternatives": [
             "spending",
             "cash burn",
             "overhead"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 2
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "73827eb5-8188-4996-bc84-667672df1069",
-          "word": "dilution",
-          "phonetic": "/daɪˈluːʃn/",
-          "pos": "n.",
-          "meaning": "股权稀释",
-          "phrase": "stock dilution",
-          "previousSentence": "We need more funding.",
-          "exampleSentence": "Is that going to cause significant dilution for me?",
-          "exampleSentenceTranslation": "这会不会导致我的股份被大幅稀释？",
-          "nextSentence": "But that means our slice of the pie gets smaller.",
-          "sceneContext": "当新投资人进来后，原有创始人手中的股份比例会下降（Dilution），理查德对此非常担心。",
-          "usageTip": "核心财务词汇。指的是股权份额因为增发新股而被淡化的过程。",
+          "cardId": "73827eb5-8188-4996-bc84-667672df1069",
+          "term": {
+            "text": "dilution",
+            "language": "en",
+            "phonetic": "/daɪˈluːʃn/",
+            "partOfSpeech": "n.",
+            "lemma": "dilution"
+          },
+          "sourceContext": {
+            "previousLine": "We need more funding.",
+            "targetLine": "Is that going to cause significant dilution for me?",
+            "nextLine": "But that means our slice of the pie gets smaller."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "股权稀释"
+              ],
+              "corePhrase": "stock dilution",
+              "exampleTranslation": "这会不会导致我的股份被大幅稀释？",
+              "sceneNotes": "当新投资人进来后，原有创始人手中的股份比例会下降（Dilution），理查德对此非常担心。",
+              "usageNotes": "核心财务词汇。指的是股权份额因为增发新股而被淡化的过程。"
+            }
+          },
           "alternatives": [
             "thinning",
             "reduction",
             "share expansion"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 2
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "c440772c-eb95-4e60-8ee8-8bd1ac288ce4",
-          "word": "synergy",
-          "phonetic": "/ˈsɪnərdʒi/",
-          "pos": "n.",
-          "meaning": "协力 / 增效",
-          "phrase": "leverage synergy",
-          "previousSentence": "How do these two products fit together?",
-          "exampleSentence": "Gavin keeps talking about synergy between platforms.",
-          "exampleSentenceTranslation": "Gavin 不断在谈论各平台间的增效协作。",
-          "nextSentence": "It's a buzzword that basically means nothing.",
-          "sceneContext": "大厂高管最爱的虚伪词汇（Buzzword）。假装各部门能互相加持。",
-          "usageTip": "典型的商业废话（Corp-speak），经常被理查德等人私下嘲笑。",
+          "cardId": "c440772c-eb95-4e60-8ee8-8bd1ac288ce4",
+          "term": {
+            "text": "synergy",
+            "language": "en",
+            "phonetic": "/ˈsɪnərdʒi/",
+            "partOfSpeech": "n.",
+            "lemma": "synergy"
+          },
+          "sourceContext": {
+            "previousLine": "How do these two products fit together?",
+            "targetLine": "Gavin keeps talking about synergy between platforms.",
+            "nextLine": "It's a buzzword that basically means nothing."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "协力 / 增效"
+              ],
+              "corePhrase": "leverage synergy",
+              "exampleTranslation": "Gavin 不断在谈论各平台间的增效协作。",
+              "sceneNotes": "大厂高管最爱的虚伪词汇（Buzzword）。假装各部门能互相加持。",
+              "usageNotes": "典型的商业废话（Corp-speak），经常被理查德等人私下嘲笑。"
+            }
+          },
           "alternatives": [
             "cooperation",
             "harmony",
             "collaboration"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 2
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         }
       ]
     },
     {
-      "showName": "Silicon Valley",
-      "season": 1,
-      "episode": 3,
+      "source": {
+        "showName": "Silicon Valley",
+        "seasonNumber": 1,
+        "episodeNumber": 3,
+        "episodeTitle": ""
+      },
+      "deckMetadata": {
+        "summary": {}
+      },
       "cards": [
         {
-          "id": "62017f09-809a-41f2-92c5-324c38c50f3f",
-          "word": "merger",
-          "phonetic": "/ˈmɜːrdʒər/",
-          "pos": "n.",
-          "meaning": "合并",
-          "phrase": "corporate merger",
-          "previousSentence": "Should we join forces with them?",
-          "exampleSentence": "This is not a merger, it is a hostile takeover.",
-          "exampleSentenceTranslation": "这不是合并，这是一次恶意收购。",
-          "nextSentence": "The combined entity will dominate the market.",
-          "sceneContext": "在巨头阴影下，小公司之间常会探讨合并来寻求生存，但这往往伴随着权力的丧失。",
-          "usageTip": "常用于 M&A (并购) 语境。表示两家公司合二为一。",
+          "cardId": "62017f09-809a-41f2-92c5-324c38c50f3f",
+          "term": {
+            "text": "merger",
+            "language": "en",
+            "phonetic": "/ˈmɜːrdʒər/",
+            "partOfSpeech": "n.",
+            "lemma": "merger"
+          },
+          "sourceContext": {
+            "previousLine": "Should we join forces with them?",
+            "targetLine": "This is not a merger, it is a hostile takeover.",
+            "nextLine": "The combined entity will dominate the market."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "合并"
+              ],
+              "corePhrase": "corporate merger",
+              "exampleTranslation": "这不是合并，这是一次恶意收购。",
+              "sceneNotes": "在巨头阴影下，小公司之间常会探讨合并来寻求生存，但这往往伴随着权力的丧失。",
+              "usageNotes": "常用于 M&A (并购) 语境。表示两家公司合二为一。"
+            }
+          },
           "alternatives": [
             "unification",
             "coalition",
             "fusion"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 3
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "fc41068a-e128-4c3c-8fca-bfc210d8a64a",
-          "word": "startup",
-          "phonetic": "/ˈstɑːrtʌp/",
-          "pos": "n.",
-          "meaning": "初创公司",
-          "phrase": "early-stage startup",
-          "previousSentence": "I was working at Hooli.",
-          "exampleSentence": "He left a stable job to join a risky startup.",
-          "exampleSentenceTranslation": "他辞掉了稳定的工作去加入一家风险极高的初创公司。",
-          "nextSentence": "Now I'm living in Erlich's garage.",
-          "sceneContext": "理查德从大厂 Hooli 辞职，正式开启了他作为创始人（Founder）的创业征程。",
-          "usageTip": "特指具有爆发性增长潜力的高科技小公司，而不是普通的小卖部。",
+          "cardId": "fc41068a-e128-4c3c-8fca-bfc210d8a64a",
+          "term": {
+            "text": "startup",
+            "language": "en",
+            "phonetic": "/ˈstɑːrtʌp/",
+            "partOfSpeech": "n.",
+            "lemma": "startup"
+          },
+          "sourceContext": {
+            "previousLine": "I was working at Hooli.",
+            "targetLine": "He left a stable job to join a risky startup.",
+            "nextLine": "Now I'm living in Erlich's garage."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "初创公司"
+              ],
+              "corePhrase": "early-stage startup",
+              "exampleTranslation": "他辞掉了稳定的工作去加入一家风险极高的初创公司。",
+              "sceneNotes": "理查德从大厂 Hooli 辞职，正式开启了他作为创始人（Founder）的创业征程。",
+              "usageNotes": "特指具有爆发性增长潜力的高科技小公司，而不是普通的小卖部。"
+            }
+          },
           "alternatives": [
             "new venture",
             "entrepreneurship",
             "tech shop"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 3
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "386bfb3c-70f3-4097-a630-bcfbceea9473",
-          "word": "NDA",
-          "phonetic": "/ˌen diː ˈeɪ/",
-          "pos": "phrase",
-          "meaning": "保密协议",
-          "phrase": "non-disclosure agreement",
-          "previousSentence": "I have an idea I want to share.",
-          "exampleSentence": "You have to sign an NDA before we talk.",
-          "exampleSentenceTranslation": "在我们谈话前，你必须得签一份保密协议。",
-          "nextSentence": "I don't share secrets without protection.",
-          "sceneContext": "科技圈的护城河，大厂常常以交流为名把你的技术骗去，所以没有 NDA 是极其危险的事。",
-          "usageTip": "缩写使用最高频词汇。全称 Non-Disclosure Agreement。",
+          "cardId": "386bfb3c-70f3-4097-a630-bcfbceea9473",
+          "term": {
+            "text": "NDA",
+            "language": "en",
+            "phonetic": "/ˌen diː ˈeɪ/",
+            "partOfSpeech": "phrase",
+            "lemma": "NDA"
+          },
+          "sourceContext": {
+            "previousLine": "I have an idea I want to share.",
+            "targetLine": "You have to sign an NDA before we talk.",
+            "nextLine": "I don't share secrets without protection."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "保密协议"
+              ],
+              "corePhrase": "non-disclosure agreement",
+              "exampleTranslation": "在我们谈话前，你必须得签一份保密协议。",
+              "sceneNotes": "科技圈的护城河，大厂常常以交流为名把你的技术骗去，所以没有 NDA 是极其危险的事。",
+              "usageNotes": "缩写使用最高频词汇。全称 Non-Disclosure Agreement。"
+            }
+          },
           "alternatives": [
             "privacy deal",
             "confidentiality agreement"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 3
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "414da8f5-793b-470f-adce-9bc630bd821b",
-          "word": "pivot",
-          "phonetic": "/ˈpɪvət/",
-          "pos": "v./n.",
-          "meaning": "转型 / 枢纽点",
-          "phrase": "pivot the business",
-          "previousSentence": "This product isn't gaining traction.",
-          "exampleSentence": "The app is failing, so we are going to pivot.",
-          "exampleSentenceTranslation": "这应用火不起来，我们要转型做点别的。",
-          "nextSentence": "Let's use the core tech for something else.",
-          "sceneContext": "创业者们如果发现原有的点子无法赚钱（如音乐播放器），就迅速调头去做别的（如云压缩服务）。",
-          "usageTip": "原意是篮球的枢纽脚旋转。在创投领域代表死路不通赶紧尝试用原本的技术做新的生意方向，是个万能借口词。",
+          "cardId": "414da8f5-793b-470f-adce-9bc630bd821b",
+          "term": {
+            "text": "pivot",
+            "language": "en",
+            "phonetic": "/ˈpɪvət/",
+            "partOfSpeech": "v./n.",
+            "lemma": "pivot"
+          },
+          "sourceContext": {
+            "previousLine": "This product isn't gaining traction.",
+            "targetLine": "The app is failing, so we are going to pivot.",
+            "nextLine": "Let's use the core tech for something else."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "转型 / 枢纽点"
+              ],
+              "corePhrase": "pivot the business",
+              "exampleTranslation": "这应用火不起来，我们要转型做点别的。",
+              "sceneNotes": "创业者们如果发现原有的点子无法赚钱（如音乐播放器），就迅速调头去做别的（如云压缩服务）。",
+              "usageNotes": "原意是篮球的枢纽脚旋转。在创投领域代表死路不通赶紧尝试用原本的技术做新的生意方向，是个万能借口词。"
+            }
+          },
           "alternatives": [
             "strategic shift",
             "direction change",
             "turn"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 3
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "b57b66a2-7cc7-48df-80ab-7947efd6ed8a",
-          "word": "monetize",
-          "phonetic": "/ˈmʌnɪtaɪz/",
-          "pos": "v.",
-          "meaning": "变现 / 盈利",
-          "phrase": "monetize the traffic",
-          "previousSentence": "We have a million users.",
-          "exampleSentence": "How do you plan to monetize a free app?",
-          "exampleSentenceTranslation": "你打算如何让一个免费应用盈利？",
-          "nextSentence": "We need a sustainable revenue model.",
-          "sceneContext": "理查德一直专注于技术，而投资人们更关心如何通过算法赚钱（Monetize）。",
-          "usageTip": "商业语境必考。指的是如何把流量、数据或技术转化成钱的过程。",
+          "cardId": "b57b66a2-7cc7-48df-80ab-7947efd6ed8a",
+          "term": {
+            "text": "monetize",
+            "language": "en",
+            "phonetic": "/ˈmʌnɪtaɪz/",
+            "partOfSpeech": "v.",
+            "lemma": "monetize"
+          },
+          "sourceContext": {
+            "previousLine": "We have a million users.",
+            "targetLine": "How do you plan to monetize a free app?",
+            "nextLine": "We need a sustainable revenue model."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "变现 / 盈利"
+              ],
+              "corePhrase": "monetize the traffic",
+              "exampleTranslation": "你打算如何让一个免费应用盈利？",
+              "sceneNotes": "理查德一直专注于技术，而投资人们更关心如何通过算法赚钱（Monetize）。",
+              "usageNotes": "商业语境必考。指的是如何把流量、数据或技术转化成钱的过程。"
+            }
+          },
           "alternatives": [
             "commercialize",
             "cash in",
             "make profit"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 3
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "e53875fe-7ff7-4314-8d0f-d31cb522c4b5",
-          "word": "culture",
-          "phonetic": "/ˈkʌltʃər/",
-          "pos": "n.",
-          "meaning": "（企业）文化",
-          "phrase": "startup culture",
-          "previousSentence": "We don't need a hierarchy here.",
-          "exampleSentence": "You need to define your company culture now.",
-          "exampleSentenceTranslation": "你现在就需要定义你的公司文化了。",
-          "nextSentence": "It's about having ping-pong tables and free snacks.",
-          "sceneContext": "Jaroed 不断提醒理查德，即使只有三个人，也得建立所谓和谐的企业文化（Culture）。",
-          "usageTip": "硅谷极度病态且自负的一个词，通常指办公室里有没有免费零食或着装风格。",
+          "cardId": "e53875fe-7ff7-4314-8d0f-d31cb522c4b5",
+          "term": {
+            "text": "culture",
+            "language": "en",
+            "phonetic": "/ˈkʌltʃər/",
+            "partOfSpeech": "n.",
+            "lemma": "culture"
+          },
+          "sourceContext": {
+            "previousLine": "We don't need a hierarchy here.",
+            "targetLine": "You need to define your company culture now.",
+            "nextLine": "It's about having ping-pong tables and free snacks."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "（企业）文化"
+              ],
+              "corePhrase": "startup culture",
+              "exampleTranslation": "你现在就需要定义你的公司文化了。",
+              "sceneNotes": "Jaroed 不断提醒理查德，即使只有三个人，也得建立所谓和谐的企业文化（Culture）。",
+              "usageNotes": "硅谷极度病态且自负的一个词，通常指办公室里有没有免费零食或着装风格。"
+            }
+          },
           "alternatives": [
             "atmosphere",
             "values",
             "work enviroment"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 3
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         }
       ]
     },
     {
-      "showName": "Silicon Valley",
-      "season": 1,
-      "episode": 4,
+      "source": {
+        "showName": "Silicon Valley",
+        "seasonNumber": 1,
+        "episodeNumber": 4,
+        "episodeTitle": ""
+      },
+      "deckMetadata": {
+        "summary": {}
+      },
       "cards": [
         {
-          "id": "680618ce-9445-493e-893b-a32e4dbfd2e6",
-          "word": "scalable",
-          "phonetic": "/ˈskeɪləbl/",
-          "pos": "adj.",
-          "meaning": "可扩展的 / 可伸缩的",
-          "phrase": "highly scalable",
-          "previousSentence": "Will it crash if we get a million pings?",
-          "exampleSentence": "Our infrastructure needs to be highly scalable.",
-          "exampleSentenceTranslation": "我们的基础架构需要具备高度的可扩展性。",
-          "nextSentence": "It scales horizontally across all servers.",
-          "sceneContext": "理查德的算法之所以厉害，是因为它能应付海量的用户增长而不会彻底崩溃（Crash）。",
-          "usageTip": "后端开发和架构设计的终极目标。形容系统能否应对压力增加而平滑扩容。",
+          "cardId": "680618ce-9445-493e-893b-a32e4dbfd2e6",
+          "term": {
+            "text": "scalable",
+            "language": "en",
+            "phonetic": "/ˈskeɪləbl/",
+            "partOfSpeech": "adj.",
+            "lemma": "scalable"
+          },
+          "sourceContext": {
+            "previousLine": "Will it crash if we get a million pings?",
+            "targetLine": "Our infrastructure needs to be highly scalable.",
+            "nextLine": "It scales horizontally across all servers."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "可扩展的 / 可伸缩的"
+              ],
+              "corePhrase": "highly scalable",
+              "exampleTranslation": "我们的基础架构需要具备高度的可扩展性。",
+              "sceneNotes": "理查德的算法之所以厉害，是因为它能应付海量的用户增长而不会彻底崩溃（Crash）。",
+              "usageNotes": "后端开发和架构设计的终极目标。形容系统能否应对压力增加而平滑扩容。"
+            }
+          },
           "alternatives": [
             "extensible",
             "expandable",
             "robust"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 4
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "32f71838-cac3-4863-bd13-70f786c58316",
-          "word": "optimize",
-          "phonetic": "/ˈɔːptɪmaɪz/",
-          "pos": "v.",
-          "meaning": "优化",
-          "phrase": "optimize performance",
-          "previousSentence": "The site is loading too slowly.",
-          "exampleSentence": "We need to optimize the middle-out algorithm.",
-          "exampleSentenceTranslation": "我们需要优化“中出”算法的执行效率。",
-          "nextSentence": "We need to rewrite the core loop.",
-          "sceneContext": "极客们为了在 TechCrunch 比赛中胜出，必须在最后时刻不断压缩每一行代码的执行时间。",
-          "usageTip": "动词。软件开发中极其高频：optimize performance / optimize code。",
+          "cardId": "32f71838-cac3-4863-bd13-70f786c58316",
+          "term": {
+            "text": "optimize",
+            "language": "en",
+            "phonetic": "/ˈɔːptɪmaɪz/",
+            "partOfSpeech": "v.",
+            "lemma": "optimize"
+          },
+          "sourceContext": {
+            "previousLine": "The site is loading too slowly.",
+            "targetLine": "We need to optimize the middle-out algorithm.",
+            "nextLine": "We need to rewrite the core loop."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "优化"
+              ],
+              "corePhrase": "optimize performance",
+              "exampleTranslation": "我们需要优化“中出”算法的执行效率。",
+              "sceneNotes": "极客们为了在 TechCrunch 比赛中胜出，必须在最后时刻不断压缩每一行代码的执行时间。",
+              "usageNotes": "动词。软件开发中极其高频：optimize performance / optimize code。"
+            }
+          },
           "alternatives": [
             "refine",
             "improve",
             "polish"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 4
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "a38e2785-c7bb-4492-9442-4a4481dee854",
-          "word": "leverage",
-          "phonetic": "/ˈlevərɪdʒ/",
-          "pos": "v./n.",
-          "meaning": "利用 / 杠杆",
-          "phrase": "leverage resources",
-          "previousSentence": "We have no money for marketing.",
-          "exampleSentence": "We can leverage our existing user base.",
-          "exampleSentenceTranslation": "我们可以利用现有的用户群作为杠杆。",
-          "nextSentence": "We use our social media hacks to gain reach.",
-          "sceneContext": "商业上如何撬动更多的资源。剧中角色利用大公司的傲慢作为自己的筹码（Leverage）。",
-          "usageTip": "不仅指物理杠杆，商业上指“利用有限资源换取最大收益”。",
+          "cardId": "a38e2785-c7bb-4492-9442-4a4481dee854",
+          "term": {
+            "text": "leverage",
+            "language": "en",
+            "phonetic": "/ˈlevərɪdʒ/",
+            "partOfSpeech": "v./n.",
+            "lemma": "leverage"
+          },
+          "sourceContext": {
+            "previousLine": "We have no money for marketing.",
+            "targetLine": "We can leverage our existing user base.",
+            "nextLine": "We use our social media hacks to gain reach."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "利用 / 杠杆"
+              ],
+              "corePhrase": "leverage resources",
+              "exampleTranslation": "我们可以利用现有的用户群作为杠杆。",
+              "sceneNotes": "商业上如何撬动更多的资源。剧中角色利用大公司的傲慢作为自己的筹码（Leverage）。",
+              "usageNotes": "不仅指物理杠杆，商业上指“利用有限资源换取最大收益”。"
+            }
+          },
           "alternatives": [
             "exploit",
             "utilize",
             "harness"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 4
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "ef4e71df-f402-432d-aa01-b61ed2065800",
-          "word": "infrastructure",
-          "phonetic": "/ˈɪnfrəstrʌktʃər/",
-          "pos": "n.",
-          "meaning": "基础设施 / 架构",
-          "phrase": "critical infrastructure",
-          "previousSentence": "Where are the servers located?",
-          "exampleSentence": "We need to build a better cloud infrastructure.",
-          "exampleSentenceTranslation": "我们需要构建一个更好的云端基础设施。",
-          "nextSentence": "We are building our own private cloud.",
-          "sceneContext": "为了支持算法运行，Gilfoyle 必须在家里堆满昂贵的服务器和线缆，这就是他们的 Infrastructure。",
-          "usageTip": "名词。指维持一个大系统（如网络、电力或国家）正常运转的基础设施。",
+          "cardId": "ef4e71df-f402-432d-aa01-b61ed2065800",
+          "term": {
+            "text": "infrastructure",
+            "language": "en",
+            "phonetic": "/ˈɪnfrəstrʌktʃər/",
+            "partOfSpeech": "n.",
+            "lemma": "infrastructure"
+          },
+          "sourceContext": {
+            "previousLine": "Where are the servers located?",
+            "targetLine": "We need to build a better cloud infrastructure.",
+            "nextLine": "We are building our own private cloud."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "基础设施 / 架构"
+              ],
+              "corePhrase": "critical infrastructure",
+              "exampleTranslation": "我们需要构建一个更好的云端基础设施。",
+              "sceneNotes": "为了支持算法运行，Gilfoyle 必须在家里堆满昂贵的服务器和线缆，这就是他们的 Infrastructure。",
+              "usageNotes": "名词。指维持一个大系统（如网络、电力或国家）正常运转的基础设施。"
+            }
+          },
           "alternatives": [
             "architecture",
             "framework",
             "backbone"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 4
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "8ffbe4ce-6442-452c-b708-0c6ed6247ae6",
-          "word": "bandwidth",
-          "phonetic": "/ˈbændwɪdθ/",
-          "pos": "n.",
-          "meaning": "带宽",
-          "phrase": "limited bandwidth",
-          "previousSentence": "Why is the stream lagging?",
-          "exampleSentence": "Streaming 4K video takes a lot of bandwidth.",
-          "exampleSentenceTranslation": "流式传输 4K 视频会占用大量带宽。",
-          "nextSentence": "The pipe is full, we need more capacity.",
-          "sceneContext": "压缩算法的核心价值就在于它能节省由于昂贵的带宽（Bandwidth）带来的运营成本。",
-          "usageTip": "不仅指网速，商业上常被比喻为“处理能力/精力”（如：I don't have the bandwidth for this task）。",
+          "cardId": "8ffbe4ce-6442-452c-b708-0c6ed6247ae6",
+          "term": {
+            "text": "bandwidth",
+            "language": "en",
+            "phonetic": "/ˈbændwɪdθ/",
+            "partOfSpeech": "n.",
+            "lemma": "bandwidth"
+          },
+          "sourceContext": {
+            "previousLine": "Why is the stream lagging?",
+            "targetLine": "Streaming 4K video takes a lot of bandwidth.",
+            "nextLine": "The pipe is full, we need more capacity."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "带宽"
+              ],
+              "corePhrase": "limited bandwidth",
+              "exampleTranslation": "流式传输 4K 视频会占用大量带宽。",
+              "sceneNotes": "压缩算法的核心价值就在于它能节省由于昂贵的带宽（Bandwidth）带来的运营成本。",
+              "usageNotes": "不仅指网速，商业上常被比喻为“处理能力/精力”（如：I don't have the bandwidth for this task）。"
+            }
+          },
           "alternatives": [
             "capacity",
             "throughput",
             "connection speed"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 4
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "77a569f2-6fd8-4e97-81c0-acd0e0b74762",
-          "word": "latency",
-          "phonetic": "/ˈleɪtənsi/",
-          "pos": "n.",
-          "meaning": "延迟 / 延时",
-          "phrase": "low latency",
-          "previousSentence": "The delay is kills the experience.",
-          "exampleSentence": "High latency will ruin the user experience.",
-          "exampleSentenceTranslation": "高延迟会破坏用户体验。",
-          "nextSentence": "We need to reduce the ping time.",
-          "sceneContext": "在实时视频流传输中，任何一点延迟（Latency）都会让用户感到卡顿。",
-          "usageTip": "IT 核心术语。指数据从 A 点传到 B 点所需的时间。",
+          "cardId": "77a569f2-6fd8-4e97-81c0-acd0e0b74762",
+          "term": {
+            "text": "latency",
+            "language": "en",
+            "phonetic": "/ˈleɪtənsi/",
+            "partOfSpeech": "n.",
+            "lemma": "latency"
+          },
+          "sourceContext": {
+            "previousLine": "The delay is kills the experience.",
+            "targetLine": "High latency will ruin the user experience.",
+            "nextLine": "We need to reduce the ping time."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "延迟 / 延时"
+              ],
+              "corePhrase": "low latency",
+              "exampleTranslation": "高延迟会破坏用户体验。",
+              "sceneNotes": "在实时视频流传输中，任何一点延迟（Latency）都会让用户感到卡顿。",
+              "usageNotes": "IT 核心术语。指数据从 A 点传到 B 点所需的时间。"
+            }
+          },
           "alternatives": [
             "delay",
             "lag",
             "response time"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 4
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         }
       ]
     },
     {
-      "showName": "Silicon Valley",
-      "season": 1,
-      "episode": 5,
+      "source": {
+        "showName": "Silicon Valley",
+        "seasonNumber": 1,
+        "episodeNumber": 5,
+        "episodeTitle": ""
+      },
+      "deckMetadata": {
+        "summary": {}
+      },
       "cards": [
         {
-          "id": "ac4a6dbb-1cec-4942-b5aa-fd4af5494120",
-          "word": "deploy",
-          "phonetic": "/dɪˈplɔɪ/",
-          "pos": "v.",
-          "meaning": "部署 (上线)",
-          "phrase": "deploy to production",
-          "previousSentence": "Is the code tested?",
-          "exampleSentence": "The project is ready to deploy to production.",
-          "exampleSentenceTranslation": "项目已经准备好部署到生产环境了。",
-          "nextSentence": "Pushing the changes live right now.",
-          "sceneContext": "理查德颤抖着手按下“Deploy”键，将 Pied Piper 的第一个正式版本推向全世界。",
-          "usageTip": "程序员的日常。指把写好的代码放到真实的服务器上让用户使用。",
+          "cardId": "ac4a6dbb-1cec-4942-b5aa-fd4af5494120",
+          "term": {
+            "text": "deploy",
+            "language": "en",
+            "phonetic": "/dɪˈplɔɪ/",
+            "partOfSpeech": "v.",
+            "lemma": "deploy"
+          },
+          "sourceContext": {
+            "previousLine": "Is the code tested?",
+            "targetLine": "The project is ready to deploy to production.",
+            "nextLine": "Pushing the changes live right now."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "部署 (上线)"
+              ],
+              "corePhrase": "deploy to production",
+              "exampleTranslation": "项目已经准备好部署到生产环境了。",
+              "sceneNotes": "理查德颤抖着手按下“Deploy”键，将 Pied Piper 的第一个正式版本推向全世界。",
+              "usageNotes": "程序员的日常。指把写好的代码放到真实的服务器上让用户使用。"
+            }
+          },
           "alternatives": [
             "release",
             "launch",
             "ship"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 5
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "71f73eeb-368b-4f34-9cf4-49653298c6f5",
-          "word": "debug",
-          "phonetic": "/ˌdiːˈbʌɡ/",
-          "pos": "v.",
-          "meaning": "调试 / 排错",
-          "phrase": "debug the backend",
-          "previousSentence": "The app is crashing on startup.",
-          "exampleSentence": "I stayed up all night to debug the system.",
-          "exampleSentenceTranslation": "我通宵达旦地调试系统。",
-          "nextSentence": "Found the null pointer exception.",
-          "sceneContext": "技术宅们的宿命：在这个充满漏洞的互联网世界，理查德总是在最后关头通过修 Bug 来挽救公司。",
-          "usageTip": "动词词根 bug。口语常说：We are debugging the issue (我们在查问题)。",
+          "cardId": "71f73eeb-368b-4f34-9cf4-49653298c6f5",
+          "term": {
+            "text": "debug",
+            "language": "en",
+            "phonetic": "/ˌdiːˈbʌɡ/",
+            "partOfSpeech": "v.",
+            "lemma": "debug"
+          },
+          "sourceContext": {
+            "previousLine": "The app is crashing on startup.",
+            "targetLine": "I stayed up all night to debug the system.",
+            "nextLine": "Found the null pointer exception."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "调试 / 排错"
+              ],
+              "corePhrase": "debug the backend",
+              "exampleTranslation": "我通宵达旦地调试系统。",
+              "sceneNotes": "技术宅们的宿命：在这个充满漏洞的互联网世界，理查德总是在最后关头通过修 Bug 来挽救公司。",
+              "usageNotes": "动词词根 bug。口语常说：We are debugging the issue (我们在查问题)。"
+            }
+          },
           "alternatives": [
             "troubleshoot",
             "fix",
             "patch"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 5
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "49393ed4-0456-4fbc-89e2-85c0ab5679ef",
-          "word": "vaporware",
-          "phonetic": "/ˈveɪpərwer/",
-          "pos": "n.",
-          "meaning": "雾件 (虚假产品)",
-          "phrase": "pure vaporware",
-          "previousSentence": "Where is the demo?",
-          "exampleSentence": "They don't have a backend! It's all vaporware.",
-          "exampleSentenceTranslation": "他们根本没有后台！全都是拿来骗人的半成品。",
-          "nextSentence": "They are just selling a promise.",
-          "sceneContext": "大公司常抢先发布虚假的产品PPT或不能跑的代码来恐吓小企业，这种不存在的软件叫雾件。",
-          "usageTip": "词根 vapor (水汽) + ware。代表像空气一样看不见摸不着的空头支票产品。",
+          "cardId": "49393ed4-0456-4fbc-89e2-85c0ab5679ef",
+          "term": {
+            "text": "vaporware",
+            "language": "en",
+            "phonetic": "/ˈveɪpərwer/",
+            "partOfSpeech": "n.",
+            "lemma": "vaporware"
+          },
+          "sourceContext": {
+            "previousLine": "Where is the demo?",
+            "targetLine": "They don't have a backend! It's all vaporware.",
+            "nextLine": "They are just selling a promise."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "雾件 (虚假产品)"
+              ],
+              "corePhrase": "pure vaporware",
+              "exampleTranslation": "他们根本没有后台！全都是拿来骗人的半成品。",
+              "sceneNotes": "大公司常抢先发布虚假的产品PPT或不能跑的代码来恐吓小企业，这种不存在的软件叫雾件。",
+              "usageNotes": "词根 vapor (水汽) + ware。代表像空气一样看不见摸不着的空头支票产品。"
+            }
+          },
           "alternatives": [
             "ghostware",
             "hollow product",
             "fake app"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 5
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "67a6769c-4e66-421e-8cb5-cfedf0314ae3",
-          "word": "backend",
-          "phonetic": "/ˈbækˌend/",
-          "pos": "n.",
-          "meaning": "后端 (服务端)",
-          "phrase": "backend development",
-          "previousSentence": "The UI looks great.",
-          "exampleSentence": "Is the backend server ready for the stress test?",
-          "exampleSentenceTranslation": "后端服务器准备好进行压力测试了吗？",
-          "nextSentence": "But the logic behind it is broken.",
-          "sceneContext": "Gilfoyle 傲慢地声称他写的后端代码是整个硅谷最稳固的防线。",
-          "usageTip": "程序员分工。反义词为 frontend (前端)。",
+          "cardId": "67a6769c-4e66-421e-8cb5-cfedf0314ae3",
+          "term": {
+            "text": "backend",
+            "language": "en",
+            "phonetic": "/ˈbækˌend/",
+            "partOfSpeech": "n.",
+            "lemma": "backend"
+          },
+          "sourceContext": {
+            "previousLine": "The UI looks great.",
+            "targetLine": "Is the backend server ready for the stress test?",
+            "nextLine": "But the logic behind it is broken."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "后端 (服务端)"
+              ],
+              "corePhrase": "backend development",
+              "exampleTranslation": "后端服务器准备好进行压力测试了吗？",
+              "sceneNotes": "Gilfoyle 傲慢地声称他写的后端代码是整个硅谷最稳固的防线。",
+              "usageNotes": "程序员分工。反义词为 frontend (前端)。"
+            }
+          },
           "alternatives": [
             "server-side",
             "core engine",
             "logic layer"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 5
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "1cda8e1d-192b-45e7-b189-b751e9e36eb7",
-          "word": "agile",
-          "phonetic": "/ˈædʒl/",
-          "pos": "adj.",
-          "meaning": "敏捷的 (开发模式)",
-          "phrase": "agile sprint",
-          "previousSentence": "We need to be faster.",
-          "exampleSentence": "We follow the agile methodology for development.",
-          "exampleSentenceTranslation": "我们遵循敏捷开发方法论进行开发。",
-          "nextSentence": "We work in two-week cycles.",
-          "sceneContext": "Jared 引入的正统项目管理方法，要求不断迭代并快速反馈。",
-          "usageTip": "不仅指人灵活，在 IT 圈是“敏捷开发”的专属形容词。",
+          "cardId": "1cda8e1d-192b-45e7-b189-b751e9e36eb7",
+          "term": {
+            "text": "agile",
+            "language": "en",
+            "phonetic": "/ˈædʒl/",
+            "partOfSpeech": "adj.",
+            "lemma": "agile"
+          },
+          "sourceContext": {
+            "previousLine": "We need to be faster.",
+            "targetLine": "We follow the agile methodology for development.",
+            "nextLine": "We work in two-week cycles."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "敏捷的 (开发模式)"
+              ],
+              "corePhrase": "agile sprint",
+              "exampleTranslation": "我们遵循敏捷开发方法论进行开发。",
+              "sceneNotes": "Jared 引入的正统项目管理方法，要求不断迭代并快速反馈。",
+              "usageNotes": "不仅指人灵活，在 IT 圈是“敏捷开发”的专属形容词。"
+            }
+          },
           "alternatives": [
             "flexible",
             "nimble",
             "adaptive"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 5
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "efef2a2a-af98-4eb6-b163-49d1c8574ec7",
-          "word": "redundancy",
-          "phonetic": "/rɪˈdʌndənsi/",
-          "pos": "n.",
-          "meaning": "冗余 / 备份",
-          "phrase": "system redundancy",
-          "previousSentence": "What if the main server fails?",
-          "exampleSentence": "We need more server redundancy to prevent downtime.",
-          "exampleSentenceTranslation": "我们需要更多的服务器冗余以防止停机。",
-          "nextSentence": "The backup kicks in automatically.",
-          "sceneContext": "为了保证核心数据不出错，Gilfoyle 这种强迫症黑客会做多套备份（Redundancy）。",
-          "usageTip": "在职场也指“裁员带来的冗余人员”。技术上指为了高可用而做的重复备份。",
+          "cardId": "efef2a2a-af98-4eb6-b163-49d1c8574ec7",
+          "term": {
+            "text": "redundancy",
+            "language": "en",
+            "phonetic": "/rɪˈdʌndənsi/",
+            "partOfSpeech": "n.",
+            "lemma": "redundancy"
+          },
+          "sourceContext": {
+            "previousLine": "What if the main server fails?",
+            "targetLine": "We need more server redundancy to prevent downtime.",
+            "nextLine": "The backup kicks in automatically."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "冗余 / 备份"
+              ],
+              "corePhrase": "system redundancy",
+              "exampleTranslation": "我们需要更多的服务器冗余以防止停机。",
+              "sceneNotes": "为了保证核心数据不出错，Gilfoyle 这种强迫症黑客会做多套备份（Redundancy）。",
+              "usageNotes": "在职场也指“裁员带来的冗余人员”。技术上指为了高可用而做的重复备份。"
+            }
+          },
           "alternatives": [
             "backup",
             "duplication",
             "fail-safe"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 5
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         }
       ]
     },
     {
-      "showName": "Silicon Valley",
-      "season": 1,
-      "episode": 6,
+      "source": {
+        "showName": "Silicon Valley",
+        "seasonNumber": 1,
+        "episodeNumber": 6,
+        "episodeTitle": ""
+      },
+      "deckMetadata": {
+        "summary": {}
+      },
       "cards": [
         {
-          "id": "f16ad646-5c15-4d3b-b757-2b56cc80fafd",
-          "word": "codebase",
-          "phonetic": "/ˈkoʊdbeɪs/",
-          "pos": "n.",
-          "meaning": "代码库",
-          "phrase": "legacy codebase",
-          "previousSentence": "The code is a mess.",
-          "exampleSentence": "We need to clean up the entire codebase.",
-          "exampleSentenceTranslation": "我们需要清理一下整个代码库了。",
-          "nextSentence": "We need to refactor it from scratch.",
-          "sceneContext": "随着团队扩充，大家必须面对日益庞杂且混乱的原始代码（codebase）。",
-          "usageTip": "指一个软件项目的所有源文件集合。",
+          "cardId": "f16ad646-5c15-4d3b-b757-2b56cc80fafd",
+          "term": {
+            "text": "codebase",
+            "language": "en",
+            "phonetic": "/ˈkoʊdbeɪs/",
+            "partOfSpeech": "n.",
+            "lemma": "codebase"
+          },
+          "sourceContext": {
+            "previousLine": "The code is a mess.",
+            "targetLine": "We need to clean up the entire codebase.",
+            "nextLine": "We need to refactor it from scratch."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "代码库"
+              ],
+              "corePhrase": "legacy codebase",
+              "exampleTranslation": "我们需要清理一下整个代码库了。",
+              "sceneNotes": "随着团队扩充，大家必须面对日益庞杂且混乱的原始代码（codebase）。",
+              "usageNotes": "指一个软件项目的所有源文件集合。"
+            }
+          },
           "alternatives": [
             "source code",
             "project files",
             "repo"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 6
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "d4cff8f4-c848-411b-aa97-709fc1aa7166",
-          "word": "iterate",
-          "phonetic": "/ˈɪtəreɪt/",
-          "pos": "v.",
-          "meaning": "迭代",
-          "phrase": "iterate on design",
-          "previousSentence": "Is the first version perfect?",
-          "exampleSentence": "Move fast and iterate quickly.",
-          "exampleSentenceTranslation": "行动敏捷，快速迭代。",
-          "nextSentence": "We will ship it and fix it later.",
-          "sceneContext": "硅谷名言：不要等到完美才发布。先做个半成品扔给用户，然后不断地快速迭代（Iterate）。",
-          "usageTip": "软件工程核心逻辑。指不断重复某个过程以逼近理想结果。",
+          "cardId": "d4cff8f4-c848-411b-aa97-709fc1aa7166",
+          "term": {
+            "text": "iterate",
+            "language": "en",
+            "phonetic": "/ˈɪtəreɪt/",
+            "partOfSpeech": "v.",
+            "lemma": "iterate"
+          },
+          "sourceContext": {
+            "previousLine": "Is the first version perfect?",
+            "targetLine": "Move fast and iterate quickly.",
+            "nextLine": "We will ship it and fix it later."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "迭代"
+              ],
+              "corePhrase": "iterate on design",
+              "exampleTranslation": "行动敏捷，快速迭代。",
+              "sceneNotes": "硅谷名言：不要等到完美才发布。先做个半成品扔给用户，然后不断地快速迭代（Iterate）。",
+              "usageNotes": "软件工程核心逻辑。指不断重复某个过程以逼近理想结果。"
+            }
+          },
           "alternatives": [
             "repeat",
             "refine",
             "cycle"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 6
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "c1010026-62a2-40a4-8c68-e90ccde9e8d2",
-          "word": "scrum",
-          "phonetic": "/skrʌm/",
-          "pos": "n.",
-          "meaning": "敏捷开发站会",
-          "phrase": "scrum master",
-          "previousSentence": "When is the next meeting?",
-          "exampleSentence": "Let's do a quick scrum meeting.",
-          "exampleSentenceTranslation": "我们来个快速站立早会同步一下。",
-          "nextSentence": "Keep the updates under five minutes.",
-          "sceneContext": "Jared 强迫这帮散漫的极客做计划、贴任务板。把极客们逼疯的管理模式。",
-          "usageTip": "IT界著名的项目管理术语。站立短会或者冲刺阶段计划的代名词。",
+          "cardId": "c1010026-62a2-40a4-8c68-e90ccde9e8d2",
+          "term": {
+            "text": "scrum",
+            "language": "en",
+            "phonetic": "/skrʌm/",
+            "partOfSpeech": "n.",
+            "lemma": "scrum"
+          },
+          "sourceContext": {
+            "previousLine": "When is the next meeting?",
+            "targetLine": "Let's do a quick scrum meeting.",
+            "nextLine": "Keep the updates under five minutes."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "敏捷开发站会"
+              ],
+              "corePhrase": "scrum master",
+              "exampleTranslation": "我们来个快速站立早会同步一下。",
+              "sceneNotes": "Jared 强迫这帮散漫的极客做计划、贴任务板。把极客们逼疯的管理模式。",
+              "usageNotes": "IT界著名的项目管理术语。站立短会或者冲刺阶段计划的代名词。"
+            }
+          },
           "alternatives": [
             "huddle",
             "stand-up",
             "briefing"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 6
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "8314f0aa-ac43-4337-a4ec-52842611d1de",
-          "word": "adderall",
-          "phonetic": "/ˈædərɒl/",
-          "pos": "n.",
-          "meaning": "阿德拉 (处方药)",
-          "phrase": "take adderall",
-          "previousSentence": "How can he code for 48 hours?",
-          "exampleSentence": "He is too focused because of the adderall.",
-          "exampleSentenceTranslation": "因为吃了阿德拉，他现在处于极度兴奋和专注中。",
-          "nextSentence": "It's a dangerous way to stay focused.",
-          "sceneContext": "剧中年轻黑客为了通宵写代码，不惜滥用这种药物，讽刺了高压编程亚文化。",
-          "usageTip": "专有名词，IT 从业者口中的“专注神药”，虽危险却在剧中极高频出现。",
+          "cardId": "8314f0aa-ac43-4337-a4ec-52842611d1de",
+          "term": {
+            "text": "adderall",
+            "language": "en",
+            "phonetic": "/ˈædərɒl/",
+            "partOfSpeech": "n.",
+            "lemma": "adderall"
+          },
+          "sourceContext": {
+            "previousLine": "How can he code for 48 hours?",
+            "targetLine": "He is too focused because of the adderall.",
+            "nextLine": "It's a dangerous way to stay focused."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "阿德拉 (处方药)"
+              ],
+              "corePhrase": "take adderall",
+              "exampleTranslation": "因为吃了阿德拉，他现在处于极度兴奋和专注中。",
+              "sceneNotes": "剧中年轻黑客为了通宵写代码，不惜滥用这种药物，讽刺了高压编程亚文化。",
+              "usageNotes": "专有名词，IT 从业者口中的“专注神药”，虽危险却在剧中极高频出现。"
+            }
+          },
           "alternatives": [
             "focus drug",
             "smart pill"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 6
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "1a11f8de-1307-4e94-b85b-812505cb06e4",
-          "word": "specification",
-          "phonetic": "/ˌspesɪfɪˈkeɪʃn/",
-          "pos": "n.",
-          "meaning": "规格 / 说明书",
-          "phrase": "technical specification",
-          "previousSentence": "How should it integrate?",
-          "exampleSentence": "Look at the technical specification of the chip.",
-          "exampleSentenceTranslation": "看看这个芯片的技术规格说明书。",
-          "nextSentence": "Follow the documents precisely.",
-          "sceneContext": "如果要让不同的程序无缝协作，必须严格遵守一份技术规范（Spec）。",
-          "usageTip": "口语常用简称 spec。如：Is it according to the spec?",
+          "cardId": "1a11f8de-1307-4e94-b85b-812505cb06e4",
+          "term": {
+            "text": "specification",
+            "language": "en",
+            "phonetic": "/ˌspesɪfɪˈkeɪʃn/",
+            "partOfSpeech": "n.",
+            "lemma": "specification"
+          },
+          "sourceContext": {
+            "previousLine": "How should it integrate?",
+            "targetLine": "Look at the technical specification of the chip.",
+            "nextLine": "Follow the documents precisely."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "规格 / 说明书"
+              ],
+              "corePhrase": "technical specification",
+              "exampleTranslation": "看看这个芯片的技术规格说明书。",
+              "sceneNotes": "如果要让不同的程序无缝协作，必须严格遵守一份技术规范（Spec）。",
+              "usageNotes": "口语常用简称 spec。如：Is it according to the spec?"
+            }
+          },
           "alternatives": [
             "spec",
             "standard",
             "guide"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 6
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "20a2d5a1-7cdf-4f5e-8a5c-786fd1889aca",
-          "word": "fullstack",
-          "phonetic": "/ˌfʊl ˈstæk/",
-          "pos": "adj.",
-          "meaning": "全栈的",
-          "phrase": "fullstack engineer",
-          "previousSentence": "I can build the entire app alone.",
-          "exampleSentence": "We are looking for a fullstack engineer.",
-          "exampleSentenceTranslation": "我们正在寻找一位全栈工程师。",
-          "nextSentence": "He knows both SQL and React.",
-          "sceneContext": "理查德试图证明他既能写逻辑后端，也能搞定交互前端（Fullstack）。",
-          "usageTip": "指既懂前端也懂后端的全能型开发者。",
+          "cardId": "20a2d5a1-7cdf-4f5e-8a5c-786fd1889aca",
+          "term": {
+            "text": "fullstack",
+            "language": "en",
+            "phonetic": "/ˌfʊl ˈstæk/",
+            "partOfSpeech": "adj.",
+            "lemma": "fullstack"
+          },
+          "sourceContext": {
+            "previousLine": "I can build the entire app alone.",
+            "targetLine": "We are looking for a fullstack engineer.",
+            "nextLine": "He knows both SQL and React."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "全栈的"
+              ],
+              "corePhrase": "fullstack engineer",
+              "exampleTranslation": "我们正在寻找一位全栈工程师。",
+              "sceneNotes": "理查德试图证明他既能写逻辑后端，也能搞定交互前端（Fullstack）。",
+              "usageNotes": "指既懂前端也懂后端的全能型开发者。"
+            }
+          },
           "alternatives": [
             "polyglot developer",
             "end-to-end dev"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 6
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         }
       ]
     },
     {
-      "showName": "Silicon Valley",
-      "season": 1,
-      "episode": 7,
+      "source": {
+        "showName": "Silicon Valley",
+        "seasonNumber": 1,
+        "episodeNumber": 7,
+        "episodeTitle": ""
+      },
+      "deckMetadata": {
+        "summary": {}
+      },
       "cards": [
         {
-          "id": "fc5fe2e0-2a5f-4568-8f2f-0e8eead3a877",
-          "word": "metrics",
-          "phonetic": "/ˈmetrɪks/",
-          "pos": "n.",
-          "meaning": "指标 / 衡量标准",
-          "phrase": "key performance metrics",
-          "previousSentence": "Is the company doing well?",
-          "exampleSentence": "The investors want to see the retention metrics.",
-          "exampleSentenceTranslation": "投资人想要看留存率指标。",
-          "nextSentence": "Look at the DAU and MAU numbers.",
-          "sceneContext": "VC 不仅看情怀，更看重真实的用户下载量、留存率等冰冷的数据（Metrics）。",
-          "usageTip": "商业语境高频。常见的有 North Star Metric (北极星指标)。",
+          "cardId": "fc5fe2e0-2a5f-4568-8f2f-0e8eead3a877",
+          "term": {
+            "text": "metrics",
+            "language": "en",
+            "phonetic": "/ˈmetrɪks/",
+            "partOfSpeech": "n.",
+            "lemma": "metrics"
+          },
+          "sourceContext": {
+            "previousLine": "Is the company doing well?",
+            "targetLine": "The investors want to see the retention metrics.",
+            "nextLine": "Look at the DAU and MAU numbers."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "指标 / 衡量标准"
+              ],
+              "corePhrase": "key performance metrics",
+              "exampleTranslation": "投资人想要看留存率指标。",
+              "sceneNotes": "VC 不仅看情怀，更看重真实的用户下载量、留存率等冰冷的数据（Metrics）。",
+              "usageNotes": "商业语境高频。常见的有 North Star Metric (北极星指标)。"
+            }
+          },
           "alternatives": [
             "KPIs",
             "indicators",
             "measures"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 7
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "efc4394e-2c22-41e0-bebc-0459ac7be02b",
-          "word": "analytics",
-          "phonetic": "/ˌænəˈlɪtɪks/",
-          "pos": "n.",
-          "meaning": "数据分析",
-          "phrase": "predictive analytics",
-          "previousSentence": "We have too much data.",
-          "exampleSentence": "The dashboard provides real-time traffic analytics.",
-          "exampleSentenceTranslation": "这个仪表盘提供实时的流量数据分析。",
-          "nextSentence": "Let's find the patterns in usage.",
-          "sceneContext": "Jared 通过用户行为数据分析，发现产品出了问题。",
-          "usageTip": "名词且通常用复数。Data analytics 是现在最火的职位之一。",
+          "cardId": "efc4394e-2c22-41e0-bebc-0459ac7be02b",
+          "term": {
+            "text": "analytics",
+            "language": "en",
+            "phonetic": "/ˌænəˈlɪtɪks/",
+            "partOfSpeech": "n.",
+            "lemma": "analytics"
+          },
+          "sourceContext": {
+            "previousLine": "We have too much data.",
+            "targetLine": "The dashboard provides real-time traffic analytics.",
+            "nextLine": "Let's find the patterns in usage."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "数据分析"
+              ],
+              "corePhrase": "predictive analytics",
+              "exampleTranslation": "这个仪表盘提供实时的流量数据分析。",
+              "sceneNotes": "Jared 通过用户行为数据分析，发现产品出了问题。",
+              "usageNotes": "名词且通常用复数。Data analytics 是现在最火的职位之一。"
+            }
+          },
           "alternatives": [
             "data science",
             "insights",
             "profiling"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 7
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "f45e35d9-7b22-4d0a-95db-2506a1cc3a1f",
-          "word": "traction",
-          "phonetic": "/ˈtrækʃən/",
-          "pos": "n.",
-          "meaning": "牵引力 / 用户增长势头",
-          "phrase": "market traction",
-          "previousSentence": "Nobody is using the tool.",
-          "exampleSentence": "We are finally getting some traction in the market.",
-          "exampleSentenceTranslation": "我们在市场上终于获得了一点起色和增长势头了。",
-          "nextSentence": "We need to hit the exponential curve.",
-          "sceneContext": "对于一家初创公司，如果没人在下载你的应用，那就意味着你没有 traction。",
-          "usageTip": "创投界黑话。指产品被市场接受的程度和增长的速度。",
+          "cardId": "f45e35d9-7b22-4d0a-95db-2506a1cc3a1f",
+          "term": {
+            "text": "traction",
+            "language": "en",
+            "phonetic": "/ˈtrækʃən/",
+            "partOfSpeech": "n.",
+            "lemma": "traction"
+          },
+          "sourceContext": {
+            "previousLine": "Nobody is using the tool.",
+            "targetLine": "We are finally getting some traction in the market.",
+            "nextLine": "We need to hit the exponential curve."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "牵引力 / 用户增长势头"
+              ],
+              "corePhrase": "market traction",
+              "exampleTranslation": "我们在市场上终于获得了一点起色和增长势头了。",
+              "sceneNotes": "对于一家初创公司，如果没人在下载你的应用，那就意味着你没有 traction。",
+              "usageNotes": "创投界黑话。指产品被市场接受的程度和增长的速度。"
+            }
+          },
           "alternatives": [
             "momentum",
             "growth",
             "progress"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 7
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "f865524e-7217-4d0e-865f-fb2a49d3a25d",
-          "word": "revenue",
-          "phonetic": "/ˈrevənuː/",
-          "pos": "n.",
-          "meaning": "收入 (营业额)",
-          "phrase": "recurring revenue",
-          "previousSentence": "Are we making any money?",
-          "exampleSentence": "We are pre-revenue, but we have high user engagement.",
-          "exampleSentenceTranslation": "我们还没产生收入，但我们用户活跃度极高。",
-          "nextSentence": "Sales are finally picking up.",
-          "sceneContext": "小公司通常还在疯狂烧钱阶段（Pre-revenue），还没有实现真正盈利。",
-          "usageTip": "商业语境下对比 income 更正式，特指企业的总营业收入。",
+          "cardId": "f865524e-7217-4d0e-865f-fb2a49d3a25d",
+          "term": {
+            "text": "revenue",
+            "language": "en",
+            "phonetic": "/ˈrevənuː/",
+            "partOfSpeech": "n.",
+            "lemma": "revenue"
+          },
+          "sourceContext": {
+            "previousLine": "Are we making any money?",
+            "targetLine": "We are pre-revenue, but we have high user engagement.",
+            "nextLine": "Sales are finally picking up."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "收入 (营业额)"
+              ],
+              "corePhrase": "recurring revenue",
+              "exampleTranslation": "我们还没产生收入，但我们用户活跃度极高。",
+              "sceneNotes": "小公司通常还在疯狂烧钱阶段（Pre-revenue），还没有实现真正盈利。",
+              "usageNotes": "商业语境下对比 income 更正式，特指企业的总营业收入。"
+            }
+          },
           "alternatives": [
             "income",
             "sales",
             "turnover"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 7
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "099038ba-543d-4ed5-8cc3-49835436ca63",
-          "word": "expense",
-          "phonetic": "/ɪkˈspens/",
-          "pos": "n.",
-          "meaning": "开支 / 费用",
-          "phrase": "operating expense",
-          "previousSentence": "Why is the profit so low?",
-          "exampleSentence": "Cloud hosting is our biggest monthly expense.",
-          "exampleSentenceTranslation": "云服务托管是我们每月最大的开支。",
-          "nextSentence": "We need to cut the marketing budget.",
-          "sceneContext": "为了维持公司运转，必须严格审查每一笔开销（Expense）。",
-          "usageTip": "常指因公务或公司运营产生的费用。",
+          "cardId": "099038ba-543d-4ed5-8cc3-49835436ca63",
+          "term": {
+            "text": "expense",
+            "language": "en",
+            "phonetic": "/ɪkˈspens/",
+            "partOfSpeech": "n.",
+            "lemma": "expense"
+          },
+          "sourceContext": {
+            "previousLine": "Why is the profit so low?",
+            "targetLine": "Cloud hosting is our biggest monthly expense.",
+            "nextLine": "We need to cut the marketing budget."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "开支 / 费用"
+              ],
+              "corePhrase": "operating expense",
+              "exampleTranslation": "云服务托管是我们每月最大的开支。",
+              "sceneNotes": "为了维持公司运转，必须严格审查每一笔开销（Expense）。",
+              "usageNotes": "常指因公务或公司运营产生的费用。"
+            }
+          },
           "alternatives": [
             "cost",
             "outlay",
             "spending"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 7
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "701709da-16fb-4559-b5cf-45d077a49506",
-          "word": "negotiate",
-          "phonetic": "/nəˈɡoʊʃieɪt/",
-          "pos": "v.",
-          "meaning": "谈判 / 协商",
-          "phrase": "negotiate the terms",
-          "previousSentence": "This offer is too low.",
-          "exampleSentence": "We need to negotiate the ownership percentage.",
-          "exampleSentenceTranslation": "我们需要就持有比例进行谈判。",
-          "nextSentence": "If we walk away, they have nothing.",
-          "sceneContext": "面对多方的压力，理查德必须在最后关头学会最艰难的商业博弈。",
-          "usageTip": "动词。形容词是 negotiable (可商量的)。",
+          "cardId": "701709da-16fb-4559-b5cf-45d077a49506",
+          "term": {
+            "text": "negotiate",
+            "language": "en",
+            "phonetic": "/nəˈɡoʊʃieɪt/",
+            "partOfSpeech": "v.",
+            "lemma": "negotiate"
+          },
+          "sourceContext": {
+            "previousLine": "This offer is too low.",
+            "targetLine": "We need to negotiate the ownership percentage.",
+            "nextLine": "If we walk away, they have nothing."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "谈判 / 协商"
+              ],
+              "corePhrase": "negotiate the terms",
+              "exampleTranslation": "我们需要就持有比例进行谈判。",
+              "sceneNotes": "面对多方的压力，理查德必须在最后关头学会最艰难的商业博弈。",
+              "usageNotes": "动词。形容词是 negotiable (可商量的)。"
+            }
+          },
           "alternatives": [
             "bargain",
             "haggle",
             "discuss deal"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 7
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         }
       ]
     },
     {
-      "showName": "Silicon Valley",
-      "season": 1,
-      "episode": 8,
+      "source": {
+        "showName": "Silicon Valley",
+        "seasonNumber": 1,
+        "episodeNumber": 8,
+        "episodeTitle": ""
+      },
+      "deckMetadata": {
+        "summary": {}
+      },
       "cards": [
         {
-          "id": "f1170c60-55ba-441c-9d1e-b60d4f18f98b",
-          "word": "disrupt",
-          "phonetic": "/dɪsˈrʌpt/",
-          "pos": "v.",
-          "meaning": "颠覆 / 瓦解",
-          "phrase": "disrupt the status quo",
-          "previousSentence": "The old giants are too slow.",
-          "exampleSentence": "We are here to disrupt the entire music industry.",
-          "exampleSentenceTranslation": "我们来这里是为了颠覆整个音乐产业的。",
-          "nextSentence": "A small team can kill a monopoly.",
-          "sceneContext": "TechCrunch Disrupt 比赛的主题：用技术颠覆掉那些陈旧、低效率的传统大厂垄断。",
-          "usageTip": "硅谷最受推崇的精神。名词是 disruption。",
+          "cardId": "f1170c60-55ba-441c-9d1e-b60d4f18f98b",
+          "term": {
+            "text": "disrupt",
+            "language": "en",
+            "phonetic": "/dɪsˈrʌpt/",
+            "partOfSpeech": "v.",
+            "lemma": "disrupt"
+          },
+          "sourceContext": {
+            "previousLine": "The old giants are too slow.",
+            "targetLine": "We are here to disrupt the entire music industry.",
+            "nextLine": "A small team can kill a monopoly."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "颠覆 / 瓦解"
+              ],
+              "corePhrase": "disrupt the status quo",
+              "exampleTranslation": "我们来这里是为了颠覆整个音乐产业的。",
+              "sceneNotes": "TechCrunch Disrupt 比赛的主题：用技术颠覆掉那些陈旧、低效率的传统大厂垄断。",
+              "usageNotes": "硅谷最受推崇的精神。名词是 disruption。"
+            }
+          },
           "alternatives": [
             "overturn",
             "shake up",
             "upend"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 8
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 8
+          }
         },
         {
-          "id": "491a145d-53ab-4d5f-bbf1-08c4d29392d6",
-          "word": "roadmap",
-          "phonetic": "/ˈroʊdmæp/",
-          "pos": "n.",
-          "meaning": "路线图",
-          "phrase": "product roadmap",
-          "previousSentence": "What's the plan for next year?",
-          "exampleSentence": "The product roadmap shows we will be ready by Q4.",
-          "exampleSentenceTranslation": "产品路线图显示我们到第四季度就能准备就绪了。",
-          "nextSentence": "We have key milestones in Q3.",
-          "sceneContext": "季终时刻，团队终于规划出了 Pied Piper 未来一年的长期发展方向（Roadmap）。",
-          "usageTip": "指一个项目或公司未来的长期规划和时间节点。",
+          "cardId": "491a145d-53ab-4d5f-bbf1-08c4d29392d6",
+          "term": {
+            "text": "roadmap",
+            "language": "en",
+            "phonetic": "/ˈroʊdmæp/",
+            "partOfSpeech": "n.",
+            "lemma": "roadmap"
+          },
+          "sourceContext": {
+            "previousLine": "What's the plan for next year?",
+            "targetLine": "The product roadmap shows we will be ready by Q4.",
+            "nextLine": "We have key milestones in Q3."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "路线图"
+              ],
+              "corePhrase": "product roadmap",
+              "exampleTranslation": "产品路线图显示我们到第四季度就能准备就绪了。",
+              "sceneNotes": "季终时刻，团队终于规划出了 Pied Piper 未来一年的长期发展方向（Roadmap）。",
+              "usageNotes": "指一个项目或公司未来的长期规划和时间节点。"
+            }
+          },
           "alternatives": [
             "plan",
             "strategy",
             "timeline"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 8
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 8
+          }
         },
         {
-          "id": "02bf2574-d58f-4548-9d74-4ce6301a73a9",
-          "word": "beta",
-          "phonetic": "/ˈbeɪtə/",
-          "pos": "n.",
-          "meaning": "测试版",
-          "phrase": "beta testing",
-          "previousSentence": "Is it safe to release?",
-          "exampleSentence": "The beta version is being tested by 50 users.",
-          "exampleSentenceTranslation": "测试版正由 50 位用户进行内测。",
-          "nextSentence": "We need more feedback from users.",
-          "sceneContext": "TechCrunch 舞台上展示的那个惊艳全场的版本，其实还是一个充满未知的测试版（Beta）。",
-          "usageTip": "经典 IT 术语。Alpha 版是内测，Beta 版是公开或半公开测试。",
+          "cardId": "02bf2574-d58f-4548-9d74-4ce6301a73a9",
+          "term": {
+            "text": "beta",
+            "language": "en",
+            "phonetic": "/ˈbeɪtə/",
+            "partOfSpeech": "n.",
+            "lemma": "beta"
+          },
+          "sourceContext": {
+            "previousLine": "Is it safe to release?",
+            "targetLine": "The beta version is being tested by 50 users.",
+            "nextLine": "We need more feedback from users."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "测试版"
+              ],
+              "corePhrase": "beta testing",
+              "exampleTranslation": "测试版正由 50 位用户进行内测。",
+              "sceneNotes": "TechCrunch 舞台上展示的那个惊艳全场的版本，其实还是一个充满未知的测试版（Beta）。",
+              "usageNotes": "经典 IT 术语。Alpha 版是内测，Beta 版是公开或半公开测试。"
+            }
+          },
           "alternatives": [
             "preview",
             "test version",
             "soft launch"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 8
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 8
+          }
         },
         {
-          "id": "3966dbb4-2691-49af-a8d3-cf906ac88afd",
-          "word": "exit",
-          "phonetic": "/ˈeɡzɪt/",
-          "pos": "n.",
-          "meaning": "退出 (套现)",
-          "phrase": "exit strategy",
-          "previousSentence": "How do we get our money back?",
-          "exampleSentence": "What is your exit strategy for this startup?",
-          "exampleSentenceTranslation": "你的创业退出策略是什么？",
-          "nextSentence": "IPOs are the ultimate target.",
-          "sceneContext": "对于大多数创业者，最终目标不是改变世界，而是把公司卖掉或者上市（Exit）套现。",
-          "usageTip": "创投圈极其现实的术语。Exit strategy 是投资人最关心的话题之一。",
+          "cardId": "3966dbb4-2691-49af-a8d3-cf906ac88afd",
+          "term": {
+            "text": "exit",
+            "language": "en",
+            "phonetic": "/ˈeɡzɪt/",
+            "partOfSpeech": "n.",
+            "lemma": "exit"
+          },
+          "sourceContext": {
+            "previousLine": "How do we get our money back?",
+            "targetLine": "What is your exit strategy for this startup?",
+            "nextLine": "IPOs are the ultimate target."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "退出 (套现)"
+              ],
+              "corePhrase": "exit strategy",
+              "exampleTranslation": "你的创业退出策略是什么？",
+              "sceneNotes": "对于大多数创业者，最终目标不是改变世界，而是把公司卖掉或者上市（Exit）套现。",
+              "usageNotes": "创投圈极其现实的术语。Exit strategy 是投资人最关心的话题之一。"
+            }
+          },
           "alternatives": [
             "payoff",
             "liquidation",
             "payout"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 8
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 8
+          }
         },
         {
-          "id": "3be69740-97aa-4b88-9a5f-3b558d6e82e8",
-          "word": "pitch",
-          "phonetic": "/pɪtʃ/",
-          "pos": "v./n.",
-          "meaning": "路演 / 推销",
-          "phrase": "elevator pitch",
-          "previousSentence": "Describe it in thirty seconds.",
-          "exampleSentence": "You need a perfect pitch to win over the judges.",
-          "exampleSentenceTranslation": "你需要一个完美的推销演讲来赢得评委的心。",
-          "nextSentence": "He made a compelling argument for funding.",
-          "sceneContext": "理查德在万人大会上，背负全公司的未来进行最后一次拼命的“游说(pitch)”。",
-          "usageTip": "不仅是扔球。商业上指推销点子以此获取资金或支持的演讲。",
+          "cardId": "3be69740-97aa-4b88-9a5f-3b558d6e82e8",
+          "term": {
+            "text": "pitch",
+            "language": "en",
+            "phonetic": "/pɪtʃ/",
+            "partOfSpeech": "v./n.",
+            "lemma": "pitch"
+          },
+          "sourceContext": {
+            "previousLine": "Describe it in thirty seconds.",
+            "targetLine": "You need a perfect pitch to win over the judges.",
+            "nextLine": "He made a compelling argument for funding."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "路演 / 推销"
+              ],
+              "corePhrase": "elevator pitch",
+              "exampleTranslation": "你需要一个完美的推销演讲来赢得评委的心。",
+              "sceneNotes": "理查德在万人大会上，背负全公司的未来进行最后一次拼命的“游说(pitch)”。",
+              "usageNotes": "不仅是扔球。商业上指推销点子以此获取资金或支持的演讲。"
+            }
+          },
           "alternatives": [
             "proposal",
             "presentation",
             "sale"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 8
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 8
+          }
         },
         {
-          "id": "5d90f8d1-f215-4a3f-9295-0b79bfcced33",
-          "word": "deck",
-          "phonetic": "/dek/",
-          "pos": "n.",
-          "meaning": "幻灯片组",
-          "phrase": "investor deck",
-          "previousSentence": "Are the slides ready?",
-          "exampleSentence": "I updated the pitch deck with latest metrics.",
-          "exampleSentenceTranslation": "我用最新的指标更新了咱们的融资路演幻灯片。",
-          "nextSentence": "Make sure the charts look professional.",
-          "sceneContext": "创业者随身携带的致命武器就是一个包含十几页精美图表的 Deck。",
-          "usageTip": "Pitch deck 的缩写，专指用于展示商业策划的 PPT 组合。",
+          "cardId": "5d90f8d1-f215-4a3f-9295-0b79bfcced33",
+          "term": {
+            "text": "deck",
+            "language": "en",
+            "phonetic": "/dek/",
+            "partOfSpeech": "n.",
+            "lemma": "deck"
+          },
+          "sourceContext": {
+            "previousLine": "Are the slides ready?",
+            "targetLine": "I updated the pitch deck with latest metrics.",
+            "nextLine": "Make sure the charts look professional."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "幻灯片组"
+              ],
+              "corePhrase": "investor deck",
+              "exampleTranslation": "我用最新的指标更新了咱们的融资路演幻灯片。",
+              "sceneNotes": "创业者随身携带的致命武器就是一个包含十几页精美图表的 Deck。",
+              "usageNotes": "Pitch deck 的缩写，专指用于展示商业策划的 PPT 组合。"
+            }
+          },
           "alternatives": [
             "slides",
             "presentation",
             "PPT"
           ],
-          "difficulty": "hard",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Silicon Valley",
-          "season": 1,
-          "episode": 8
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Silicon Valley",
+            "seasonNumber": 1,
+            "episodeNumber": 8
+          }
         }
       ]
     }

@@ -61,6 +61,7 @@ struct WordCard: Identifiable, Codable, Hashable {
 
     private enum CodingKeys: String, CodingKey {
         case id
+        case cardId
         case word
         case phonetic
         case pos
@@ -80,6 +81,41 @@ struct WordCard: Identifiable, Codable, Hashable {
         case sourceShowName
         case season
         case episode
+        case term
+        case sourceContext
+        case localizedContent
+        case learningMetadata
+    }
+
+    private enum TermCodingKeys: String, CodingKey {
+        case text
+        case phonetic
+        case partOfSpeech
+        case lemma
+    }
+
+    private enum SourceContextCodingKeys: String, CodingKey {
+        case previousLine
+        case targetLine
+        case nextLine
+    }
+
+    private enum LocalizedCardCodingKeys: String, CodingKey {
+        case definitions
+        case corePhrase
+        case exampleTranslation
+        case sceneNotes
+        case usageNotes
+    }
+
+    private enum LearningMetadataCodingKeys: String, CodingKey {
+        case difficultyLevel
+        case volumeTier
+        case status
+        case isStarred
+        case sourceShowName
+        case seasonNumber
+        case episodeNumber
     }
 
     init(
@@ -128,26 +164,60 @@ struct WordCard: Identifiable, Codable, Hashable {
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        id = try container.decode(UUID.self, forKey: .id)
-        word = try container.decode(String.self, forKey: .word)
-        phonetic = try container.decodeIfPresent(String.self, forKey: .phonetic)
-        pos = try container.decodeIfPresent(String.self, forKey: .pos)
-        meaning = try container.decode(String.self, forKey: .meaning)
-        phrase = try container.decodeIfPresent(String.self, forKey: .phrase)
-        previousSentence = try container.decodeIfPresent(String.self, forKey: .previousSentence)
-        exampleSentence = try container.decode(String.self, forKey: .exampleSentence)
-        exampleSentenceTranslation = try container.decodeIfPresent(String.self, forKey: .exampleSentenceTranslation)
-        nextSentence = try container.decodeIfPresent(String.self, forKey: .nextSentence)
-        sceneContext = try container.decode(String.self, forKey: .sceneContext)
-        usageTip = try container.decodeIfPresent(String.self, forKey: .usageTip)
+        id = try container.decodeIfPresent(UUID.self, forKey: .id)
+            ?? container.decode(UUID.self, forKey: .cardId)
         alternatives = try container.decodeIfPresent([String].self, forKey: .alternatives) ?? []
-        difficulty = try container.decode(WordDifficulty.self, forKey: .difficulty)
-        volumeTier = try container.decodeIfPresent(WordVolumeTier.self, forKey: .volumeTier) ?? WordVolumeTier.from(difficulty: difficulty)
-        status = try container.decodeIfPresent(WordStatus.self, forKey: .status) ?? .new
-        isStarred = try container.decodeIfPresent(Bool.self, forKey: .isStarred) ?? false
-        sourceShowName = try container.decode(String.self, forKey: .sourceShowName)
-        season = try container.decode(Int.self, forKey: .season)
-        episode = try container.decode(Int.self, forKey: .episode)
+
+        if let termContainer = try? container.nestedContainer(keyedBy: TermCodingKeys.self, forKey: .term) {
+            word = try termContainer.decode(String.self, forKey: .text)
+            phonetic = try termContainer.decodeIfPresent(String.self, forKey: .phonetic)
+            pos = try termContainer.decodeIfPresent(String.self, forKey: .partOfSpeech)
+
+            let sourceContextContainer = try container.nestedContainer(keyedBy: SourceContextCodingKeys.self, forKey: .sourceContext)
+            previousSentence = try sourceContextContainer.decodeIfPresent(String.self, forKey: .previousLine)
+            exampleSentence = try sourceContextContainer.decode(String.self, forKey: .targetLine)
+            nextSentence = try sourceContextContainer.decodeIfPresent(String.self, forKey: .nextLine)
+
+            let localizedMap = try container.decodeIfPresent([String: LocalizedCardContent].self, forKey: .localizedContent) ?? [:]
+            let localized = localizedMap["zh-CN"]
+                ?? localizedMap["zh"]
+                ?? localizedMap["en"]
+                ?? localizedMap.values.first
+
+            meaning = localized?.definitions.first ?? ""
+            phrase = localized?.corePhrase
+            exampleSentenceTranslation = localized?.exampleTranslation
+            sceneContext = localized?.sceneNotes ?? ""
+            usageTip = localized?.usageNotes
+
+            let metadataContainer = try container.nestedContainer(keyedBy: LearningMetadataCodingKeys.self, forKey: .learningMetadata)
+            difficulty = try metadataContainer.decode(WordDifficulty.self, forKey: .difficultyLevel)
+            volumeTier = try metadataContainer.decodeIfPresent(WordVolumeTier.self, forKey: .volumeTier) ?? WordVolumeTier.from(difficulty: difficulty)
+            status = try metadataContainer.decodeIfPresent(WordStatus.self, forKey: .status) ?? .new
+            isStarred = try metadataContainer.decodeIfPresent(Bool.self, forKey: .isStarred) ?? false
+            sourceShowName = try metadataContainer.decodeIfPresent(String.self, forKey: .sourceShowName) ?? ""
+            season = try metadataContainer.decodeIfPresent(Int.self, forKey: .seasonNumber) ?? 0
+            episode = try metadataContainer.decodeIfPresent(Int.self, forKey: .episodeNumber) ?? 0
+        } else {
+            word = try container.decode(String.self, forKey: .word)
+            phonetic = try container.decodeIfPresent(String.self, forKey: .phonetic)
+            pos = try container.decodeIfPresent(String.self, forKey: .pos)
+            meaning = try container.decode(String.self, forKey: .meaning)
+            phrase = try container.decodeIfPresent(String.self, forKey: .phrase)
+            previousSentence = try container.decodeIfPresent(String.self, forKey: .previousSentence)
+            exampleSentence = try container.decode(String.self, forKey: .exampleSentence)
+            exampleSentenceTranslation = try container.decodeIfPresent(String.self, forKey: .exampleSentenceTranslation)
+            nextSentence = try container.decodeIfPresent(String.self, forKey: .nextSentence)
+            sceneContext = try container.decode(String.self, forKey: .sceneContext)
+            usageTip = try container.decodeIfPresent(String.self, forKey: .usageTip)
+            difficulty = try container.decode(WordDifficulty.self, forKey: .difficulty)
+            volumeTier = try container.decodeIfPresent(WordVolumeTier.self, forKey: .volumeTier) ?? WordVolumeTier.from(difficulty: difficulty)
+            status = try container.decodeIfPresent(WordStatus.self, forKey: .status) ?? .new
+            isStarred = try container.decodeIfPresent(Bool.self, forKey: .isStarred) ?? false
+            sourceShowName = try container.decode(String.self, forKey: .sourceShowName)
+            season = try container.decode(Int.self, forKey: .season)
+            episode = try container.decode(Int.self, forKey: .episode)
+        }
     }
 
     func encode(to encoder: Encoder) throws {
@@ -187,6 +257,14 @@ struct WordCard: Identifiable, Codable, Hashable {
         ]
         .joined(separator: "|")
     }
+}
+
+private struct LocalizedCardContent: Decodable {
+    var definitions: [String]
+    var corePhrase: String?
+    var exampleTranslation: String?
+    var sceneNotes: String
+    var usageNotes: String?
 }
 
 private extension Int {

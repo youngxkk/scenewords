@@ -32,6 +32,6 @@ struct DeckDetailView: View {
             }
         }
         .navigationTitle(deck.map { "\($0.showName) \($0.episodeCode)" } ?? "卡组详情")
-        .navigationBarTitleDisplayMode(.inline)
+        .swInlineTitleDisplayMode()
     }
 }

@@ -1,7 +1,9 @@
 {
-  "schemaVersion": 1,
-  "showId": "breaking_bad",
-  "showName": "Breaking Bad",
-  "season": 3,
+  "schemaVersion": 2,
+  "source": {
+    "showId": "breaking_bad",
+    "showName": "Breaking Bad",
+    "seasonNumber": 3
+  },
   "decks": []
 }

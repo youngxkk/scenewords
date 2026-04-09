@@ -1,7 +1,9 @@
 {
-  "schemaVersion": 1,
-  "showId": "modern_family",
-  "showName": "Modern Family",
-  "season": 8,
+  "schemaVersion": 2,
+  "source": {
+    "showId": "modern_family",
+    "showName": "Modern Family",
+    "seasonNumber": 8
+  },
   "decks": []
 }

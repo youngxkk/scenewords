@@ -1,2337 +1,2421 @@
 {
-  "schemaVersion": 1,
-  "showId": "breaking_bad",
-  "showName": "Breaking Bad",
-  "season": 1,
+  "schemaVersion": 2,
+  "source": {
+    "showId": "breaking_bad",
+    "showName": "Breaking Bad",
+    "seasonNumber": 1
+  },
   "decks": [
     {
-      "id": "5f7b3b5d-90d0-40ee-9744-f483a748189d",
-      "showName": "Breaking Bad",
-      "season": 1,
-      "episode": 1,
-      "title": "Breaking Bad · Pilot",
-      "summary": "聚焦 S01E01 场景，提取中级学习者可迁移的高价值词汇与短语。",
-      "createdAt": "2026-04-05T12:01:00Z",
+      "deckId": "5f7b3b5d-90d0-40ee-9744-f483a748189d",
+      "source": {
+        "showId": "breaking_bad",
+        "showName": "Breaking Bad",
+        "seasonNumber": 1,
+        "episodeNumber": 1,
+        "episodeTitle": "Pilot"
+      },
+      "deckMetadata": {
+        "title": "Breaking Bad · Pilot",
+        "summary": {
+          "zh-CN": "聚焦 S01E01 场景，提取中级学习者可迁移的高价值词汇与短语。"
+        },
+        "createdAt": "2026-04-05T12:01:00Z"
+      },
       "cards": [
         {
-          "id": "da797b68-ad63-4a79-941f-ee2996e1256f",
-          "word": "desperation",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "绝望；孤注一掷",
-          "phrase": "act out of desperation",
-          "exampleSentence": "When pressure rises, they have to act out of desperation before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“绝望”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：act out of desperation。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "urgency",
-            "hopelessness"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "6c6b0fc8-c31e-4ec7-8096-4ae9d85ac8ae",
+          "term": {
+            "text": "ride-along",
+            "language": "en",
+            "phonetic": "/ˈraɪd əˌlɔŋ/",
+            "partOfSpeech": "noun",
+            "lemma": "ride-along"
+          },
+          "sourceContext": {
+            "previousLine": "Hank Mm. Well, it's not the most we ever took. It's easy money, till we catch you.",
+            "targetLine": "Hank Walt, just say the word and I'll take you on a ride-along.",
+            "nextLine": "You watch us knock down a meth lab, huh? Get a little excitement in your life."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "跟警察出勤旁观；随队见习"
+              ],
+              "corePhrase": "take someone on a ride-along",
+              "exampleTranslation": "汉克半开玩笑地说一句，你开口我就带你一起出勤见识见识。",
+              "sceneNotes": "这是 Walter 生日聚会后看 DEA 缉毒新闻时，Hank 对 Walt 说的话。ride-along 在美国警务语境里不是单纯“兜风”，而是让非警员跟车旁观执法现场，既显得熟门熟路，也带一点 Hank 式炫耀阳刚感。",
+              "usageNotes": "常见结构是 take someone on a ride-along。它很有美国警务和媒体语感，别直译成 ride together。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "c7a7b84f-dbcd-4cba-a8e7-01596b90f1c0",
-          "word": "reckless",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "鲁莽的",
-          "phrase": "a reckless move",
-          "exampleSentence": "A tense moment in Breaking Bad starts with a reckless move.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“鲁莽的”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：a reckless move。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "careless",
-            "rash"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "b29e7642-e03f-4f75-af0b-14389725c2e4",
+          "term": {
+            "text": "put a dent in",
+            "language": "en",
+            "phonetic": "/pʊt ə dɛnt ɪn/",
+            "partOfSpeech": "phrase",
+            "lemma": "put a dent in"
+          },
+          "sourceContext": {
+            "previousLine": "Hank Uh, it's about 700 grand. It was a pretty good haul.",
+            "targetLine": "Hank (on TV) As I say, it's a good day for the citizens of Albuquerque—where we can put this big a dent in the local drug trade.",
+            "nextLine": "Walter Well, that's unusual, isn't it? That kind of cash?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "对…造成明显打击；削弱一大块"
+              ],
+              "corePhrase": "put a dent in something",
+              "exampleTranslation": "他说这次查获，算是对本地毒品交易狠狠打掉了一块。",
+              "sceneNotes": "Hank 在电视采访里把执法成果包装成政绩话术。put a dent in 带的是“还没根除，但终于打出点效果”的语气，很像新闻发言或工作汇报里常见的美国表达。",
+              "usageNotes": "不只用于犯罪话题，也常说 put a dent in debt, put a dent in the workload。比 solve 更现实，强调只是削弱，不是彻底解决。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "d7640b69-6894-44fb-b7e0-d1db85af2911",
-          "word": "intimidate",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "恐吓；威慑",
-          "phrase": "intimidate a rival",
-          "exampleSentence": "When pressure rises, they have to intimidate a rival before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“恐吓”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：intimidate a rival。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "threaten",
-            "bully"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "d8fd826f-2db0-4c82-b6ab-ad6e5dbde20d",
+          "term": {
+            "text": "short-handed",
+            "language": "en",
+            "phonetic": "/ˌʃɔrt ˈhændɪd/",
+            "partOfSpeech": "adjective",
+            "lemma": "short-handed"
+          },
+          "sourceContext": {
+            "previousLine": "Walter Bogdan, no. We talked about this.",
+            "targetLine": "Bogdan (Man) I'm short-handed, Walter. What am I to do?",
+            "nextLine": "Bogdan Walter?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "人手不够的"
+              ],
+              "corePhrase": "be short-handed",
+              "exampleTranslation": "Bogdan 拿“现在缺人”当理由，逼 Walt 继续顶班干活。",
+              "sceneNotes": "这一幕发生在洗车店，Bogdan 用老板口气把自己说成没办法的人。short-handed 是美国职场里非常高频的缺人说法，背后常带着“所以你得补位”的压迫感。",
+              "usageNotes": "常说 We're short-handed today. 用在餐厅、零售、医院都很自然。它比 understaffed 更口语，也更像现场抱怨。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "efc1228d-a329-42b8-8606-8525b31c824a",
-          "word": "confrontation",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "对峙；冲突",
-          "phrase": "avoid confrontation",
-          "exampleSentence": "When pressure rises, they have to avoid confrontation before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“对峙”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：avoid confrontation。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "face-off",
-            "clash"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "25bc19d1-9ee7-4eb2-b834-6716edbde1a2",
+          "term": {
+            "text": "wipe down",
+            "language": "en",
+            "phonetic": "/waɪp daʊn/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "wipe down"
+          },
+          "sourceContext": {
+            "previousLine": "Bogdan Come on, I'm shorthanded. I need you outside to do some wipe downs. Come on!",
+            "targetLine": "Bogdan I said I need you outside to do some wipe downs. Are you hear to work, or to be staring at the skies?",
+            "nextLine": "Walter Fuck you, Bogdan."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "把表面擦一遍；做收尾清洁"
+              ],
+              "corePhrase": "do some wipe downs",
+              "exampleTranslation": "Bogdan 催他出去做擦车收尾，语气里全是使唤和羞辱。",
+              "sceneNotes": "这里不是一般的 clean，而是洗车店里那种机械、低技术含量的擦拭杂活。对白之所以刺耳，是因为 Walt 刚确诊癌症，还得被前学生围观、被老板赶去做最没体面的工序。",
+              "usageNotes": "wipe down 常接 table, counter, machine 这类表面。口语里 do a quick wipe-down 很常见，表示随手清一遍，不是彻底打扫。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "4b5edae0-c854-4b27-bb1b-3b67b93df68b",
-          "word": "improvise",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "临场应变",
-          "phrase": "improvise a plan",
-          "exampleSentence": "When pressure rises, they have to improvise a plan before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“临场应变”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：improvise a plan。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "wing it",
-            "adapt quickly"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "20cf7794-a418-4e79-b2eb-4f048449c338",
+          "term": {
+            "text": "inoperable",
+            "language": "en",
+            "phonetic": "/ɪnˈɑpərəbəl/",
+            "partOfSpeech": "adjective",
+            "lemma": "inoperable"
+          },
+          "sourceContext": {
+            "previousLine": "Physician You stood what I've just said to you?",
+            "targetLine": "Walter Yes. Lung cancer, inoperable.",
+            "nextLine": "Physician I'm sorry. I just need to make sure you fully understand."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "无法手术的；已不能通过手术处理的"
+              ],
+              "corePhrase": "lung cancer, inoperable",
+              "exampleTranslation": "Walt 机械地复述诊断结果：肺癌，已经没法开刀了。",
+              "sceneNotes": "医生在确认他有没有真正听懂病情，Walt 却像背术语一样把最残酷的信息说出来。inoperable 是医疗场景里的重词，短、冷、专业，正因为医生不拐弯才更有冲击力。",
+              "usageNotes": "几乎专用于医疗语境，和 broken、not working 那种日常 meaning 不同。听到 inoperable tumor / cancer，通常就意味着治疗选择明显变窄。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "2388106c-1dd6-4108-b5b2-166775eb592a",
-          "word": "cover-up",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "掩盖行为",
-          "phrase": "a cover-up attempt",
-          "exampleSentence": "A tense moment in Breaking Bad starts with a cover-up attempt.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“掩盖行为”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：a cover-up attempt。适合用于人物冲突、家庭协商或高压决策场景。",
+          "cardId": "6d0b7481-58de-4406-a31c-09cfd6a9f0dc",
+          "term": {
+            "text": "snitch",
+            "language": "en",
+            "phonetic": "/snɪtʃ/",
+            "partOfSpeech": "noun",
+            "lemma": "snitch"
+          },
+          "sourceContext": {
+            "previousLine": "Walter So, what tells you it's a meth lab?",
+            "targetLine": "Hank Just our snitch. Says, uh, some dude who goes by \"Cap'n Cook\" lives up to his name in there.",
+            "nextLine": "Says he always adds a dash of chili powder."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "线人；给警方通风报信的人"
+              ],
+              "corePhrase": "our snitch",
+              "exampleTranslation": "汉克很随意地说，就是我们的线人给的消息。",
+              "sceneNotes": "在缉毒车里，Hank 用 snitch 这种街头味很重的词，而不是 informant，说明他讲话一直带执法圈里的粗口化风格。对学习者来说，懂这个词能直接补上美剧里警匪语域的差别。",
+              "usageNotes": "snitch 带明显贬义，像在骂人出卖同伴。正式场合更常说 informant。别把它用在普通“告老师”以外太轻松的语境里。"
+            }
+          },
           "alternatives": [
-            "concealment",
-            "whitewash"
+            "informant"
           ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "83ff07f2-cd98-4b5e-a1f2-7bf12c4aca88",
-          "word": "alibi",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "不在场证明",
-          "phrase": "provide an alibi",
-          "exampleSentence": "When pressure rises, they have to provide an alibi before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“不在场证明”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：provide an alibi。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "proof of absence",
-            "defense story"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "973f920c-bd77-4fe2-a641-fad1f2e434b8",
+          "term": {
+            "text": "go by",
+            "language": "en",
+            "phonetic": "/ɡoʊ baɪ/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "go by"
+          },
+          "sourceContext": {
+            "previousLine": "Walter So, what tells you it's a meth lab?",
+            "targetLine": "Hank Just our snitch. Says, uh, some dude who goes by \"Cap'n Cook\" lives up to his name in there.",
+            "nextLine": "Says he always adds a dash of chili powder."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "以…为名；别人都这么叫"
+              ],
+              "corePhrase": "go by a name",
+              "exampleTranslation": "他说那家伙外号叫“Cap'n Cook”。",
+              "sceneNotes": "这里的 go by 不是“经过”或“时间流逝”，而是身份称呼义。警察在盯梢时用这个说法，是在讲嫌疑人平时在圈子里用什么外号活动。",
+              "usageNotes": "常说 I go by Mike 或 He goes by Cap'n Cook。比 my name is 更像介绍昵称、英文名、外号或圈内叫法。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "4bc921cb-c4be-4127-93c7-5c0e75fccd4a",
-          "word": "paranoia",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "偏执疑心",
-          "phrase": "spiral into paranoia",
-          "exampleSentence": "When pressure rises, they have to spiral into paranoia before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“偏执疑心”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：spiral into paranoia。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "suspicion",
-            "fearfulness"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "41757018-6f77-453a-9995-7718253f3b98",
+          "term": {
+            "text": "whiff",
+            "language": "en",
+            "phonetic": "/wɪf/",
+            "partOfSpeech": "noun",
+            "lemma": "whiff"
+          },
+          "sourceContext": {
+            "previousLine": "Walter Phosphine gas. I think.",
+            "targetLine": "Hank Yeah, exactly. One whiff will kill you. That's why the respirators.",
+            "nextLine": "Man (on radio) House is clear. One suspect in custody."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "一小口气味；一点点闻到的量"
+              ],
+              "corePhrase": "one whiff of something",
+              "exampleTranslation": "汉克说这种气体只要闻上一口，人就可能没命，所以才必须戴呼吸防护。",
+              "sceneNotes": "DEA 在车里解释毒品实验室风险时，Hank 用 one whiff 把危险说得又口语又具体。它让观众立刻感到这不是抽象化学知识，而是现场真会致命的东西。",
+              "usageNotes": "whiff 常跟 of 连用，既能指真闻到一点味，也能引申成一点迹象。One whiff of trouble 这种说法也很常见。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "70fcb79e-3334-49b9-8e22-0d1584e689c3",
-          "word": "collateral damage",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "附带伤害",
-          "phrase": "avoid collateral damage",
-          "exampleSentence": "When pressure rises, they have to avoid collateral damage before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“附带伤害”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：avoid collateral damage。适合用于人物冲突、家庭协商或高压决策场景。",
+          "cardId": "b22558a3-44c7-40fb-9406-f5f9c011f919",
+          "term": {
+            "text": "amount to much",
+            "language": "en",
+            "phonetic": "/əˈmaʊnt tə mʌtʃ/",
+            "partOfSpeech": "phrase",
+            "lemma": "amount to much"
+          },
+          "sourceContext": {
+            "previousLine": "Pinkman Why are you here?",
+            "targetLine": "Walter I was curious. Honestly, I never expected you to amount to much... but methamphetamine? I— I didn't picture that.",
+            "nextLine": "Pinkman I don't know what you're talking about."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "有多大出息；成得了什么气候"
+              ],
+              "corePhrase": "amount to much",
+              "exampleTranslation": "Walt 很伤人地说：老实讲，我本来没指望你能成什么事。",
+              "sceneNotes": "Walter 找 Jesse 谈合作时，先用老师对差生的老眼光压他一下。amount to much 在这里不是客观评价能力，而是带社会阶层和优越感的贬低，听上去很刺人。",
+              "usageNotes": "常见于否定句：never amount to much, won't amount to anything。语气很重，容易冒犯，通常是在批评别人没前途。"
+            }
+          },
           "alternatives": [
-            "side effects",
-            "unintended harm"
+            "amount to anything"
           ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "c52bade9-64b4-4598-9959-40519320ed27",
-          "word": "complicit",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "共谋的；牵连其中的",
-          "phrase": "be complicit in",
-          "exampleSentence": "When pressure rises, they have to be complicit in before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“共谋的”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：be complicit in。适合用于人物冲突、家庭协商或高压决策场景。",
+          "cardId": "795533d4-9d14-424a-91a2-af4da06352e9",
+          "term": {
+            "text": "not a clue",
+            "language": "en",
+            "phonetic": "/nɑt ə kluː/",
+            "partOfSpeech": "phrase",
+            "lemma": "not a clue"
+          },
+          "sourceContext": {
+            "previousLine": "Walter No?",
+            "targetLine": "Pinkman Not a clue.",
+            "nextLine": "Walter Cap'n Cook? That's not you?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "完全不知道；一点头绪也没有"
+              ],
+              "corePhrase": "not a clue",
+              "exampleTranslation": "Jesse 直接装傻：我完全不知道你在说什么。",
+              "sceneNotes": "Walter 已经把 Jesse 堵到家门口了，Jesse 还是用最短的口语块硬顶回去。not a clue 比 I don't know 更像街头式否认，短、快、带防备心。",
+              "usageNotes": "很常单独成句，也可说 I haven't got a clue。语气比 I don't know 更绝对，也常带一点不耐烦或撇清关系。"
+            }
+          },
           "alternatives": [
-            "involved",
-            "partly responsible"
+            "I haven't got a clue"
           ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "b88c2349-6c26-406b-a2d5-231544468456",
-          "word": "coerce",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "胁迫",
-          "phrase": "coerce someone into",
-          "exampleSentence": "When pressure rises, they have to coerce someone into before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“胁迫”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：coerce someone into。适合用于人物冲突、家庭协商或高压决策场景。",
+          "cardId": "657629c8-c207-47aa-a672-7af8895d14f8",
+          "term": {
+            "text": "step off",
+            "language": "en",
+            "phonetic": "/stɛp ɔf/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "step off"
+          },
+          "sourceContext": {
+            "previousLine": "Pinkman I don't know what you think you're doing here, Mr. White. I mean, if you're planning on giving me some... bull-winder about getting right with Jesus or turning myself in.",
+            "targetLine": "Pinkman High school was a long time ago. Okay, you ain't Welcome Back, Kotter, so step off. No speeches.",
+            "nextLine": "Walter Short speech."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "别来管我；离远点"
+              ],
+              "corePhrase": "step off",
+              "exampleTranslation": "Jesse 说得很直白：别摆老师架子，离我远点，别说教。",
+              "sceneNotes": "这一幕是 Jesse 拒绝被 Walt 重新放回“师生关系”里。step off 在这里不是物理上走开，而是社交边界上的“你别越线”，再加上 Welcome Back, Kotter 这种老校园剧梗，整句都是美国式反说教语气。",
+              "usageNotes": "step off 很口语，也有点挑衅，常见于冲突或被冒犯时。比 back off 更街头、更不客气。"
+            }
+          },
           "alternatives": [
-            "force",
-            "pressure"
+            "back off"
           ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "d23f57dd-cb3c-4828-b48d-c8b9193a79b6",
-          "word": "retaliate",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "报复",
-          "phrase": "retaliate against",
-          "exampleSentence": "When pressure rises, they have to retaliate against before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“报复”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：retaliate against。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "strike back",
-            "get even"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "28fce37a-c3f2-4362-b750-d0f1ae694ac9",
+          "term": {
+            "text": "square one",
+            "language": "en",
+            "phonetic": "/skwɛr wʌn/",
+            "partOfSpeech": "noun phrase",
+            "lemma": "square one"
+          },
+          "sourceContext": {
+            "previousLine": "The DEA took all your money, your lab. You've got nothing.",
+            "targetLine": "Walter Square one. But you know the business and I know the chemistry.",
+            "nextLine": "I'm thinking maybe you and I could partner up."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "回到起点；从头再来"
+              ],
+              "corePhrase": "back to square one",
+              "exampleTranslation": "Walt 的意思很清楚：你现在被打回原点了，但你还有门路，我有技术。",
+              "sceneNotes": "Walter 在这里像做商业提案一样拆 Jesse 的处境，先把他压到零，再抛出合作方案。square one 是英语里非常高频的“清零重来”说法，剧情里这句也像 Walter 犯罪人生真正从零开局的暗示。",
+              "usageNotes": "最常见是 back to square one。适合工作、关系、项目、备考等一切“又得重来”的场景。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "f1ec5b80-f13b-4eee-8e15-e1b8e14f2265",
-          "word": "under the radar",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "低调避开注意",
-          "phrase": "stay under the radar",
-          "exampleSentence": "When pressure rises, they have to stay under the radar before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“低调避开注意”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：stay under the radar。适合用于人物冲突、家庭协商或高压决策场景。",
+          "cardId": "7f7e6ffa-4cf6-43ac-b798-54d5eac95f4d",
+          "term": {
+            "text": "partner up",
+            "language": "en",
+            "phonetic": "/ˈpɑrtnər ʌp/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "partner up"
+          },
+          "sourceContext": {
+            "previousLine": "Walter Square one. But you know the business and I know the chemistry.",
+            "targetLine": "I'm thinking maybe you and I could partner up.",
+            "nextLine": "Pinkman [Scoffs] You uh— You wanna cook crystal meth?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "搭伙合作；结成搭档"
+              ],
+              "corePhrase": "partner up",
+              "exampleTranslation": "Walt 试探着抛出核心提议：要不我们俩搭伙。",
+              "sceneNotes": "这句是整部剧关系结构的起点。partner up 听起来比 do business 更随意，但正因为轻描淡写，反而显出 Walt 在把犯罪包装成一次理性合作。",
+              "usageNotes": "可用于工作、项目、课堂分组，也可带一点临时结盟感。和 partner with 相比，partner up 更口语、更像现场决定。"
+            }
+          },
           "alternatives": [
-            "unnoticed",
-            "out of sight"
+            "team up"
           ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         },
         {
-          "id": "b9101401-38e3-4ad6-a043-243327427ab1",
-          "word": "tight spot",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "困境",
-          "phrase": "be in a tight spot",
-          "exampleSentence": "When pressure rises, they have to be in a tight spot before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“困境”这个用法。",
-          "sceneContext": "Breaking Bad S01E01：突发危机下的生存选择与道德拉扯。",
-          "usageTip": "常见搭配：be in a tight spot。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "bind",
-            "difficult position"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 1
+          "cardId": "ffd49f1b-2f63-490a-b6c3-69365bf6f5e0",
+          "term": {
+            "text": "if the price is right",
+            "language": "en",
+            "phonetic": "/ɪf ðə praɪs ɪz raɪt/",
+            "partOfSpeech": "phrase",
+            "lemma": "if the price is right"
+          },
+          "sourceContext": {
+            "previousLine": "Krazy-8 Yeah, that's some stone-fine tick-tick you've been cooking there, ese. How about you come work for me?",
+            "targetLine": "Walter I'd be willing to sell it to you if— if the price is right.",
+            "nextLine": "Krazy-8 Out here all by yourself, huh?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "只要价钱合适就行"
+              ],
+              "corePhrase": "if the price is right",
+              "exampleTranslation": "Walt 强装镇定地回：卖给你可以，只要你出的价够高。",
+              "sceneNotes": "这是 Walt 第一次真的用交易口吻跟毒贩谈条件。if the price is right 很像美国影视里谈买卖的标准句，表面客气，实际是在放话说“我有得谈，但不会白给”。",
+              "usageNotes": "常用于买卖、接活、授权、出镜、转让等场景。语气比 for enough money 更自然，也常带一点精明和试探。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 1
+          }
         }
       ]
     },
     {
-      "id": "a716b291-98f0-460f-9327-bb2922d49dea",
-      "showName": "Breaking Bad",
-      "season": 1,
-      "episode": 2,
-      "title": "Breaking Bad · Cat's in the Bag...",
-      "summary": "聚焦 S01E02 场景，提取中级学习者可迁移的高价值词汇与短语。",
-      "createdAt": "2026-04-05T12:02:00Z",
+      "deckId": "a716b291-98f0-460f-9327-bb2922d49dea",
+      "source": {
+        "showId": "breaking_bad",
+        "showName": "Breaking Bad",
+        "seasonNumber": 1,
+        "episodeNumber": 2,
+        "episodeTitle": "Cat's in the Bag..."
+      },
+      "deckMetadata": {
+        "title": "Breaking Bad · Cat's in the Bag...",
+        "summary": {
+          "zh-CN": "聚焦 S01E02 场景，提取中级学习者可迁移的高价值词汇与短语。"
+        },
+        "createdAt": "2026-04-05T12:02:00Z"
+      },
       "cards": [
         {
-          "id": "23c48ed3-8326-4149-8136-d73a7bb9d55a",
-          "word": "confrontation",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "对峙；冲突",
-          "phrase": "avoid confrontation",
-          "exampleSentence": "When pressure rises, they have to avoid confrontation before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“对峙”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：avoid confrontation。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "face-off",
-            "clash"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
+          "cardId": "7f4caaf5-0ee0-44d1-8bbf-845b3e7e672b",
+          "term": {
+            "text": "loose ends",
+            "language": "en",
+            "phonetic": "/luːs ɛndz/",
+            "partOfSpeech": "noun phrase",
+            "lemma": "loose ends"
+          },
+          "sourceContext": {
+            "previousLine": "Are you gonna help me clean this up?! Huh?!",
+            "targetLine": "We got loose ends here!",
+            "nextLine": "Calm down!"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "没处理干净的麻烦尾巴"
+              ],
+              "corePhrase": "tie up loose ends",
+              "exampleTranslation": "Jesse 急得直喊：这边还有一堆没收尾的麻烦。",
+              "sceneNotes": "这一集开头 Jesse 在电话里快崩了，因为房车里的人还活着、尸体还没处理。loose ends 很适合这种犯罪或危机情境里“还有漏洞没补完”的感觉，不只是普通待办事项。",
+              "usageNotes": "最常见搭配是 tie up loose ends。可用于工作收尾、搬家、分手、法律事务，不一定都像剧里这么危险。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "0c25e369-fab7-423f-a48a-bca92441fc22",
-          "word": "improvise",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "临场应变",
-          "phrase": "improvise a plan",
-          "exampleSentence": "When pressure rises, they have to improvise a plan before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“临场应变”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：improvise a plan。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "wing it",
-            "adapt quickly"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
+          "cardId": "9501474f-aa38-4cbe-bf83-bbd81641e2fb",
+          "term": {
+            "text": "load off my mind",
+            "language": "en",
+            "phonetic": "/loʊd ɔf maɪ maɪnd/",
+            "partOfSpeech": "phrase",
+            "lemma": "load off my mind"
+          },
+          "sourceContext": {
+            "previousLine": "A brother-in-law.",
+            "targetLine": "Oh, well, there's a load off my mind.",
+            "nextLine": "Where did you hear that?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "这下我可放心多了"
+              ],
+              "corePhrase": "a load off my mind",
+              "exampleTranslation": "Jesse 讽刺地回一句：哦，那我可真是放心死了。",
+              "sceneNotes": "Skyler 刚拿 DEA 的关系去警告 Jesse，结果 Walt 还轻描淡写地改口成“只是连襟”。Jesse 这里明显是在说反话，表面像松了口气，实际是在骂 Walt 把他拖进更大的麻烦。",
+              "usageNotes": "常说 That's a load off my mind. 既能真表示松一口气，也能像这里一样用成反讽。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "ba2bf318-6f4f-41ce-b616-4dea0a0e1b36",
-          "word": "cover-up",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "掩盖行为",
-          "phrase": "a cover-up attempt",
-          "exampleSentence": "A tense moment in Breaking Bad starts with a cover-up attempt.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“掩盖行为”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：a cover-up attempt。适合用于人物冲突、家庭协商或高压决策场景。",
+          "cardId": "e5cf2a96-51e5-496f-bf5b-359f7267f5f0",
+          "term": {
+            "text": "all up in my shit",
+            "language": "en",
+            "phonetic": "/ɔl ʌp ɪn maɪ ʃɪt/",
+            "partOfSpeech": "phrase",
+            "lemma": "all up in my shit"
+          },
+          "sourceContext": {
+            "previousLine": "Your freaking wife told me",
+            "targetLine": "when she was here all up in my shit.",
+            "nextLine": "Yeah, that's right."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "跑来对我指手画脚；闯进来管我闲事"
+              ],
+              "corePhrase": "be all up in someone's shit",
+              "exampleTranslation": "Jesse 抱怨 Skyler 跑到他地盘上来狠狠干涉他的事。",
+              "sceneNotes": "这是非常 Jesse 的说法，粗、街头、边界感极强。重点不只是“来过”，而是对方越界、逼人、把你的私事翻得一塌糊涂。",
+              "usageNotes": "这类说法很不正式，也容易冒犯，只适合非常口语、很冲的抱怨语境。更中性的替代是 all up in my business。"
+            }
+          },
           "alternatives": [
-            "concealment",
-            "whitewash"
+            "all up in my business"
           ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "373bbee9-23d7-4314-a0e8-7d75ed6b6545",
-          "word": "alibi",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "不在场证明",
-          "phrase": "provide an alibi",
-          "exampleSentence": "When pressure rises, they have to provide an alibi before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“不在场证明”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：provide an alibi。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "proof of absence",
-            "defense story"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
+          "cardId": "df900e91-cc06-4f0b-96b0-906b59b1bc86",
+          "term": {
+            "text": "wear the pants in the family",
+            "language": "en",
+            "phonetic": "/wɛr ðə pænts ɪn ðə ˈfæməli/",
+            "partOfSpeech": "idiom",
+            "lemma": "wear the pants in the family"
+          },
+          "sourceContext": {
+            "previousLine": "She almost caught me moving Emilio!",
+            "targetLine": "Good job on wearing the pants in the family.",
+            "nextLine": "And why'd you go and tell her I was selling you weed?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "在家里说了算；像一家之主那样能做主"
+              ],
+              "corePhrase": "wear the pants",
+              "exampleTranslation": "Jesse 讽刺 Walt：你可真像家里那个能做主的人啊。",
+              "sceneNotes": "Jesse 在嘲 Walt 根本管不住家里的局面，反而让老婆直接找上门。这个说法带明显老派性别色彩，所以在美剧里常常用来挖苦“你根本没主导权”。",
+              "usageNotes": "wear the pants 现在常带戏谑或过时性别意味，不适合正式场合。听懂它很重要，但自己用时要知道它可能显得刻薄。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "8fd036ba-e9df-401c-8d93-fa50b2faf1ed",
-          "word": "paranoia",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "偏执疑心",
-          "phrase": "spiral into paranoia",
-          "exampleSentence": "When pressure rises, they have to spiral into paranoia before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“偏执疑心”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：spiral into paranoia。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "suspicion",
-            "fearfulness"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
+          "cardId": "709cc652-cd78-4415-bb5e-12b8bb97c23c",
+          "term": {
+            "text": "my house, my rules",
+            "language": "en",
+            "phonetic": "/maɪ haʊs maɪ ruːlz/",
+            "partOfSpeech": "phrase",
+            "lemma": "my house, my rules"
+          },
+          "sourceContext": {
+            "previousLine": "Yeah. Yeah, it is. I smoked a bowl.",
+            "targetLine": "So what? My house, my rules.",
+            "nextLine": "Hey, no, no. Hey, don't give me that, okay?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "在我地盘就按我的规矩来"
+              ],
+              "corePhrase": "my house, my rules",
+              "exampleTranslation": "Jesse 不服管，直接顶回去：那又怎样，我家就按我的规矩来。",
+              "sceneNotes": "Walt 明明是在利用 Jesse 的房子处理尸体，却还想摆老师和搭档的架子。Jesse 用这句硬把主场优势夺回来，既是顶嘴，也是划界线。",
+              "usageNotes": "这是很常见的口语边界表达，家长、室友、朋友都能说。语气通常偏强势，不太有商量余地。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "fb6a4599-9c24-4a46-a921-5cfac1e5c6f3",
-          "word": "collateral damage",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "附带伤害",
-          "phrase": "avoid collateral damage",
-          "exampleSentence": "When pressure rises, they have to avoid collateral damage before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“附带伤害”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：avoid collateral damage。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "side effects",
-            "unintended harm"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
+          "cardId": "8677efdd-d7be-4be2-bc8f-746188d4a6b9",
+          "term": {
+            "text": "hold up my end",
+            "language": "en",
+            "phonetic": "/hoʊld ʌp maɪ ɛnd/",
+            "partOfSpeech": "phrase",
+            "lemma": "hold up my end"
+          },
+          "sourceContext": {
+            "previousLine": "Hey, no, no. Hey, don't give me that, okay?",
+            "targetLine": "I held up my end.",
+            "nextLine": "I already took care of Emilio."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "我这边该做的已经做了"
+              ],
+              "corePhrase": "hold up one's end",
+              "exampleTranslation": "Jesse 的意思是：我这边答应干的已经干完了。",
+              "sceneNotes": "两个人在互相甩锅时，Jesse 把这件事说成像交易分工。hold up my end 很适合描述合作里“我履行了我那部分”，所以听懂这句能抓住他们关系已经变成利益合伙而不是师生。",
+              "usageNotes": "常见说法是 hold up my end of the deal / bargain。适用于合作、分工、关系承诺。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "db2e04b5-fe86-4935-8c44-c234c6a78325",
-          "word": "complicit",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "共谋的；牵连其中的",
-          "phrase": "be complicit in",
-          "exampleSentence": "When pressure rises, they have to be complicit in before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“共谋的”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：be complicit in。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "involved",
-            "partly responsible"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
+          "cardId": "759c3a64-2d20-4dc9-bac3-2b91603e0c2f",
+          "term": {
+            "text": "take care of",
+            "language": "en",
+            "phonetic": "/teɪk kɛr əv/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "take care of"
+          },
+          "sourceContext": {
+            "previousLine": "I held up my end.",
+            "targetLine": "I already took care of Emilio.",
+            "nextLine": "You're still diddling around trying to get your nut up."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "把麻烦处理掉"
+              ],
+              "corePhrase": "take care of someone/something",
+              "exampleTranslation": "Jesse 说他已经把 Emilio 处理完了。",
+              "sceneNotes": "take care of 本来可以是“照顾”，但在美剧冲突场景里经常危险得多，可能指摆平问题、解决人、处理后患。这里就是典型的黑暗义项。",
+              "usageNotes": "这是高频多义词。日常里常指照顾、负责；在犯罪或威胁语境里，语气会变得很重，要靠上下文判断。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         },
         {
-          "id": "ba411c92-dc56-42da-8015-02a576d1e25f",
-          "word": "coerce",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "胁迫",
-          "phrase": "coerce someone into",
-          "exampleSentence": "When pressure rises, they have to coerce someone into before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“胁迫”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：coerce someone into。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "force",
-            "pressure"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
-        },
-        {
-          "id": "a06cfd57-f115-48b2-b37f-a88a205e1066",
-          "word": "retaliate",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "报复",
-          "phrase": "retaliate against",
-          "exampleSentence": "When pressure rises, they have to retaliate against before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“报复”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：retaliate against。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "strike back",
-            "get even"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
-        },
-        {
-          "id": "84cd66fc-25bf-462f-8e2e-6dbb69a35a25",
-          "word": "under the radar",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "低调避开注意",
-          "phrase": "stay under the radar",
-          "exampleSentence": "When pressure rises, they have to stay under the radar before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“低调避开注意”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：stay under the radar。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "unnoticed",
-            "out of sight"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
-        },
-        {
-          "id": "9357f7b0-e970-4730-be87-0662c233e8f8",
-          "word": "tight spot",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "困境",
-          "phrase": "be in a tight spot",
-          "exampleSentence": "When pressure rises, they have to be in a tight spot before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“困境”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：be in a tight spot。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "bind",
-            "difficult position"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
-        },
-        {
-          "id": "a62b5d1b-462f-41c5-a690-3b3b1740a6f1",
-          "word": "damage control",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "危机公关；善后",
-          "phrase": "do damage control",
-          "exampleSentence": "When pressure rises, they have to do damage control before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“危机公关”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：do damage control。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "contain fallout",
-            "limit harm"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
-        },
-        {
-          "id": "cc81f552-8f05-497f-a1c7-240dec10f51e",
-          "word": "leverage",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "筹码；杠杆",
-          "phrase": "gain leverage over",
-          "exampleSentence": "When pressure rises, they have to gain leverage over before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“筹码”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：gain leverage over。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "advantage",
-            "bargaining power"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
-        },
-        {
-          "id": "da981f8c-e3f3-4895-b5f2-62a1e158e748",
-          "word": "liable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "有法律责任的",
-          "phrase": "be liable for",
-          "exampleSentence": "When pressure rises, they have to be liable for before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“有法律责任的”这个用法。",
-          "sceneContext": "Breaking Bad S01E02：压力升级后的掩饰、控制与恐惧。",
-          "usageTip": "常见搭配：be liable for。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "legally responsible",
-            "accountable"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 2
+          "cardId": "4af69e75-2504-4ed6-aec9-c1eb74f6be1d",
+          "term": {
+            "text": "dissolve",
+            "language": "en",
+            "phonetic": "/dɪˈzɑlv/",
+            "partOfSpeech": "verb",
+            "lemma": "dissolve"
+          },
+          "sourceContext": {
+            "previousLine": "You see, hydrofluoric acid won't eat through plastic.",
+            "targetLine": "It will, however, dissolve metal, rock, glass, ceramic.",
+            "nextLine": "So there's that."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "溶掉；腐蚀分解"
+              ],
+              "corePhrase": "dissolve metal, rock, glass, ceramic",
+              "exampleTranslation": "Walt 冷冷补刀：但它会把金属、石头、玻璃和陶瓷全都溶掉。",
+              "sceneNotes": "这句是整集最经典的化学恐怖时刻之一。Walt 用老师式的冷静口吻解释 Jesse 为什么把尸体化在浴缸里是灾难，越专业越显得可怕。",
+              "usageNotes": "dissolve 既能说糖盐“溶解”，也能像这里说材质被化掉。注意它比 melt 更偏化学过程，不只是“融化”。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 2
+          }
         }
       ]
     },
     {
-      "id": "02c595de-7a12-4b99-8649-49980132d350",
-      "showName": "Breaking Bad",
-      "season": 1,
-      "episode": 3,
-      "title": "Breaking Bad · ...And the Bag's in the River",
-      "summary": "聚焦 S01E03 场景，提取中级学习者可迁移的高价值词汇与短语。",
-      "createdAt": "2026-04-05T12:03:00Z",
+      "deckId": "02c595de-7a12-4b99-8649-49980132d350",
+      "source": {
+        "showId": "breaking_bad",
+        "showName": "Breaking Bad",
+        "seasonNumber": 1,
+        "episodeNumber": 3,
+        "episodeTitle": "...And the Bag's in the River"
+      },
+      "deckMetadata": {
+        "title": "Breaking Bad · ...And the Bag's in the River",
+        "summary": {
+          "zh-CN": "聚焦 S01E03 场景，提取中级学习者可迁移的高价值词汇与短语。"
+        },
+        "createdAt": "2026-04-05T12:03:00Z"
+      },
       "cards": [
         {
-          "id": "f0eca2c4-4a9e-4c9f-819d-21b6dd64340d",
-          "word": "alibi",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "不在场证明",
-          "phrase": "provide an alibi",
-          "exampleSentence": "When pressure rises, they have to provide an alibi before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“不在场证明”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：provide an alibi。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "proof of absence",
-            "defense story"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
+          "cardId": "ff0f1fef-7776-495b-9f14-084d5d97a8d9",
+          "term": {
+            "text": "break it down",
+            "language": "en",
+            "phonetic": "/breɪk ɪt daʊn/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "break down"
+          },
+          "sourceContext": {
+            "previousLine": "Walter So you're saying that Emilio had phosphine gas inhalation?",
+            "targetLine": "Let's break it down.",
+            "nextLine": "In order for us to make phosphine, we needed red phosphorus and we needed water."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "我们一步一步拆开来说"
+              ],
+              "corePhrase": "let's break it down",
+              "exampleTranslation": "Walt 说：我们把这件事一条条拆开来讲。",
+              "sceneNotes": "他在地下室一边审问 Krazy-8，一边像上课一样分析中毒原理。break it down 在这里不是“坏掉”，而是用老师口气把复杂问题拆成可讲清的步骤，这正是 Walt 最可怕也最迷人的地方。",
+              "usageNotes": "非常常见于解释、复盘、谈判和吵架。比 explain 更像“拆成简单部分来讲”。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "ba2f73c6-82e8-4f22-be78-effa7f391085",
-          "word": "paranoia",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "偏执疑心",
-          "phrase": "spiral into paranoia",
-          "exampleSentence": "When pressure rises, they have to spiral into paranoia before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“偏执疑心”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：spiral into paranoia。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "suspicion",
-            "fearfulness"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
+          "cardId": "2457a6e1-a275-4da4-a8c2-60a7aa159bb1",
+          "term": {
+            "text": "under the weather",
+            "language": "en",
+            "phonetic": "/ˈʌndər ðə ˈwɛðər/",
+            "partOfSpeech": "idiom",
+            "lemma": "under the weather"
+          },
+          "sourceContext": {
+            "previousLine": "Settle down, please. Thank you.",
+            "targetLine": "I understand that Mr. White is feeling a little under the weather this morning.",
+            "nextLine": "So you folks are going to have to be making do with me today."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "身体有点不舒服"
+              ],
+              "corePhrase": "feel under the weather",
+              "exampleTranslation": "代课老师说：White 老师今天身体有点不太舒服。",
+              "sceneNotes": "学校里没人知道 Walt 其实在地下室关着人、精神已经快崩了，所以只用一个很体面的 under the weather 轻轻带过。这种委婉说法正好体现出日常社交里对病情的轻描淡写。",
+              "usageNotes": "这是非常高频的轻度生病表达，通常比 sick 更柔和，也更适合熟人闲聊。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "d6cfc9bb-afde-476b-acc2-7ac5a8979575",
-          "word": "collateral damage",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "附带伤害",
-          "phrase": "avoid collateral damage",
-          "exampleSentence": "When pressure rises, they have to avoid collateral damage before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“附带伤害”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：avoid collateral damage。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "side effects",
-            "unintended harm"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
+          "cardId": "f8b29d15-b2b5-4d75-a29c-9a83925f4386",
+          "term": {
+            "text": "make do with",
+            "language": "en",
+            "phonetic": "/meɪk du wɪð/",
+            "partOfSpeech": "phrase",
+            "lemma": "make do with"
+          },
+          "sourceContext": {
+            "previousLine": "I understand that Mr. White is feeling a little under the weather this morning.",
+            "targetLine": "So you folks are going to have to be making do with me today.",
+            "nextLine": "Today you're going to be resuming work on your periodic charts."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "先凑合用；只能将就着接受"
+              ],
+              "corePhrase": "make do with",
+              "exampleTranslation": "代课老师说：今天你们只能先将就着由我来上课了。",
+              "sceneNotes": "这句很生活化，却很能迁移。学校场景里它表示“没得选，只能先用眼前这个替代方案”，和 Walt 表面正常、内里失控的双线气氛形成反差。",
+              "usageNotes": "常见于 make do with what you have。适用于预算不够、设备不好、临时替代方案等场景。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "47fc8c52-03b3-4bd1-8d9c-474a71ee08fa",
-          "word": "complicit",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "共谋的；牵连其中的",
-          "phrase": "be complicit in",
-          "exampleSentence": "When pressure rises, they have to be complicit in before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“共谋的”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：be complicit in。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "involved",
-            "partly responsible"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
+          "cardId": "4382e533-6ca7-498e-a9b0-302a3dc35d07",
+          "term": {
+            "text": "cold-blooded murder",
+            "language": "en",
+            "phonetic": "/ˌkoʊld ˈblʌdɪd ˈmɝdər/",
+            "partOfSpeech": "noun phrase",
+            "lemma": "cold-blooded murder"
+          },
+          "sourceContext": {
+            "previousLine": "Walter I don't see what real choice you have.",
+            "targetLine": "If it's between that and cold-blooded murder...",
+            "nextLine": "Besides, if you kill Krazy-8, you're gonna have to kill me too."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "蓄意冷血的谋杀"
+              ],
+              "corePhrase": "cold-blooded murder",
+              "exampleTranslation": "Jesse 回嘴说：这已经是在冷血杀人和别的选择之间二选一了。",
+              "sceneNotes": "这一幕是整集道德重心。Jesse 先把事情叫回 murder，而不是“处理问题”，强行把 Walt 从自我合理化里拉回来。",
+              "usageNotes": "比 murder 更强调事先清醒、无情、没有情绪失控的借口。新闻、法庭戏、道德谴责里都很常见。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "a38b448b-6aba-4fc4-aaab-0ed4519f0ac2",
-          "word": "coerce",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "胁迫",
-          "phrase": "coerce someone into",
-          "exampleSentence": "When pressure rises, they have to coerce someone into before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“胁迫”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：coerce someone into。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "force",
-            "pressure"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
+          "cardId": "ec853530-aa24-42ca-96d7-bb220f706540",
+          "term": {
+            "text": "pinch one off",
+            "language": "en",
+            "phonetic": "/pɪntʃ wʌn ɔf/",
+            "partOfSpeech": "idiom",
+            "lemma": "pinch one off"
+          },
+          "sourceContext": {
+            "previousLine": "Walter Jesse, open the door.",
+            "targetLine": "Hey, yo, I'm trying to pinch one off in here.",
+            "nextLine": "Just give me some privacy, would you?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "拉个屎；上大号"
+              ],
+              "corePhrase": "pinch one off",
+              "exampleTranslation": "Jesse 在厕所里不耐烦地吼：我正蹲坑呢，给我点隐私行不行？",
+              "sceneNotes": "这是非常粗口化、男性化的厕所俚语。它一出来，人物关系立刻不是体面谈判，而是两个被逼到极限的人还在这种荒诞场面里互怼。",
+              "usageNotes": "口气很糙，只适合非常随便甚至有点恶心搞笑的语境。正常说法是 take a dump / use the bathroom。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "7df78dd1-d4e9-4dbd-84d4-d204588bf46a",
-          "word": "retaliate",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "报复",
-          "phrase": "retaliate against",
-          "exampleSentence": "When pressure rises, they have to retaliate against before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“报复”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：retaliate against。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "strike back",
-            "get even"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
+          "cardId": "26fe823c-0e8b-4401-b4b9-fdd6f73bfe1c",
+          "term": {
+            "text": "back off",
+            "language": "en",
+            "phonetic": "/bæk ɔf/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "back off"
+          },
+          "sourceContext": {
+            "previousLine": "Walter Jesse, where the hell do you think you're going?",
+            "targetLine": "Back off, man. Jesus.",
+            "nextLine": "Walter We've got work to do."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "别逼我了；离我远点"
+              ],
+              "corePhrase": "back off",
+              "exampleTranslation": "Jesse 烦到极点，直接吼：别再逼我了，行不行？",
+              "sceneNotes": "这句不是礼貌版的 leave me alone，而是被逼急后的防御反应。Jesse 对 Walt 的怨气、恶心和恐惧全压在这两个词里。",
+              "usageNotes": "冲突场景高频表达。比 step back 更硬，也带明显情绪。常用于界限被侵犯、被纠缠、被逼问时。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "93550aea-8d92-4a3d-9924-a51a081fbe2c",
-          "word": "under the radar",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "低调避开注意",
-          "phrase": "stay under the radar",
-          "exampleSentence": "When pressure rises, they have to stay under the radar before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“低调避开注意”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：stay under the radar。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "unnoticed",
-            "out of sight"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
+          "cardId": "3096f438-c93a-40b1-bbcc-b62cc06ad8cd",
+          "term": {
+            "text": "coin flip is sacred",
+            "language": "en",
+            "phonetic": "/kɔɪn flɪp ɪz ˈseɪkrɪd/",
+            "partOfSpeech": "phrase",
+            "lemma": "coin flip is sacred"
+          },
+          "sourceContext": {
+            "previousLine": "Jesse We flipped a coin, okay?",
+            "targetLine": "Coin flip is sacred.",
+            "nextLine": "Your job is waiting for you in that basement, as per the coin."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "掷硬币的结果就得认"
+              ],
+              "corePhrase": "coin flip is sacred",
+              "exampleTranslation": "Walt 一本正经地说：既然扔了硬币，结果就是神圣不可违背的。",
+              "sceneNotes": "这句黑色幽默很重。明明是在决定谁去处理尸体，Walt 却把掷硬币说得像某种庄严契约，既可笑又可怕，也暴露出他越来越依赖伪理性给自己洗白。",
+              "usageNotes": "sacred 本义是“神圣不可碰”，放到这种日常小事上会带一种夸张、半开玩笑但又不让步的效果。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         },
         {
-          "id": "5c6b9f5f-ab9a-4cf5-9b94-b47c5173a4b4",
-          "word": "tight spot",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "困境",
-          "phrase": "be in a tight spot",
-          "exampleSentence": "When pressure rises, they have to be in a tight spot before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“困境”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：be in a tight spot。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "bind",
-            "difficult position"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
-        },
-        {
-          "id": "1f70644e-3de3-409b-966e-065e2094d507",
-          "word": "damage control",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "危机公关；善后",
-          "phrase": "do damage control",
-          "exampleSentence": "When pressure rises, they have to do damage control before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“危机公关”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：do damage control。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "contain fallout",
-            "limit harm"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
-        },
-        {
-          "id": "aa09c838-c808-4942-9686-21ed2deb6c4d",
-          "word": "leverage",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "筹码；杠杆",
-          "phrase": "gain leverage over",
-          "exampleSentence": "When pressure rises, they have to gain leverage over before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“筹码”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：gain leverage over。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "advantage",
-            "bargaining power"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
-        },
-        {
-          "id": "bd5cdd54-af52-413f-a957-f4c211c2fb81",
-          "word": "liable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "有法律责任的",
-          "phrase": "be liable for",
-          "exampleSentence": "When pressure rises, they have to be liable for before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“有法律责任的”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：be liable for。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "legally responsible",
-            "accountable"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
-        },
-        {
-          "id": "d62f8006-113f-4ce5-b014-351ce9768200",
-          "word": "suspicion",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "怀疑",
-          "phrase": "arouse suspicion",
-          "exampleSentence": "When pressure rises, they have to arouse suspicion before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“怀疑”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：arouse suspicion。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "doubt",
-            "mistrust"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
-        },
-        {
-          "id": "beca530b-12c3-41f3-a45b-f936eb199fbf",
-          "word": "surveillance",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "监视",
-          "phrase": "under surveillance",
-          "exampleSentence": "The episode highlights surveillance through the expression 'under surveillance'.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“监视”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：under surveillance。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "monitoring",
-            "watch"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
-        },
-        {
-          "id": "e43c4a2a-dc1e-4dd0-b059-eab283e4999b",
-          "word": "vulnerable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "脆弱的；易受伤害的",
-          "phrase": "feel vulnerable",
-          "exampleSentence": "When pressure rises, they have to feel vulnerable before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“脆弱的”这个用法。",
-          "sceneContext": "Breaking Bad S01E03：决断时刻中的犹豫与后果。",
-          "usageTip": "常见搭配：feel vulnerable。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "exposed",
-            "fragile"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 3
+          "cardId": "6b644e17-82c4-4e7b-acb0-47a7375ea30d",
+          "term": {
+            "text": "as per",
+            "language": "en",
+            "phonetic": "/æz pɝ/",
+            "partOfSpeech": "phrase",
+            "lemma": "as per"
+          },
+          "sourceContext": {
+            "previousLine": "Coin flip is sacred.",
+            "targetLine": "Your job is waiting for you in that basement, as per the coin.",
+            "nextLine": "Fuck you. Fuck you and your eyebrows."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "按…所定；按照…"
+              ],
+              "corePhrase": "as per the plan",
+              "exampleTranslation": "Walt 还一本正经地补一句：按硬币决定的规矩，这活现在归你。",
+              "sceneNotes": "as per 常带一点正式、书面或装腔的味道。Walt 在这种荒谬场景里用它，更像是在给自己套上一层程序正义的外衣。",
+              "usageNotes": "商务邮件里很常见，如 as per our conversation。口语里说它会显得比 according to 更书面、更刻意。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 3
+          }
         }
       ]
     },
     {
-      "id": "cf7766d8-afcd-4f7e-869b-7c59b92cf2d6",
-      "showName": "Breaking Bad",
-      "season": 1,
-      "episode": 4,
-      "title": "Breaking Bad · Cancer Man",
-      "summary": "聚焦 S01E04 场景，提取中级学习者可迁移的高价值词汇与短语。",
-      "createdAt": "2026-04-05T12:04:00Z",
+      "deckId": "cf7766d8-afcd-4f7e-869b-7c59b92cf2d6",
+      "source": {
+        "showId": "breaking_bad",
+        "showName": "Breaking Bad",
+        "seasonNumber": 1,
+        "episodeNumber": 4,
+        "episodeTitle": "Cancer Man"
+      },
+      "deckMetadata": {
+        "title": "Breaking Bad · Cancer Man",
+        "summary": {
+          "zh-CN": "聚焦 S01E04 场景，提取中级学习者可迁移的高价值词汇与短语。"
+        },
+        "createdAt": "2026-04-05T12:04:00Z"
+      },
       "cards": [
         {
-          "id": "ab99bc2e-a2bb-4eb5-b46b-47e316a11f83",
-          "word": "complicit",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "共谋的；牵连其中的",
-          "phrase": "be complicit in",
-          "exampleSentence": "When pressure rises, they have to be complicit in before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“共谋的”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：be complicit in。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "involved",
-            "partly responsible"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
+          "cardId": "bd1035f0-3185-4eae-806b-79fc1c3f7edb",
+          "term": {
+            "text": "stakeout",
+            "language": "en",
+            "phonetic": "/ˈsteɪkaʊt/",
+            "partOfSpeech": "noun",
+            "lemma": "stakeout"
+          },
+          "sourceContext": {
+            "previousLine": "Hank I'm thinking Operation Breath Mint.",
+            "targetLine": "Every time you and me are on a stakeout together, all right?",
+            "nextLine": "Your breath can knock a buzzard off a shit wagon."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "蹲点监视"
+              ],
+              "corePhrase": "be on a stakeout",
+              "exampleTranslation": "汉克吐槽搭档：咱俩每次一起蹲点，你这口气都能熏死人。",
+              "sceneNotes": "DEA 同事闲聊时提到的 stakeout，是警匪剧里非常核心的职业场景词。它不是普通 watch，而是带目标、带埋伏、常常要长时间盯人的警务动作。",
+              "usageNotes": "常见于 police stakeout, be on a stakeout。也可引申为记者或私家侦探蹲点。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "bb992c25-986c-48b6-b566-309d3a155a5b",
-          "word": "coerce",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "胁迫",
-          "phrase": "coerce someone into",
-          "exampleSentence": "When pressure rises, they have to coerce someone into before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“胁迫”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：coerce someone into。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "force",
-            "pressure"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
+          "cardId": "3eabed8c-4b68-4c39-b726-366745cd5f7c",
+          "term": {
+            "text": "out in the boonies",
+            "language": "en",
+            "phonetic": "/aʊt ɪn ðə ˈbuːniz/",
+            "partOfSpeech": "phrase",
+            "lemma": "out in the boonies"
+          },
+          "sourceContext": {
+            "previousLine": "Jesse Yeah, and I don't need no diabetic kid's life story, alright? So what happened?",
+            "targetLine": "Skinny Pete I heard his cousin bailed him out, but nobody's seen him since. I think he skipped town or maybe he's out in the boonies or something.",
+            "nextLine": "Jesse Hey, whatever, man."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "跑到鸟不拉屎的偏远地方去了"
+              ],
+              "corePhrase": "out in the boonies",
+              "exampleTranslation": "Skinny Pete 猜那人要么跑路了，要么躲到什么特别偏的鬼地方去了。",
+              "sceneNotes": "boonies 是很美国、很口语的“偏得要命的乡下/荒地”。它不是中性地理词，而是带一种“那地方又远又破、谁也找不到”的语感。",
+              "usageNotes": "非常口语。比 remote area 更生活化，也常带轻微嫌弃或调侃。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "3400f73b-82f9-44d3-9bcd-219432ef2961",
-          "word": "retaliate",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "报复",
-          "phrase": "retaliate against",
-          "exampleSentence": "When pressure rises, they have to retaliate against before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“报复”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：retaliate against。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "strike back",
-            "get even"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
+          "cardId": "8b858c0d-3ddd-423a-b744-f11f7f5c055d",
+          "term": {
+            "text": "skill set",
+            "language": "en",
+            "phonetic": "/ˈskɪl sɛt/",
+            "partOfSpeech": "noun phrase",
+            "lemma": "skill set"
+          },
+          "sourceContext": {
+            "previousLine": "Elliott Look, Walter, I don't understand. Gretchen and I have so much respect for you.",
+            "targetLine": "A man of your talents, with your skill set...",
+            "nextLine": "I mean, come on, if there's anything that we can do to help..."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "一整套专业能力组合"
+              ],
+              "corePhrase": "with your skill set",
+              "exampleTranslation": "Elliott 说：像你这种本事、这种能力组合的人，怎么会走到这一步？",
+              "sceneNotes": "这句表面在夸 Walt，实际也在提醒他“你本来不该混成这样”。skill set 是很职场、很美式的能力包说法，听懂它能更容易进入美国人谈职业价值的方式。",
+              "usageNotes": "常用于招聘、升职、合作判断。比 skills 更像“成体系的一套能力”，语气更职业化。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "f6106d39-84f8-460c-b832-55721079eafa",
-          "word": "under the radar",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "低调避开注意",
-          "phrase": "stay under the radar",
-          "exampleSentence": "When pressure rises, they have to stay under the radar before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“低调避开注意”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：stay under the radar。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "unnoticed",
-            "out of sight"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
+          "cardId": "062959ff-f993-40bc-a27d-b6df59ea8d6d",
+          "term": {
+            "text": "take the edge off",
+            "language": "en",
+            "phonetic": "/teɪk ði ɛdʒ ɔf/",
+            "partOfSpeech": "phrase",
+            "lemma": "take the edge off"
+          },
+          "sourceContext": {
+            "previousLine": "Jesse Because I could seriously go for a bowl right now, you know what I'm saying, take the edge off.",
+            "targetLine": "Take the edge off.",
+            "nextLine": "Badger Hell, yeah. Sunday night bowl, yo."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "缓一缓；把紧张感压下去一点"
+              ],
+              "corePhrase": "take the edge off",
+              "exampleTranslation": "Jesse 说想抽一口，把人那股绷着的劲先压下去。",
+              "sceneNotes": "这里不是追求快乐，而是想把压力、焦躁、惊魂未定先削弱一点。这个表达在美剧里很高频，常和酒、药、烟、音乐、休息连用。",
+              "usageNotes": "可用于 take the edge off the pain / anxiety / hunger。它强调“减轻一点”，不是彻底解决。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "0a216b99-c33e-47e2-964a-88e86a328747",
-          "word": "tight spot",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "困境",
-          "phrase": "be in a tight spot",
-          "exampleSentence": "When pressure rises, they have to be in a tight spot before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“困境”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：be in a tight spot。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "bind",
-            "difficult position"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
+          "cardId": "d131e6f6-a685-4a55-a7b7-bf46359c8f45",
+          "term": {
+            "text": "lay off",
+            "language": "en",
+            "phonetic": "/leɪ ɔf/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "lay off"
+          },
+          "sourceContext": {
+            "previousLine": "Jesse But, you know, I don't know, I've been thinking lately...",
+            "targetLine": "I may just lay off for a while, because lately it's been kind of making me paranoid, you know?",
+            "nextLine": "Badger What? I thought you said it wasn't habit-forming."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "先停一停；暂时别碰"
+              ],
+              "corePhrase": "lay off for a while",
+              "exampleTranslation": "Jesse 说自己可能得先停一阵，不然最近越抽越疑神疑鬼。",
+              "sceneNotes": "这不是正式戒掉，而是口语里那种“我先别碰了”。在朋友聊天里很自然，尤其常用于酒、烟、药、社交媒体、垃圾食品这些会让人上头的东西。",
+              "usageNotes": "lay off something 比 quit 更轻，通常表示暂时收手。也可用于 lay off the sarcasm，意思是“别再来了”。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "e69e4c30-d154-43c2-af9a-bdacf57688b4",
-          "word": "damage control",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "危机公关；善后",
-          "phrase": "do damage control",
-          "exampleSentence": "When pressure rises, they have to do damage control before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“危机公关”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：do damage control。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "contain fallout",
-            "limit harm"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
+          "cardId": "d2aa7ff1-a840-46b6-9c5d-7d31b6e57769",
+          "term": {
+            "text": "bounce",
+            "language": "en",
+            "phonetic": "/baʊns/",
+            "partOfSpeech": "verb",
+            "lemma": "bounce"
+          },
+          "sourceContext": {
+            "previousLine": "Skinny Pete Yo, man, maybe I should get moving myself, you know? Getting late. I got... I got plenty of pot.",
+            "targetLine": "Jesse Yeah, I think I'll bounce, man.",
+            "nextLine": "Badger Yeah, sounds about right."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "我先撤了"
+              ],
+              "corePhrase": "I'm gonna bounce",
+              "exampleTranslation": "Jesse 说：行，我也先撤了。",
+              "sceneNotes": "bounce 在这里不是“弹跳”，而是年轻人口语里非常自然的 leave。朋友局、派对、尴尬场面、想脱身时都常听到。",
+              "usageNotes": "最常见是 I gotta bounce / I'm gonna bounce。语气随意、轻快，比 leave 更有朋友间的松散感。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "e278c2b2-b964-4a7a-a811-dd174a7263e3",
-          "word": "leverage",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "筹码；杠杆",
-          "phrase": "gain leverage over",
-          "exampleSentence": "When pressure rises, they have to gain leverage over before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“筹码”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：gain leverage over。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "advantage",
-            "bargaining power"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
+          "cardId": "3f958fb8-a06d-4c20-ac1a-fb8399074bfb",
+          "term": {
+            "text": "came through for us",
+            "language": "en",
+            "phonetic": "/keɪm θru fɔr ʌs/",
+            "partOfSpeech": "phrase",
+            "lemma": "come through for someone"
+          },
+          "sourceContext": {
+            "previousLine": "Skyler And we see him on Friday.",
+            "targetLine": "I mean, Marie really came through for us.",
+            "nextLine": "She had her boss call, and they managed to work us in."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "关键时刻真帮上忙了"
+              ],
+              "corePhrase": "come through for someone",
+              "exampleTranslation": "Skyler 说 Marie 这次真是帮了大忙。",
+              "sceneNotes": "在家人面对癌症初诊、全都慌乱的时候，这句是典型的美式感谢亲属“关键时刻顶上来”。它不只是 helped，而是有种“没掉链子、真靠得住”的情感分量。",
+              "usageNotes": "很适合表达对朋友、家人、同事在关键节点的感激。比 help me 更有人情味。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         },
         {
-          "id": "d2dc978e-94cf-4310-8262-f87d5505553a",
-          "word": "liable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "有法律责任的",
-          "phrase": "be liable for",
-          "exampleSentence": "When pressure rises, they have to be liable for before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“有法律责任的”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：be liable for。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "legally responsible",
-            "accountable"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
-        },
-        {
-          "id": "f449cf7e-59e7-48d5-9a00-4be21433eb87",
-          "word": "suspicion",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "怀疑",
-          "phrase": "arouse suspicion",
-          "exampleSentence": "When pressure rises, they have to arouse suspicion before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“怀疑”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：arouse suspicion。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "doubt",
-            "mistrust"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
-        },
-        {
-          "id": "15760af0-5a39-44d5-8d65-ce4e81071e2e",
-          "word": "surveillance",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "监视",
-          "phrase": "under surveillance",
-          "exampleSentence": "The episode highlights surveillance through the expression 'under surveillance'.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“监视”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：under surveillance。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "monitoring",
-            "watch"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
-        },
-        {
-          "id": "0d7191fb-4fd3-4eba-a120-73891d2d160a",
-          "word": "vulnerable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "脆弱的；易受伤害的",
-          "phrase": "feel vulnerable",
-          "exampleSentence": "When pressure rises, they have to feel vulnerable before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“脆弱的”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：feel vulnerable。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "exposed",
-            "fragile"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
-        },
-        {
-          "id": "1f1d3fb6-bb54-4b4f-8151-5944f3b967d0",
-          "word": "walk away from",
-          "phonetic": null,
-          "pos": "phrasal verb",
-          "meaning": "抽身退出",
-          "phrase": "walk away from a deal",
-          "exampleSentence": "When pressure rises, they have to walk away from a deal before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“抽身退出”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：walk away from a deal。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "back out of",
-            "leave behind"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
-        },
-        {
-          "id": "0f398be4-27f3-4590-b7f0-fc07b0999261",
-          "word": "cross the line",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "越界；过界",
-          "phrase": "cross the line",
-          "exampleSentence": "When pressure rises, they have to cross the line before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“越界”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：cross the line。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "go too far",
-            "overstep"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
-        },
-        {
-          "id": "5bb1b1b3-b426-4d7b-8c0c-4ede123bd7f8",
-          "word": "breakdown",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "崩溃；失控",
-          "phrase": "have a breakdown",
-          "exampleSentence": "When pressure rises, they have to have a breakdown before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“崩溃”这个用法。",
-          "sceneContext": "Breaking Bad S01E04：疾病消息引发的家庭与尊严议题。",
-          "usageTip": "常见搭配：have a breakdown。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "collapse",
-            "meltdown"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 4
+          "cardId": "5487a430-236a-41ef-b777-d013830631ab",
+          "term": {
+            "text": "from here on out",
+            "language": "en",
+            "phonetic": "/frəm hɪr ɑn aʊt/",
+            "partOfSpeech": "phrase",
+            "lemma": "from here on out"
+          },
+          "sourceContext": {
+            "previousLine": "Skyler Okay, this is good.",
+            "targetLine": "From here on out, I mean, things are gonna... this is all gonna get better now.",
+            "nextLine": "What's that we're putting on the credit card?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "从现在开始往后"
+              ],
+              "corePhrase": "from here on out",
+              "exampleTranslation": "Skyler 努力安慰自己：从现在开始，事情应该会慢慢变好。",
+              "sceneNotes": "她在癌症打击里拼命抓住一点“进入治疗流程就会好转”的控制感。from here on out 在家庭、职场、关系里都很常见，常用来给自己或别人立一个新阶段的起点。",
+              "usageNotes": "和 from now on 接近，但更口语、更像现场说出口的决定或安慰。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 4
+          }
         }
       ]
     },
     {
-      "id": "a316d142-dfa2-4455-99f6-ee7e43891b81",
-      "showName": "Breaking Bad",
-      "season": 1,
-      "episode": 5,
-      "title": "Breaking Bad · Gray Matter",
-      "summary": "聚焦 S01E05 场景，提取中级学习者可迁移的高价值词汇与短语。",
-      "createdAt": "2026-04-05T12:05:00Z",
+      "deckId": "a316d142-dfa2-4455-99f6-ee7e43891b81",
+      "source": {
+        "showId": "breaking_bad",
+        "showName": "Breaking Bad",
+        "seasonNumber": 1,
+        "episodeNumber": 5,
+        "episodeTitle": "Gray Matter"
+      },
+      "deckMetadata": {
+        "title": "Breaking Bad · Gray Matter",
+        "summary": {
+          "zh-CN": "聚焦 S01E05 场景，提取中级学习者可迁移的高价值词汇与短语。"
+        },
+        "createdAt": "2026-04-05T12:05:00Z"
+      },
       "cards": [
         {
-          "id": "e16e3f66-f487-4a42-bed0-e267f0079d82",
-          "word": "under the radar",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "低调避开注意",
-          "phrase": "stay under the radar",
-          "exampleSentence": "When pressure rises, they have to stay under the radar before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“低调避开注意”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：stay under the radar。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "unnoticed",
-            "out of sight"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "1d0cf223-fd79-4d7c-af7e-cfd9e66a57d4",
+          "term": {
+            "text": "get everything out on the table",
+            "language": "en",
+            "phonetic": "/ɡɛt ˈɛvriˌθɪŋ aʊt ɑn ðə ˈteɪbəl/",
+            "partOfSpeech": "phrase",
+            "lemma": "get everything out on the table"
+          },
+          "sourceContext": {
+            "previousLine": "Marie Maybe we should just all sit down together and just get everything out on the table.",
+            "targetLine": "Get everything out in the open.",
+            "nextLine": "Walter Jr. Totally, man."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "把话全摊开说清楚"
+              ],
+              "corePhrase": "get everything out on the table",
+              "exampleTranslation": "Marie 提议大家坐下来，把所有话都摊开来说。",
+              "sceneNotes": "全家在讨论 Walt 要不要接受治疗时，场面已经不是医学问题，而是尊严、财务、控制权和秘密一起爆开。get everything out on the table 是很典型的家庭会议/关系谈判表达，意思不是闲聊，而是别再藏着掖着。",
+              "usageNotes": "也常说 put everything on the table。适合冲突、谈判、复盘、感情沟通等需要彻底摊牌的场景。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "c734bf00-d3f8-47cc-9263-e38e141c8aca",
-          "word": "tight spot",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "困境",
-          "phrase": "be in a tight spot",
-          "exampleSentence": "When pressure rises, they have to be in a tight spot before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“困境”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：be in a tight spot。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "bind",
-            "difficult position"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "9053a8e8-ff1c-417a-bdc1-612d4b091fd6",
+          "term": {
+            "text": "voice concerns",
+            "language": "en",
+            "phonetic": "/vɔɪs kənˈsɝnz/",
+            "partOfSpeech": "phrase",
+            "lemma": "voice concerns"
+          },
+          "sourceContext": {
+            "previousLine": "Hank We all, in our own way, want to voice our concerns.",
+            "targetLine": "Voice our concerns.",
+            "nextLine": "We'll take turns using the talking pillow."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "把顾虑正式说出来"
+              ],
+              "corePhrase": "voice concerns",
+              "exampleTranslation": "汉克摆出一副很文明的样子，说大家只是想把各自的担心说出来。",
+              "sceneNotes": "这句是典型美国家庭式干预话术，表面温和，其实是在给一个人施加集体压力。voice concerns 比 complain 好听得多，也更像公共讨论或正式表达。",
+              "usageNotes": "常用于公司会议、家长会、医疗讨论、社区争议。它自带“我是在合理表达担忧，不是在闹情绪”的姿态。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "d6e0d69f-7e88-4382-b8ef-7a0848bc0235",
-          "word": "damage control",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "危机公关；善后",
-          "phrase": "do damage control",
-          "exampleSentence": "When pressure rises, they have to do damage control before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“危机公关”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：do damage control。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "contain fallout",
-            "limit harm"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "49f0d1f8-74cd-4bd1-b564-b132f4664ec8",
+          "term": {
+            "text": "in your right mind",
+            "language": "en",
+            "phonetic": "/ɪn jər raɪt maɪnd/",
+            "partOfSpeech": "phrase",
+            "lemma": "in one's right mind"
+          },
+          "sourceContext": {
+            "previousLine": "Marie Yeah. I mean, why would anybody in their right mind choose not to do the treatment?",
+            "targetLine": "In their right mind.",
+            "nextLine": "Especially when it's completely paid for."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "神志正常的时候；脑子清楚的时候"
+              ],
+              "corePhrase": "in your right mind",
+              "exampleTranslation": "Marie 的意思是：神志正常的人，怎么会拒绝治疗？",
+              "sceneNotes": "这句很重，因为它其实是否定了 Walt 选择的理性。美国家庭冲突里常见这种包装成常识判断的施压：你要是不这么选，就说明你不正常。",
+              "usageNotes": "常见于 Who in their right mind would...? 语气带强烈不可思议，有时也带冒犯。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "e89b0741-f5ba-42a7-afd0-d4109ee5bb53",
-          "word": "leverage",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "筹码；杠杆",
-          "phrase": "gain leverage over",
-          "exampleSentence": "When pressure rises, they have to gain leverage over before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“筹码”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：gain leverage over。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "advantage",
-            "bargaining power"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "d672e17c-2d82-4741-a3b0-4b72a5307a98",
+          "term": {
+            "text": "paid for",
+            "language": "en",
+            "phonetic": "/peɪd fɔr/",
+            "partOfSpeech": "phrase",
+            "lemma": "pay for"
+          },
+          "sourceContext": {
+            "previousLine": "In their right mind. Especially when it's completely paid for.",
+            "targetLine": "Especially when it's completely paid for.",
+            "nextLine": "Why is he doing this?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "费用已经全包了"
+              ],
+              "corePhrase": "be paid for",
+              "exampleTranslation": "Marie 继续补刀：更何况钱都有人出了，你为什么还不治？",
+              "sceneNotes": "对 Walt 来说，拒绝治疗不只是医疗判断，也和自尊紧紧绑在一起。paid for 在这里看似简单，其实是把“钱的羞耻感”直接推到台面上了。",
+              "usageNotes": "be paid for 常用于账单、机票、学费、治疗费用。它强调“成本问题已经被解决”。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "6093fad4-63a3-42bb-bc3f-ed87f809b42f",
-          "word": "liable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "有法律责任的",
-          "phrase": "be liable for",
-          "exampleSentence": "When pressure rises, they have to be liable for before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“有法律责任的”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：be liable for。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "legally responsible",
-            "accountable"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "b7c6d855-205d-44a0-aa49-fad2b627072d",
+          "term": {
+            "text": "good enough",
+            "language": "en",
+            "phonetic": "/ɡʊd ɪˈnʌf/",
+            "partOfSpeech": "phrase",
+            "lemma": "good enough"
+          },
+          "sourceContext": {
+            "previousLine": "Gretchen But it is good.",
+            "targetLine": "Walter It isn't good enough.",
+            "nextLine": "Matter of fact, it's substandard."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "够不够格；达不达到标准"
+              ],
+              "corePhrase": "not good enough",
+              "exampleTranslation": "Walt 很尖刻地说：这东西不是还行，而是根本不够好。",
+              "sceneNotes": "他在回忆旧日实验时，用近乎苛刻的标准否掉别人认可的成果。good enough 在这里暴露了 Walt 的完美主义，也解释了他为什么既骄傲又痛苦。",
+              "usageNotes": "good enough 很常见，但语气关键。说 something isn't good enough 往往不是客观评价，而是强烈挑标准、带压力。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "f7c8404e-1c12-45cc-85cf-a5b95399732f",
-          "word": "suspicion",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "怀疑",
-          "phrase": "arouse suspicion",
-          "exampleSentence": "When pressure rises, they have to arouse suspicion before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“怀疑”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：arouse suspicion。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "doubt",
-            "mistrust"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "48e65e78-ee53-4866-a4c5-2cd6d4604658",
+          "term": {
+            "text": "demand a certain standard",
+            "language": "en",
+            "phonetic": "/dɪˈmænd ə ˈsɝtən ˈstændərd/",
+            "partOfSpeech": "phrase",
+            "lemma": "demand a certain standard"
+          },
+          "sourceContext": {
+            "previousLine": "Walter It isn't good enough. Matter of fact, it's substandard.",
+            "targetLine": "I understand it. I demand a certain standard.",
+            "nextLine": "Jesse You and I both know I would be out of business in a month."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "我对质量有硬标准"
+              ],
+              "corePhrase": "demand a certain standard",
+              "exampleTranslation": "Walt 的意思很简单：我做事就有我的标准，低于这个水平我不认。",
+              "sceneNotes": "这是 Walt 人格核心之一。哪怕在接受施舍、谈治疗、谈旧公司恩怨时，他都还要把自己放回“我要求标准、我配得上更高层次”的位置。",
+              "usageNotes": "常用于工作质量、服务、产品、职业要求。比 want higher quality 更带权威感和个人原则感。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "64cb2188-5819-4260-9cdb-bf398dc71cc2",
-          "word": "surveillance",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "监视",
-          "phrase": "under surveillance",
-          "exampleSentence": "The episode highlights surveillance through the expression 'under surveillance'.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“监视”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：under surveillance。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "monitoring",
-            "watch"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "e1a3cc8a-7e8e-49d0-ad59-ca30bb72dd92",
+          "term": {
+            "text": "take the money and run",
+            "language": "en",
+            "phonetic": "/teɪk ðə ˈmʌni ənd rʌn/",
+            "partOfSpeech": "phrase",
+            "lemma": "take the money and run"
+          },
+          "sourceContext": {
+            "previousLine": "Jesse Why don't we just, like, go our separate ways, all right? And, I don't know, maybe, you know, maybe you can just take the money and run.",
+            "targetLine": "Take the money and run.",
+            "nextLine": "Walter Because I'm not done yet."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "拿了钱就走人；见好就收"
+              ],
+              "corePhrase": "take the money and run",
+              "exampleTranslation": "Jesse 劝 Walt：拿着钱收手吧，别再往下折腾了。",
+              "sceneNotes": "这是非常美式的现实主义建议，意思不是胆小，而是“已经赚到了，就赶紧撤”。Walt 回绝它，正好暴露出他真正追求的从来不只是钱。",
+              "usageNotes": "常用于生意、赌博、灰色交易甚至职场跳槽，带一种“别恋战、现在退出最聪明”的语气。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "a488ae49-b3e1-454c-8d59-653dd0c3c710",
-          "word": "vulnerable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "脆弱的；易受伤害的",
-          "phrase": "feel vulnerable",
-          "exampleSentence": "When pressure rises, they have to feel vulnerable before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“脆弱的”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：feel vulnerable。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "exposed",
-            "fragile"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "58dc1d0a-0fc9-4124-85ac-405a518e9a4c",
+          "term": {
+            "text": "let it all out",
+            "language": "en",
+            "phonetic": "/lɛt ɪt ɔl aʊt/",
+            "partOfSpeech": "phrase",
+            "lemma": "let it all out"
+          },
+          "sourceContext": {
+            "previousLine": "Marie This is a safe space. Let it all out.",
+            "targetLine": "Let it all out.",
+            "nextLine": "Walt, we all just want to help you."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "都说出来吧；把压着的情绪放出来"
+              ],
+              "corePhrase": "let it all out",
+              "exampleTranslation": "Marie 催 Walt：别憋着了，都说出来吧。",
+              "sceneNotes": "这句是美国式情感干预里很典型的话，带一点治疗室语感。它假设“表达情绪”本身就是正确路径，但对像 Walt 这种把控制欲看得极重的人，反而会像被围攻。",
+              "usageNotes": "适合安慰哭泣、发泄、情绪爆发时的人。语气可以温柔，也可能像这里一样带点逼你表态的意味。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "45418402-e962-45da-bcfd-e338ef507675",
-          "word": "walk away from",
-          "phonetic": null,
-          "pos": "phrasal verb",
-          "meaning": "抽身退出",
-          "phrase": "walk away from a deal",
-          "exampleSentence": "When pressure rises, they have to walk away from a deal before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“抽身退出”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：walk away from a deal。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "back out of",
-            "leave behind"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "a1e7a960-8a85-4858-adf4-1edb9f9307d3",
+          "term": {
+            "text": "self-starter",
+            "language": "en",
+            "phonetic": "/ˌsɛlf ˈstɑrtər/",
+            "partOfSpeech": "noun",
+            "lemma": "self-starter"
+          },
+          "sourceContext": {
+            "previousLine": "Jesse What about the RV? I mean, how are we gonna move all that crystal product?",
+            "targetLine": "Walter Jesse, this is your venture. You're a millionaire. You should be able to hire your own people. Go ahead, be the boss. Be a self-starter. Go get a job.",
+            "nextLine": "Jesse Uh, I don't know. I don't know how to do that stuff."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "主动型的人；不用人催就能自己开动的人"
+              ],
+              "corePhrase": "be a self-starter",
+              "exampleTranslation": "Walt 冷嘲热讽 Jesse：你不是大老板吗？那就自己主动点，自己把事干起来啊。",
+              "sceneNotes": "self-starter 在美国职场里是夸人的高频词，但 Walt 用在这里完全是挖苦，意思是“别再像个没人带就不会动的人”。",
+              "usageNotes": "招聘和绩效场景常见。通常是正面词，但语气一变，也能像这里一样变成讽刺。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         },
         {
-          "id": "c2345927-dd6a-4c03-a365-0c441614213b",
-          "word": "cross the line",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "越界；过界",
-          "phrase": "cross the line",
-          "exampleSentence": "When pressure rises, they have to cross the line before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“越界”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：cross the line。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "go too far",
-            "overstep"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
-        },
-        {
-          "id": "7cf7ddc8-aca3-45fa-9a75-17b34e31a1d7",
-          "word": "breakdown",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "崩溃；失控",
-          "phrase": "have a breakdown",
-          "exampleSentence": "When pressure rises, they have to have a breakdown before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“崩溃”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：have a breakdown。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "collapse",
-            "meltdown"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
-        },
-        {
-          "id": "dc0c0139-acf5-45f3-a28a-822d7631b701",
-          "word": "blackmail",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "敲诈；勒索",
-          "phrase": "blackmail someone",
-          "exampleSentence": "The episode highlights blackmail through the expression 'blackmail someone'.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“敲诈”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：blackmail someone。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "extort",
-            "threaten"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
-        },
-        {
-          "id": "b13e9014-1a61-4f57-bd3c-d99771b89d49",
-          "word": "keep someone in the dark",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "对某人隐瞒",
-          "phrase": "keep the family in the dark",
-          "exampleSentence": "When pressure rises, they have to keep the family in the dark before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“对某人隐瞒”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：keep the family in the dark。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "hide the truth",
-            "withhold information"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
-        },
-        {
-          "id": "0ff24b85-8c5f-4c6d-8441-d0d4c67e076d",
-          "word": "underestimate",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "低估",
-          "phrase": "underestimate the risk",
-          "exampleSentence": "When pressure rises, they have to underestimate the risk before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“低估”这个用法。",
-          "sceneContext": "Breaking Bad S01E05：金钱、尊严与旧关系的复杂交锋。",
-          "usageTip": "常见搭配：underestimate the risk。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "misjudge",
-            "downplay"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 5
+          "cardId": "a86f7806-9b6f-4770-bb15-d6f5057723e2",
+          "term": {
+            "text": "do better",
+            "language": "en",
+            "phonetic": "/du ˈbɛtər/",
+            "partOfSpeech": "phrase",
+            "lemma": "do better"
+          },
+          "sourceContext": {
+            "previousLine": "Walter This is unacceptable. I mean, it just is. I know we can do better.",
+            "targetLine": "I know we can do better.",
+            "nextLine": "Jesse Yo, Mr. White, hold up. I mean, I've been out all night."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "我们本来可以做得更好"
+              ],
+              "corePhrase": "do better",
+              "exampleTranslation": "Walt 盯着成品说：我们明明还可以做得更好。",
+              "sceneNotes": "这句把 Walt 的驱动力写得很直白。他已经有钱了，却还是无法容忍“差不多”，因为真正驱动他的是标准、控制和证明自己。",
+              "usageNotes": "do better 很常见，可用于工作、学习、人际关系。轻则鼓励，重则批评。语气全靠上下文。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 5
+          }
         }
       ]
     },
     {
-      "id": "c5c31d87-272b-4c91-a478-4a96afedc18f",
-      "showName": "Breaking Bad",
-      "season": 1,
-      "episode": 6,
-      "title": "Breaking Bad · Crazy Handful of Nothin'",
-      "summary": "聚焦 S01E06 场景，提取中级学习者可迁移的高价值词汇与短语。",
-      "createdAt": "2026-04-05T12:06:00Z",
+      "deckId": "c5c31d87-272b-4c91-a478-4a96afedc18f",
+      "source": {
+        "showId": "breaking_bad",
+        "showName": "Breaking Bad",
+        "seasonNumber": 1,
+        "episodeNumber": 6,
+        "episodeTitle": "Crazy Handful of Nothin'"
+      },
+      "deckMetadata": {
+        "title": "Breaking Bad · Crazy Handful of Nothin'",
+        "summary": {
+          "zh-CN": "聚焦 S01E06 场景，提取中级学习者可迁移的高价值词汇与短语。"
+        },
+        "createdAt": "2026-04-05T12:06:00Z"
+      },
       "cards": [
         {
-          "id": "fba1d0de-bdb6-46a3-9226-0917ac1af23b",
-          "word": "leverage",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "筹码；杠杆",
-          "phrase": "gain leverage over",
-          "exampleSentence": "When pressure rises, they have to gain leverage over before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“筹码”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：gain leverage over。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "advantage",
-            "bargaining power"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
+          "cardId": "b2e242db-f295-4d9d-a0d9-9d7e8eb2fe58",
+          "term": {
+            "text": "private domicile",
+            "language": "en",
+            "phonetic": "/ˈpraɪvət ˈdɑməˌsaɪl/",
+            "partOfSpeech": "noun phrase",
+            "lemma": "private domicile"
+          },
+          "sourceContext": {
+            "previousLine": "Walter This is my own private domicile and I will not be harassed... bitch!",
+            "targetLine": "This is my own private domicile and I will not be harassed... bitch!",
+            "nextLine": "Skyler Walt?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "私人住所"
+              ],
+              "corePhrase": "my own private domicile",
+              "exampleTranslation": "Walt 装腔作势地吼：这是我自己的私人住所，我不接受你们骚扰。",
+              "sceneNotes": "这句是整季名台词之一。Walt 明明在家暴怒失控，却突然切到一种过度正式、近乎法律腔的 private domicile，显示他开始享受用语言和姿态压人。",
+              "usageNotes": "domicile 比 home/house 正式很多，常见于法律、表格、警务语境。日常口语直接说会有明显装正式的效果。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "a24c3c40-8828-4eed-8f5e-de814e79150d",
-          "word": "liable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "有法律责任的",
-          "phrase": "be liable for",
-          "exampleSentence": "When pressure rises, they have to be liable for before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“有法律责任的”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：be liable for。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "legally responsible",
-            "accountable"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
+          "cardId": "7111ad7a-f58f-4d80-acf7-b67db1f8fb2f",
+          "term": {
+            "text": "my realm",
+            "language": "en",
+            "phonetic": "/maɪ rɛlm/",
+            "partOfSpeech": "noun phrase",
+            "lemma": "realm"
+          },
+          "sourceContext": {
+            "previousLine": "This... is my own private domicile... and I will not be harassed. Bitch! Yeah! Yeah!",
+            "targetLine": "This is my realm!",
+            "nextLine": "Jesse Oh, hey, now. Don't bring the bathtub into this."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "这是我的地盘；这是我掌控的领域"
+              ],
+              "corePhrase": "this is my realm",
+              "exampleTranslation": "Walt 喊到最后，已经不是在护家，而是在宣布：这里是我的地盘。",
+              "sceneNotes": "realm 比 territory 更带王国感，像在给自己加冕。对学习者很有价值，因为它把 Walt 从被动受压的人，转成主动认领权力的人。",
+              "usageNotes": "realm 常用于知识领域、幻想世界、权力范围。口语里直接说 my realm 会显得戏剧化、野心很重。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "b7c98822-8c9b-42bc-bd30-91ca9076ce7c",
-          "word": "suspicion",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "怀疑",
-          "phrase": "arouse suspicion",
-          "exampleSentence": "When pressure rises, they have to arouse suspicion before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“怀疑”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：arouse suspicion。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "doubt",
-            "mistrust"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
+          "cardId": "b3589b14-5654-4829-b78c-25b2618624df",
+          "term": {
+            "text": "in charge of",
+            "language": "en",
+            "phonetic": "/ɪn tʃɑrdʒ əv/",
+            "partOfSpeech": "phrase",
+            "lemma": "in charge of"
+          },
+          "sourceContext": {
+            "previousLine": "How come you're... so much more awake than me?",
+            "targetLine": "Maybe you're not. Maybe you're just in charge of your own headlights.",
+            "nextLine": "No, we're both awake."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "掌控；负责"
+              ],
+              "corePhrase": "be in charge of",
+              "exampleTranslation": "Walt 在自言自语式地试探：你只是能控制自己的那点反应，还是你真的掌控局面？",
+              "sceneNotes": "这场地下室独白非常适合学 in charge of，因为 Walt 讨论的其实就是“谁在掌控、谁只是装作掌控”。这个短语在家庭、职场、犯罪合作里都极高频。",
+              "usageNotes": "be in charge of 可表示正式负责，也可表示现场谁说了算。比 responsible for 更多“掌控权”意味。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "25445d37-cd6e-4a39-af96-29ef60ca284e",
-          "word": "surveillance",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "监视",
-          "phrase": "under surveillance",
-          "exampleSentence": "The episode highlights surveillance through the expression 'under surveillance'.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“监视”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：under surveillance。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "monitoring",
-            "watch"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
+          "cardId": "bbcd63c9-4c4c-4efc-bbd9-26c204d46f9d",
+          "term": {
+            "text": "hot water",
+            "language": "en",
+            "phonetic": "/hɑt ˈwɔtər/",
+            "partOfSpeech": "noun phrase",
+            "lemma": "hot water"
+          },
+          "sourceContext": {
+            "previousLine": "Hank Hey, if what she says is true, you put her in hot water here, man. I mean, if she's just making this stuff up...",
+            "targetLine": "You put her in hot water here, man.",
+            "nextLine": "If she's just making this stuff up..."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "惹上麻烦；让人处境危险"
+              ],
+              "corePhrase": "put someone in hot water",
+              "exampleTranslation": "汉克提醒 Walt：你这是把 Skyler 推进麻烦里去了。",
+              "sceneNotes": "Skyler 跑去见 Jesse 后，Hank 立刻意识到这不是简单夫妻矛盾，而是可能让人惹祸上身。hot water 是非常地道的“陷入麻烦”表达，既可轻松也可严重。",
+              "usageNotes": "常见于 be in hot water / get someone in hot water。适用于学校、职场、家庭、法律问题。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "6c28daf2-61e5-457b-b2f8-a8c2f91cd471",
-          "word": "vulnerable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "脆弱的；易受伤害的",
-          "phrase": "feel vulnerable",
-          "exampleSentence": "When pressure rises, they have to feel vulnerable before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“脆弱的”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：feel vulnerable。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "exposed",
-            "fragile"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
+          "cardId": "66c54546-ebbe-4a90-bda5-85eb0d73fd6f",
+          "term": {
+            "text": "watch over your turf",
+            "language": "en",
+            "phonetic": "/wɑtʃ ˈoʊvər jər tɝf/",
+            "partOfSpeech": "phrase",
+            "lemma": "watch over one's turf"
+          },
+          "sourceContext": {
+            "previousLine": "There's your reputation. There's your end of it. There's your product. There's your market share. There's your name.",
+            "targetLine": "And I know that once you've got your name, and once you've got your market share, then you better watch over your turf.",
+            "nextLine": "Jesse Jesus, Mr. White."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "守住你的地盘"
+              ],
+              "corePhrase": "watch over your turf",
+              "exampleTranslation": "Walt 对街头规则的理解是：你一旦有了名号和份额，就得守住自己的地盘。",
+              "sceneNotes": "这是 Heisenberg 人格正式成形的集数。turf 在毒贩、帮派、商业竞争里都很关键，不是字面草皮，而是你的势力范围和利益盘子。",
+              "usageNotes": "turf 可用于 crime turf、sales turf、political turf。watch over your turf 带很强的守地盘意味。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "e2b36bf3-e2ca-4d84-a070-026a95b61ae1",
-          "word": "walk away from",
-          "phonetic": null,
-          "pos": "phrasal verb",
-          "meaning": "抽身退出",
-          "phrase": "walk away from a deal",
-          "exampleSentence": "When pressure rises, they have to walk away from a deal before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“抽身退出”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：walk away from a deal。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "back out of",
-            "leave behind"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
+          "cardId": "2c671d63-e6ab-457f-bcab-708d16720df9",
+          "term": {
+            "text": "consignment operation",
+            "language": "en",
+            "phonetic": "/kənˈsaɪnmənt ˌɑpəˈreɪʃən/",
+            "partOfSpeech": "noun phrase",
+            "lemma": "consignment operation"
+          },
+          "sourceContext": {
+            "previousLine": "Maybe it can be a million dollar operation. Or two. Or three.",
+            "targetLine": "We are a going business. We are a consignment operation.",
+            "nextLine": "Jesse Yeah, but, yo, where are we gonna get that kind of cash?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "寄售式运作；先出货后结算的生意模式"
+              ],
+              "corePhrase": "a consignment operation",
+              "exampleTranslation": "Walt 已经不把他们当小打小闹的卖货，而是当成一门要赊货、压货、放大规模的生意。",
+              "sceneNotes": "这句标志着 Walt 完全切入商业脑，而不只是制毒技术脑。consignment 是很值得学的交易词，懂了就能听懂很多关于先货后款的商业安排。",
+              "usageNotes": "consignment 常用于零售、艺术品、二手店和灰色交易。核心是卖掉后再分钱或再结款。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         },
         {
-          "id": "26625c01-ef30-4fc6-a1f4-bdf341cdc1e3",
-          "word": "cross the line",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "越界；过界",
-          "phrase": "cross the line",
-          "exampleSentence": "When pressure rises, they have to cross the line before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“越界”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：cross the line。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "go too far",
-            "overstep"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
-        },
-        {
-          "id": "b5ddb4c0-fa49-4f4f-a5d8-8d9bfc6e334c",
-          "word": "breakdown",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "崩溃；失控",
-          "phrase": "have a breakdown",
-          "exampleSentence": "When pressure rises, they have to have a breakdown before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“崩溃”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：have a breakdown。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "collapse",
-            "meltdown"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
-        },
-        {
-          "id": "082c4d9b-526f-4521-82b7-7bebca3c858e",
-          "word": "blackmail",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "敲诈；勒索",
-          "phrase": "blackmail someone",
-          "exampleSentence": "The episode highlights blackmail through the expression 'blackmail someone'.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“敲诈”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：blackmail someone。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "extort",
-            "threaten"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
-        },
-        {
-          "id": "947f82b6-8c11-4035-8303-9cd33a4429de",
-          "word": "keep someone in the dark",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "对某人隐瞒",
-          "phrase": "keep the family in the dark",
-          "exampleSentence": "When pressure rises, they have to keep the family in the dark before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“对某人隐瞒”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：keep the family in the dark。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "hide the truth",
-            "withhold information"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
-        },
-        {
-          "id": "15dae0b4-f100-4277-81dd-c23f4caa4316",
-          "word": "underestimate",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "低估",
-          "phrase": "underestimate the risk",
-          "exampleSentence": "When pressure rises, they have to underestimate the risk before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“低估”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：underestimate the risk。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "misjudge",
-            "downplay"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
-        },
-        {
-          "id": "1882ae77-49dd-4185-a128-874d21c01f4c",
-          "word": "crack down",
-          "phonetic": null,
-          "pos": "phrasal verb",
-          "meaning": "严厉打击",
-          "phrase": "crack down on",
-          "exampleSentence": "When pressure rises, they have to crack down on before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“严厉打击”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：crack down on。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "tighten enforcement",
-            "suppress"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
-        },
-        {
-          "id": "296c425d-7248-4247-8698-e959df06aad9",
-          "word": "high-stakes",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "高风险的",
-          "phrase": "a high-stakes decision",
-          "exampleSentence": "A tense moment in Breaking Bad starts with a high-stakes decision.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“高风险的”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：a high-stakes decision。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "risky",
-            "critical"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
-        },
-        {
-          "id": "59124f29-b7bd-4230-b4d5-d8382fffde8e",
-          "word": "turn someone in",
-          "phonetic": null,
-          "pos": "phrasal verb",
-          "meaning": "举报某人",
-          "phrase": "turn someone in",
-          "exampleSentence": "When pressure rises, they have to turn someone in before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“举报某人”这个用法。",
-          "sceneContext": "Breaking Bad S01E06：身份转变带来的风险与权力感。",
-          "usageTip": "常见搭配：turn someone in。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "report",
-            "inform on"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 6
+          "cardId": "3d280781-3af5-4663-a43d-53a7971eb7e0",
+          "term": {
+            "text": "money up front",
+            "language": "en",
+            "phonetic": "/ˈmʌni ʌp frʌnt/",
+            "partOfSpeech": "phrase",
+            "lemma": "money up front"
+          },
+          "sourceContext": {
+            "previousLine": "Jesse All right, so that's what we need. That's 140 grand. And, yo, how do you propose we raise that kind of money, man? Huh?",
+            "targetLine": "Walter We don't. We don't need all of it, maybe just enough to pay for the ingredients and get our shipments out. Money up front for the operation.",
+            "nextLine": "Jesse Well, how are we gonna get that?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "先给前期启动资金"
+              ],
+              "corePhrase": "money up front",
+              "exampleTranslation": "Walt 盘算的是，先把开局的钱垫出来，把货转起来。",
+              "sceneNotes": "这句是典型谈生意脑回路，不是“我要更多钱”，而是“先把启动现金打进系统”。up front 在这里是商业支付逻辑，不是地点上的前面。",
+              "usageNotes": "up front 可指预付、坦白、直接。谈钱时 most often 就是“先付一部分/全额预付”。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 6
+          }
         }
       ]
     },
     {
-      "id": "3b19fdac-5d96-458c-b910-a9bb646c03e3",
-      "showName": "Breaking Bad",
-      "season": 1,
-      "episode": 7,
-      "title": "Breaking Bad · A No-Rough-Stuff-Type Deal",
-      "summary": "聚焦 S01E07 场景，提取中级学习者可迁移的高价值词汇与短语。",
-      "createdAt": "2026-04-05T12:07:00Z",
+      "deckId": "3b19fdac-5d96-458c-b910-a9bb646c03e3",
+      "source": {
+        "showId": "breaking_bad",
+        "showName": "Breaking Bad",
+        "seasonNumber": 1,
+        "episodeNumber": 7,
+        "episodeTitle": "A No-Rough-Stuff-Type Deal"
+      },
+      "deckMetadata": {
+        "title": "Breaking Bad · A No-Rough-Stuff-Type Deal",
+        "summary": {
+          "zh-CN": "聚焦 S01E07 场景，提取中级学习者可迁移的高价值词汇与短语。"
+        },
+        "createdAt": "2026-04-05T12:07:00Z"
+      },
       "cards": [
         {
-          "id": "a281363c-8f98-4039-8ae0-16265d2a2947",
-          "word": "surveillance",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "监视",
-          "phrase": "under surveillance",
-          "exampleSentence": "The episode highlights surveillance through the expression 'under surveillance'.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“监视”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：under surveillance。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "monitoring",
-            "watch"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
+          "cardId": "5c092579-4ff6-4f5c-b924-57bb565b68ad",
+          "term": {
+            "text": "no stone will go unturned",
+            "language": "en",
+            "phonetic": "/noʊ stoʊn wɪl ɡoʊ ʌnˈtɝnd/",
+            "partOfSpeech": "idiom",
+            "lemma": "leave no stone unturned"
+          },
+          "sourceContext": {
+            "previousLine": "Hank By tomorrow morning, there won't be a place in this town these guys can hide.",
+            "targetLine": "No stone will go unturned.",
+            "nextLine": "No shit. It's just us and the feds on it?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "一处都不会放过；一定会查个底朝天"
+              ],
+              "corePhrase": "leave no stone unturned",
+              "exampleTranslation": "汉克放话：这回绝对会查到底，一处都不放过。",
+              "sceneNotes": "这是警察系统发狠时很典型的表达。它不是字面翻石头，而是强调搜查、排查、追踪会非常彻底，也让整集一开场就带上强烈追捕感。",
+              "usageNotes": "可用于调查、求职、治疗、找房、找证据等任何“穷尽所有办法”的场景。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "191d354d-f666-4000-b807-164744df6cd3",
-          "word": "vulnerable",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "脆弱的；易受伤害的",
-          "phrase": "feel vulnerable",
-          "exampleSentence": "When pressure rises, they have to feel vulnerable before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“脆弱的”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：feel vulnerable。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "exposed",
-            "fragile"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": true,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
+          "cardId": "ca21c637-6643-4c59-8f35-df38ae4eb7a1",
+          "term": {
+            "text": "double-talk",
+            "language": "en",
+            "phonetic": "/ˈdʌbəl tɔk/",
+            "partOfSpeech": "noun",
+            "lemma": "double-talk"
+          },
+          "sourceContext": {
+            "previousLine": "Hank As in, how to proceed.",
+            "targetLine": "No double-talk. No bullshit.",
+            "nextLine": "I know you know what happened and I know that you know where he is."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "含糊其辞的鬼话；绕来绕去不说人话"
+              ],
+              "corePhrase": "no double-talk",
+              "exampleTranslation": "汉克直接压上去：别给我绕圈子，别扯废话。",
+              "sceneNotes": "审讯 Jesse 时，Hank 用 double-talk 指那种故意讲得模糊、试图糊弄过去的说话方式。它既有警察口气，也很适合日常冲突里骂人别耍嘴皮子。",
+              "usageNotes": "double-talk 常带指责意味，表示说话虚、绕、故意混淆。比 evasive answers 更口语。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "d18b525d-ec3e-4358-86a2-3a26e3c20202",
-          "word": "walk away from",
-          "phonetic": null,
-          "pos": "phrasal verb",
-          "meaning": "抽身退出",
-          "phrase": "walk away from a deal",
-          "exampleSentence": "When pressure rises, they have to walk away from a deal before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“抽身退出”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：walk away from a deal。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "back out of",
-            "leave behind"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
+          "cardId": "c618efb9-ae6c-44c6-b6c0-b44a555fce50",
+          "term": {
+            "text": "level with someone",
+            "language": "en",
+            "phonetic": "/ˈlɛvəl wɪð/",
+            "partOfSpeech": "phrase",
+            "lemma": "level with someone"
+          },
+          "sourceContext": {
+            "previousLine": "Hank Look, even if you ask for a lawyer, it just makes things that much worse.",
+            "targetLine": "Just level with us and then we can all go home happy.",
+            "nextLine": "Jesse You threatening me?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "跟我们说实话；坦白点"
+              ],
+              "corePhrase": "level with us",
+              "exampleTranslation": "汉克压着火气说：你就跟我们讲实话，大家都省事。",
+              "sceneNotes": "这是审讯里常见的软硬兼施说法，表面像给台阶，实际是在施压。level with someone 很有口语感，比 tell the truth 更像“别装了，摊牌吧”。",
+              "usageNotes": "适用于朋友、伴侣、家人、同事，也可用于警察盘问。语气通常带“我知道你没全说”。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "60f6d6ed-b575-4b21-a481-7e5b348afca7",
-          "word": "cross the line",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "越界；过界",
-          "phrase": "cross the line",
-          "exampleSentence": "When pressure rises, they have to cross the line before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“越界”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：cross the line。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "go too far",
-            "overstep"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
+          "cardId": "a7596d1c-5e41-434f-86d8-c6c072d6082c",
+          "term": {
+            "text": "appointment only",
+            "language": "en",
+            "phonetic": "/əˈpɔɪntmənt ˈoʊnli/",
+            "partOfSpeech": "phrase",
+            "lemma": "appointment only"
+          },
+          "sourceContext": {
+            "previousLine": "Skinny Pete It's all about old dudes and cars. It's all old dudes and cars. It's appointment only, all very clean and legit.",
+            "targetLine": "It's appointment only, all very clean and legit.",
+            "nextLine": "Jesse Hmm. Car dealer."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "只接预约客；不是随便走进去就能办"
+              ],
+              "corePhrase": "appointment only",
+              "exampleTranslation": "Skinny Pete 说那地方只接预约，看起来干净又正规。",
+              "sceneNotes": "他们在找洗钱和交易的入口时，appointment only 说明这个场子靠筛客人来维持体面与安全。对中国学习者来说，这种“预约制 = 更高门槛/更私密”的社会含义很值得补上。",
+              "usageNotes": "美容、律师、医生、画廊、私人销售都常用。语气会带一点排他感和专业感。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "86e69171-3f96-4263-af6c-b68e0dab8c42",
-          "word": "breakdown",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "崩溃；失控",
-          "phrase": "have a breakdown",
-          "exampleSentence": "When pressure rises, they have to have a breakdown before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“崩溃”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：have a breakdown。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "collapse",
-            "meltdown"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
+          "cardId": "aef818ef-f1b1-4038-aad1-0583314440c4",
+          "term": {
+            "text": "out for blood",
+            "language": "en",
+            "phonetic": "/aʊt fɔr blʌd/",
+            "partOfSpeech": "idiom",
+            "lemma": "out for blood"
+          },
+          "sourceContext": {
+            "previousLine": "Skyler It's all they ever talk about. I don't know where he gets it from.",
+            "targetLine": "Walt Jr. the kid's this geeky looking kid, but he's out for blood, you know?",
+            "nextLine": "Skyler There he is. Mister Baby Cakes himself."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "下狠手；要狠狠干掉对方"
+              ],
+              "corePhrase": "be out for blood",
+              "exampleTranslation": "小 Walter 讲拳击比赛时说：那小子看着书呆子样，但上场是真下狠手。",
+              "sceneNotes": "这句表面在聊拳击，其实也呼应整集越来越凶的猎杀气氛。out for blood 在英语里非常形象，意思不是字面见血，而是带着强烈攻击欲、报复欲冲过来。",
+              "usageNotes": "既可用于体育、商业竞争，也可用于骂人太狠。语气很强，适合高冲突语境。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "b25f6a0e-7cce-4e7e-9302-97d95e4d5ee5",
-          "word": "blackmail",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "敲诈；勒索",
-          "phrase": "blackmail someone",
-          "exampleSentence": "The episode highlights blackmail through the expression 'blackmail someone'.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“敲诈”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：blackmail someone。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "extort",
-            "threaten"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
+          "cardId": "6c0b5808-5601-4f71-b4d1-9784d8cd0dbb",
+          "term": {
+            "text": "wise up",
+            "language": "en",
+            "phonetic": "/waɪz ʌp/",
+            "partOfSpeech": "phrasal verb",
+            "lemma": "wise up"
+          },
+          "sourceContext": {
+            "previousLine": "Walter Oh, and the basement, you had to have known all about the basement. And that iron on the wall? Cuffs? So, you obviously wised up. Cuffs? Cuffs?",
+            "targetLine": "So, you obviously wised up.",
+            "nextLine": "Cuffs? Cuffs?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "终于醒悟了；终于学聪明了"
+              ],
+              "corePhrase": "wise up",
+              "exampleTranslation": "Walt 试探地下室那人时说：看来你后来终于长记性了。",
+              "sceneNotes": "wise up 有一种“之前你傻，现在你总算学会了”的味道。Walt 在这里边试探边推理，用这个词很像在对一个老江湖说“你总不至于一直那么蠢吧”。",
+              "usageNotes": "可说 Wise up! 来骂人清醒点，也可说 He finally wised up。比 realize 更带训斥和成长代价。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "efd6a3c0-9f05-427f-bc27-2597707fd08d",
-          "word": "keep someone in the dark",
-          "phonetic": null,
-          "pos": "phrase",
-          "meaning": "对某人隐瞒",
-          "phrase": "keep the family in the dark",
-          "exampleSentence": "When pressure rises, they have to keep the family in the dark before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“对某人隐瞒”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：keep the family in the dark。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "hide the truth",
-            "withhold information"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
+          "cardId": "6d8cbb9e-66e2-4d56-84df-7cf33555f71f",
+          "term": {
+            "text": "come to an understanding",
+            "language": "en",
+            "phonetic": "/kʌm tə ən ˌʌndərˈstændɪŋ/",
+            "partOfSpeech": "phrase",
+            "lemma": "come to an understanding"
+          },
+          "sourceContext": {
+            "previousLine": "Walt Jr. There he is. Mister Baby Cakes himself.",
+            "targetLine": "Walter and I have come to an understanding.",
+            "nextLine": "Skyler Have you made your decision?"
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "达成某种默契/共识"
+              ],
+              "corePhrase": "come to an understanding",
+              "exampleTranslation": "Skyler 先替两人定调：我们已经谈妥了。",
+              "sceneNotes": "这个表达常常故意说得很含糊，不把具体内容讲死。Skyler 在这里用它，是想把家里的决策包装成成熟共识，而不是刚吵完架的妥协。",
+              "usageNotes": "可用于感情、家庭、商业、外交。比 agree 更模糊，也更像“彼此心里有数”。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "medium",
+            "volumeTier": "medium",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         },
         {
-          "id": "bcdd02e5-3204-45df-a6d3-4492a6d6ee40",
-          "word": "underestimate",
-          "phonetic": null,
-          "pos": "verb",
-          "meaning": "低估",
-          "phrase": "underestimate the risk",
-          "exampleSentence": "When pressure rises, they have to underestimate the risk before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“低估”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：underestimate the risk。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "misjudge",
-            "downplay"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
-        },
-        {
-          "id": "386dc444-f391-4793-b03d-95bf5f5721f6",
-          "word": "crack down",
-          "phonetic": null,
-          "pos": "phrasal verb",
-          "meaning": "严厉打击",
-          "phrase": "crack down on",
-          "exampleSentence": "When pressure rises, they have to crack down on before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“严厉打击”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：crack down on。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "tighten enforcement",
-            "suppress"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
-        },
-        {
-          "id": "b16c5b1d-c620-4b2f-8165-8c487a3ac3b4",
-          "word": "high-stakes",
-          "phonetic": null,
-          "pos": "adjective",
-          "meaning": "高风险的",
-          "phrase": "a high-stakes decision",
-          "exampleSentence": "A tense moment in Breaking Bad starts with a high-stakes decision.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“高风险的”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：a high-stakes decision。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "risky",
-            "critical"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
-        },
-        {
-          "id": "5570fbb2-0572-43c0-a560-d04cd97e7f4f",
-          "word": "turn someone in",
-          "phonetic": null,
-          "pos": "phrasal verb",
-          "meaning": "举报某人",
-          "phrase": "turn someone in",
-          "exampleSentence": "When pressure rises, they have to turn someone in before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“举报某人”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：turn someone in。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "report",
-            "inform on"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
-        },
-        {
-          "id": "42c4c143-b1e7-4be8-b6d6-2672b71ad609",
-          "word": "fragile truce",
-          "phonetic": null,
-          "pos": "noun phrase",
-          "meaning": "脆弱的停火/平衡",
-          "phrase": "maintain a fragile truce",
-          "exampleSentence": "When pressure rises, they have to maintain a fragile truce before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“脆弱的停火/平衡”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：maintain a fragile truce。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "tense peace",
-            "unstable balance"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
-        },
-        {
-          "id": "0ebec275-e086-4aab-b177-c55887de846c",
-          "word": "backlash",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "强烈反弹",
-          "phrase": "face backlash",
-          "exampleSentence": "When pressure rises, they have to face backlash before things get worse.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“强烈反弹”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：face backlash。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "blowback",
-            "negative reaction"
-          ],
-          "difficulty": "hard",
-          "volumeTier": "high",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
-        },
-        {
-          "id": "76614e09-65f2-4ad5-a626-1c01158571ab",
-          "word": "dealbreaker",
-          "phonetic": null,
-          "pos": "noun",
-          "meaning": "不能接受的条件",
-          "phrase": "that is a dealbreaker",
-          "exampleSentence": "One character says, 'that is a dealbreaker,' and the argument immediately heats up.",
-          "exampleSentenceTranslation": "这一幕里他们必须及时处理问题，避免局面继续恶化，体现了“不能接受的条件”这个用法。",
-          "sceneContext": "Breaking Bad S01E07：行动计划中的失控与收场。",
-          "usageTip": "常见搭配：that is a dealbreaker。适合用于人物冲突、家庭协商或高压决策场景。",
-          "alternatives": [
-            "non-starter",
-            "red line"
-          ],
-          "difficulty": "medium",
-          "volumeTier": "medium",
-          "status": "new",
-          "isStarred": false,
-          "sourceShowName": "Breaking Bad",
-          "season": 1,
-          "episode": 7
+          "cardId": "796e7e7d-70f6-4d01-a3e6-fcbbec7db986",
+          "term": {
+            "text": "forbidden fruit",
+            "language": "en",
+            "phonetic": "/fərˌbɪdən fruːt/",
+            "partOfSpeech": "idiom",
+            "lemma": "forbidden fruit"
+          },
+          "sourceContext": {
+            "previousLine": "Hank Wait a minute. Huh. Hey, little pothead. What'd they say to Old Yeller? Run away? Going to live on a farm?",
+            "targetLine": "The forbidden fruit tastes the sweetest, doesn't it? Ah, but then it... turns out to be a cheap, disgusting disappointment, huh?",
+            "nextLine": "Never trust a drug addict."
+          },
+          "localizedContent": {
+            "zh-CN": {
+              "definitions": [
+                "越不让碰越想碰的东西"
+              ],
+              "corePhrase": "forbidden fruit",
+              "exampleTranslation": "汉克嘲讽 Jesse：禁果看着最甜，真吃到嘴里却又廉价又恶心。",
+              "sceneNotes": "这个说法带很强的圣经文化底色，指亚当夏娃的禁果，所以美国人一说 forbidden fruit，往往就暗含“明知不该还偏要去碰”的诱惑逻辑。",
+              "usageNotes": "常用于恋爱、偷情、违禁、叛逆、消费诱惑。比 temptation 更有文化味，也更像在讲人性。"
+            }
+          },
+          "alternatives": [],
+          "learningMetadata": {
+            "difficultyLevel": "hard",
+            "volumeTier": "high",
+            "status": "new",
+            "isStarred": false,
+            "sourceShowName": "Breaking Bad",
+            "seasonNumber": 1,
+            "episodeNumber": 7
+          }
         }
       ]
     }

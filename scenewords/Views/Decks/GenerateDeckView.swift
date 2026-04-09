@@ -24,7 +24,9 @@ struct GenerateDeckView: View {
         Form {
             Section("剧集信息") {
                 TextField("剧名（例如 Friends）", text: $viewModel.showName)
+#if !os(macOS)
                     .textInputAutocapitalization(.words)
+#endif
 
                 Stepper(value: $viewModel.season, in: 1...50) {
                     HStack {
@@ -72,7 +74,7 @@ struct GenerateDeckView: View {
             }
         }
         .navigationTitle("生成卡组")
-        .navigationBarTitleDisplayMode(.inline)
+        .swInlineTitleDisplayMode()
         .onAppear {
             guard !didApplyPrefill else { return }
             didApplyPrefill = true
@@ -118,9 +120,11 @@ struct GenerateDeckView: View {
     }
 }
 
-#Preview {
-    NavigationStack {
-        GenerateDeckView()
-            .environmentObject(AppViewModel.makeDefault())
+struct GenerateDeckView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            GenerateDeckView()
+                .environmentObject(AppViewModel.makeDefault())
+        }
     }
 }

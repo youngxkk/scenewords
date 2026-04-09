@@ -37,14 +37,23 @@ struct FeaturedShowDeckListView: View {
             }
         }
         .navigationTitle(show.displayName)
-        .navigationBarTitleDisplayMode(.inline)
+        .swInlineTitleDisplayMode()
         .toolbar {
+#if os(macOS)
+            ToolbarItem {
+                HStack(spacing: 8) {
+                    seasonMenu
+                    episodeMenu
+                }
+            }
+#else
             ToolbarItem(placement: .principal) {
                 HStack(spacing: 8) {
                     seasonMenu
                     episodeMenu
                 }
             }
+#endif
         }
         .onChange(of: selectedSeason) { _, _ in
             selectedEpisode = nil
@@ -156,9 +165,11 @@ struct FeaturedShowDeckListView: View {
     }
 }
 
-#Preview {
-    NavigationStack {
-        FeaturedShowDeckListView(show: FeaturedShow.supported.first!)
-            .environmentObject(AppViewModel.makeDefault())
+struct FeaturedShowDeckListView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            FeaturedShowDeckListView(show: FeaturedShow.supported.first!)
+                .environmentObject(AppViewModel.makeDefault())
+        }
     }
 }
